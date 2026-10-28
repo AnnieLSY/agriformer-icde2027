@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated AgriFormer manuscript."
+title: "AgriFormer: prior-guided deep learning for grain-yield prediction and auditable SNP prioritization in wheat panels with few phenotyped accessions"
+type: software
+version: 1.0.0-dev
+date-released: 2026-10-28
+license: MIT
+authors:
+  - given-names: Siyi
+    family-names: Liu
+  - given-names: Lina
+    family-names: Yang
+  - given-names: Zeyuan
+    family-names: Zhou
+  - given-names: Ling
+    family-names: Xiao
+  - given-names: Siyuan
+    family-names: Chen
+  - given-names: Jiandong
+    family-names: Huang
+  - given-names: Qing
+    family-names: Zhang
+  - given-names: Qiutao
+    family-names: Xu
+  - given-names: Jisen
+    family-names: Zhang
+    email: zjisen@126.com
+  - given-names: Yunxuan
+    family-names: Dong
+    email: dyxiscool@outlook.com
+

@@ -1,0 +1,11 @@
+family,metric,n_dataset_cells,wins,mean_delta,win_fraction,section
+TabNet_raw,CCC,3,3,0.48818999755675047,1.0,family_best_config
+TabNet_raw,PCC,3,3,0.41195039348854506,1.0,family_best_config
+VMGP,CCC,3,3,0.31706135647541983,1.0,family_best_config
+VMGP,PCC,3,3,0.031601270973437144,1.0,family_best_config
+adapted_deep_panel,CCC,1,0,-0.03388423583344724,0.0,family_best_config
+adapted_deep_panel,PCC,1,0,-0.02142336831491709,0.0,family_best_config
+standard_panel,CCC,3,2,0.04929153051358435,0.6666666666666666,family_best_config
+standard_panel,PCC,3,1,-0.012662527017382371,0.3333333333333333,family_best_config
+tuned_ml_panel,CCC,1,0,-0.0404461104573286,0.0,family_best_config
+tuned_ml_panel,PCC,1,0,-0.033405888178880794,0.0,family_best_config

@@ -1,0 +1,3 @@
+BGLR  # exact installed version to be frozen during Stage A environment audit
+rrBLUP  # exact installed version to be frozen during Stage A environment audit
+
