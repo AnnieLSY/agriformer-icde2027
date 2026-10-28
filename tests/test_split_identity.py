@@ -34,6 +34,18 @@ class SplitTests(unittest.TestCase):
                 self.assertEqual(len(test_ids), len(set(test_ids)), msg=f"{dataset_dir.name} repeat {repeat}")
                 self.assertEqual(set(test_ids), expected_ids)
 
+    def test_fixed_holdout_manifests_are_disjoint_and_complete(self):
+        root = Path(__file__).resolve().parents[1] / "splits"
+        expected_sizes = {"AUS2015": (419, 75), "GABI": (315, 56), "Ward": (266, 48)}
+        for dataset, (train_n, test_n) in expected_sizes.items():
+            manifest = pd.read_csv(root / dataset / "fixed_holdout_seed42.csv", dtype=str)
+            train = manifest.loc[manifest["partition"] == "train", "material_id"]
+            test = manifest.loc[manifest["partition"] == "test", "material_id"]
+            self.assertEqual(len(train), train_n)
+            self.assertEqual(len(test), test_n)
+            self.assertFalse(set(train) & set(test))
+            self.assertEqual(len(manifest), len(set(manifest["material_id"])))
+
 
 if __name__ == "__main__":
     unittest.main()
