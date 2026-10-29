@@ -1,0 +1,5866 @@
+[
+  {
+    "artifact": "Table V",
+    "element": "AUS2015:raw_markers",
+    "value": 23899,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/DUAL_INPUT_IDENTITY_AUDIT_20261025.md",
+        "kind": "markdown",
+        "pattern": "^\\| AUS2015 \\| ([\\d,]+) \\| (\\d+) / (\\d+) / (\\d+) / (\\d+) / (\\d+) \\|",
+        "group": 1,
+        "cast": "int",
+        "value": 23899
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "AUS2015:dimension:fold1",
+    "value": 1004,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/DUAL_INPUT_IDENTITY_AUDIT_20261025.md",
+        "kind": "markdown",
+        "pattern": "^\\| AUS2015 \\| ([\\d,]+) \\| (\\d+) / (\\d+) / (\\d+) / (\\d+) / (\\d+) \\|",
+        "group": 2,
+        "cast": "int",
+        "value": 1004
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "AUS2015:dimension:fold1:compression",
+    "value": 23.80378486055777,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:raw_markers"
+      },
+      {
+        "element": "AUS2015:dimension:fold1"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "AUS2015:dimension:fold2",
+    "value": 1003,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/DUAL_INPUT_IDENTITY_AUDIT_20261025.md",
+        "kind": "markdown",
+        "pattern": "^\\| AUS2015 \\| ([\\d,]+) \\| (\\d+) / (\\d+) / (\\d+) / (\\d+) / (\\d+) \\|",
+        "group": 3,
+        "cast": "int",
+        "value": 1003
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "AUS2015:dimension:fold2:compression",
+    "value": 23.82751744765703,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:raw_markers"
+      },
+      {
+        "element": "AUS2015:dimension:fold2"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "AUS2015:dimension:fold3",
+    "value": 1003,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/DUAL_INPUT_IDENTITY_AUDIT_20261025.md",
+        "kind": "markdown",
+        "pattern": "^\\| AUS2015 \\| ([\\d,]+) \\| (\\d+) / (\\d+) / (\\d+) / (\\d+) / (\\d+) \\|",
+        "group": 4,
+        "cast": "int",
+        "value": 1003
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "AUS2015:dimension:fold3:compression",
+    "value": 23.82751744765703,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:raw_markers"
+      },
+      {
+        "element": "AUS2015:dimension:fold3"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "AUS2015:dimension:fold4",
+    "value": 1007,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/DUAL_INPUT_IDENTITY_AUDIT_20261025.md",
+        "kind": "markdown",
+        "pattern": "^\\| AUS2015 \\| ([\\d,]+) \\| (\\d+) / (\\d+) / (\\d+) / (\\d+) / (\\d+) \\|",
+        "group": 5,
+        "cast": "int",
+        "value": 1007
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "AUS2015:dimension:fold4:compression",
+    "value": 23.73286991062562,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:raw_markers"
+      },
+      {
+        "element": "AUS2015:dimension:fold4"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "AUS2015:dimension:fold5",
+    "value": 1005,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/DUAL_INPUT_IDENTITY_AUDIT_20261025.md",
+        "kind": "markdown",
+        "pattern": "^\\| AUS2015 \\| ([\\d,]+) \\| (\\d+) / (\\d+) / (\\d+) / (\\d+) / (\\d+) \\|",
+        "group": 6,
+        "cast": "int",
+        "value": 1005
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "AUS2015:dimension:fold5:compression",
+    "value": 23.780099502487563,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:raw_markers"
+      },
+      {
+        "element": "AUS2015:dimension:fold5"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "AUS2015:dim_min",
+    "value": 1003,
+    "operation": "min",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:dimension:fold1"
+      },
+      {
+        "element": "AUS2015:dimension:fold2"
+      },
+      {
+        "element": "AUS2015:dimension:fold3"
+      },
+      {
+        "element": "AUS2015:dimension:fold4"
+      },
+      {
+        "element": "AUS2015:dimension:fold5"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "AUS2015:dim_max",
+    "value": 1007,
+    "operation": "max",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:dimension:fold1"
+      },
+      {
+        "element": "AUS2015:dimension:fold2"
+      },
+      {
+        "element": "AUS2015:dimension:fold3"
+      },
+      {
+        "element": "AUS2015:dimension:fold4"
+      },
+      {
+        "element": "AUS2015:dimension:fold5"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "AUS2015:compression_min",
+    "value": 23.73286991062562,
+    "operation": "min",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:dimension:fold1:compression"
+      },
+      {
+        "element": "AUS2015:dimension:fold2:compression"
+      },
+      {
+        "element": "AUS2015:dimension:fold3:compression"
+      },
+      {
+        "element": "AUS2015:dimension:fold4:compression"
+      },
+      {
+        "element": "AUS2015:dimension:fold5:compression"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "AUS2015:compression_max",
+    "value": 23.82751744765703,
+    "operation": "max",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:dimension:fold1:compression"
+      },
+      {
+        "element": "AUS2015:dimension:fold2:compression"
+      },
+      {
+        "element": "AUS2015:dimension:fold3:compression"
+      },
+      {
+        "element": "AUS2015:dimension:fold4:compression"
+      },
+      {
+        "element": "AUS2015:dimension:fold5:compression"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "GABI:raw_markers",
+    "value": 35143,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/DUAL_INPUT_IDENTITY_AUDIT_20261025.md",
+        "kind": "markdown",
+        "pattern": "^\\| GABI \\| ([\\d,]+) \\| (\\d+) / (\\d+) / (\\d+) / (\\d+) / (\\d+) \\|",
+        "group": 1,
+        "cast": "int",
+        "value": 35143
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "GABI:dimension:fold1",
+    "value": 1004,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/DUAL_INPUT_IDENTITY_AUDIT_20261025.md",
+        "kind": "markdown",
+        "pattern": "^\\| GABI \\| ([\\d,]+) \\| (\\d+) / (\\d+) / (\\d+) / (\\d+) / (\\d+) \\|",
+        "group": 2,
+        "cast": "int",
+        "value": 1004
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "GABI:dimension:fold1:compression",
+    "value": 35.00298804780876,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:raw_markers"
+      },
+      {
+        "element": "GABI:dimension:fold1"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "GABI:dimension:fold2",
+    "value": 1008,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/DUAL_INPUT_IDENTITY_AUDIT_20261025.md",
+        "kind": "markdown",
+        "pattern": "^\\| GABI \\| ([\\d,]+) \\| (\\d+) / (\\d+) / (\\d+) / (\\d+) / (\\d+) \\|",
+        "group": 3,
+        "cast": "int",
+        "value": 1008
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "GABI:dimension:fold2:compression",
+    "value": 34.864087301587304,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:raw_markers"
+      },
+      {
+        "element": "GABI:dimension:fold2"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "GABI:dimension:fold3",
+    "value": 1005,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/DUAL_INPUT_IDENTITY_AUDIT_20261025.md",
+        "kind": "markdown",
+        "pattern": "^\\| GABI \\| ([\\d,]+) \\| (\\d+) / (\\d+) / (\\d+) / (\\d+) / (\\d+) \\|",
+        "group": 4,
+        "cast": "int",
+        "value": 1005
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "GABI:dimension:fold3:compression",
+    "value": 34.9681592039801,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:raw_markers"
+      },
+      {
+        "element": "GABI:dimension:fold3"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "GABI:dimension:fold4",
+    "value": 1008,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/DUAL_INPUT_IDENTITY_AUDIT_20261025.md",
+        "kind": "markdown",
+        "pattern": "^\\| GABI \\| ([\\d,]+) \\| (\\d+) / (\\d+) / (\\d+) / (\\d+) / (\\d+) \\|",
+        "group": 5,
+        "cast": "int",
+        "value": 1008
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "GABI:dimension:fold4:compression",
+    "value": 34.864087301587304,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:raw_markers"
+      },
+      {
+        "element": "GABI:dimension:fold4"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "GABI:dimension:fold5",
+    "value": 1004,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/DUAL_INPUT_IDENTITY_AUDIT_20261025.md",
+        "kind": "markdown",
+        "pattern": "^\\| GABI \\| ([\\d,]+) \\| (\\d+) / (\\d+) / (\\d+) / (\\d+) / (\\d+) \\|",
+        "group": 6,
+        "cast": "int",
+        "value": 1004
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "GABI:dimension:fold5:compression",
+    "value": 35.00298804780876,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:raw_markers"
+      },
+      {
+        "element": "GABI:dimension:fold5"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "GABI:dim_min",
+    "value": 1004,
+    "operation": "min",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:dimension:fold1"
+      },
+      {
+        "element": "GABI:dimension:fold2"
+      },
+      {
+        "element": "GABI:dimension:fold3"
+      },
+      {
+        "element": "GABI:dimension:fold4"
+      },
+      {
+        "element": "GABI:dimension:fold5"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "GABI:dim_max",
+    "value": 1008,
+    "operation": "max",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:dimension:fold1"
+      },
+      {
+        "element": "GABI:dimension:fold2"
+      },
+      {
+        "element": "GABI:dimension:fold3"
+      },
+      {
+        "element": "GABI:dimension:fold4"
+      },
+      {
+        "element": "GABI:dimension:fold5"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "GABI:compression_min",
+    "value": 34.864087301587304,
+    "operation": "min",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:dimension:fold1:compression"
+      },
+      {
+        "element": "GABI:dimension:fold2:compression"
+      },
+      {
+        "element": "GABI:dimension:fold3:compression"
+      },
+      {
+        "element": "GABI:dimension:fold4:compression"
+      },
+      {
+        "element": "GABI:dimension:fold5:compression"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "GABI:compression_max",
+    "value": 35.00298804780876,
+    "operation": "max",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:dimension:fold1:compression"
+      },
+      {
+        "element": "GABI:dimension:fold2:compression"
+      },
+      {
+        "element": "GABI:dimension:fold3:compression"
+      },
+      {
+        "element": "GABI:dimension:fold4:compression"
+      },
+      {
+        "element": "GABI:dimension:fold5:compression"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "Ward:raw_markers",
+    "value": 29949,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/DUAL_INPUT_IDENTITY_AUDIT_20261025.md",
+        "kind": "markdown",
+        "pattern": "^\\| Ward \\| ([\\d,]+) \\| (\\d+) / (\\d+) / (\\d+) / (\\d+) / (\\d+) \\|",
+        "group": 1,
+        "cast": "int",
+        "value": 29949
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "Ward:dimension:fold1",
+    "value": 1007,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/DUAL_INPUT_IDENTITY_AUDIT_20261025.md",
+        "kind": "markdown",
+        "pattern": "^\\| Ward \\| ([\\d,]+) \\| (\\d+) / (\\d+) / (\\d+) / (\\d+) / (\\d+) \\|",
+        "group": 2,
+        "cast": "int",
+        "value": 1007
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "Ward:dimension:fold1:compression",
+    "value": 29.740814299900695,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:raw_markers"
+      },
+      {
+        "element": "Ward:dimension:fold1"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "Ward:dimension:fold2",
+    "value": 1006,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/DUAL_INPUT_IDENTITY_AUDIT_20261025.md",
+        "kind": "markdown",
+        "pattern": "^\\| Ward \\| ([\\d,]+) \\| (\\d+) / (\\d+) / (\\d+) / (\\d+) / (\\d+) \\|",
+        "group": 3,
+        "cast": "int",
+        "value": 1006
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "Ward:dimension:fold2:compression",
+    "value": 29.77037773359841,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:raw_markers"
+      },
+      {
+        "element": "Ward:dimension:fold2"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "Ward:dimension:fold3",
+    "value": 1005,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/DUAL_INPUT_IDENTITY_AUDIT_20261025.md",
+        "kind": "markdown",
+        "pattern": "^\\| Ward \\| ([\\d,]+) \\| (\\d+) / (\\d+) / (\\d+) / (\\d+) / (\\d+) \\|",
+        "group": 4,
+        "cast": "int",
+        "value": 1005
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "Ward:dimension:fold3:compression",
+    "value": 29.8,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:raw_markers"
+      },
+      {
+        "element": "Ward:dimension:fold3"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "Ward:dimension:fold4",
+    "value": 1010,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/DUAL_INPUT_IDENTITY_AUDIT_20261025.md",
+        "kind": "markdown",
+        "pattern": "^\\| Ward \\| ([\\d,]+) \\| (\\d+) / (\\d+) / (\\d+) / (\\d+) / (\\d+) \\|",
+        "group": 5,
+        "cast": "int",
+        "value": 1010
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "Ward:dimension:fold4:compression",
+    "value": 29.65247524752475,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:raw_markers"
+      },
+      {
+        "element": "Ward:dimension:fold4"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "Ward:dimension:fold5",
+    "value": 1005,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/DUAL_INPUT_IDENTITY_AUDIT_20261025.md",
+        "kind": "markdown",
+        "pattern": "^\\| Ward \\| ([\\d,]+) \\| (\\d+) / (\\d+) / (\\d+) / (\\d+) / (\\d+) \\|",
+        "group": 6,
+        "cast": "int",
+        "value": 1005
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "Ward:dimension:fold5:compression",
+    "value": 29.8,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:raw_markers"
+      },
+      {
+        "element": "Ward:dimension:fold5"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "Ward:dim_min",
+    "value": 1005,
+    "operation": "min",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:dimension:fold1"
+      },
+      {
+        "element": "Ward:dimension:fold2"
+      },
+      {
+        "element": "Ward:dimension:fold3"
+      },
+      {
+        "element": "Ward:dimension:fold4"
+      },
+      {
+        "element": "Ward:dimension:fold5"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "Ward:dim_max",
+    "value": 1010,
+    "operation": "max",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:dimension:fold1"
+      },
+      {
+        "element": "Ward:dimension:fold2"
+      },
+      {
+        "element": "Ward:dimension:fold3"
+      },
+      {
+        "element": "Ward:dimension:fold4"
+      },
+      {
+        "element": "Ward:dimension:fold5"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "Ward:compression_min",
+    "value": 29.65247524752475,
+    "operation": "min",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:dimension:fold1:compression"
+      },
+      {
+        "element": "Ward:dimension:fold2:compression"
+      },
+      {
+        "element": "Ward:dimension:fold3:compression"
+      },
+      {
+        "element": "Ward:dimension:fold4:compression"
+      },
+      {
+        "element": "Ward:dimension:fold5:compression"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "Ward:compression_max",
+    "value": 29.8,
+    "operation": "max",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:dimension:fold1:compression"
+      },
+      {
+        "element": "Ward:dimension:fold2:compression"
+      },
+      {
+        "element": "Ward:dimension:fold3:compression"
+      },
+      {
+        "element": "Ward:dimension:fold4:compression"
+      },
+      {
+        "element": "Ward:dimension:fold5:compression"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "AUS2015:training_median",
+    "value": 681.9874942302704,
+    "operation": "median",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "training_seconds_including_epoch_selection",
+        "value": 624.8373901844025
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "training_seconds_including_epoch_selection",
+        "value": 775.2952978610992
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "training_seconds_including_epoch_selection",
+        "value": 791.2312228679657
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "training_seconds_including_epoch_selection",
+        "value": 680.0998141765594
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "training_seconds_including_epoch_selection",
+        "value": 743.610771894455
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "training_seconds_including_epoch_selection",
+        "value": 681.9874942302704
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "training_seconds_including_epoch_selection",
+        "value": 610.9430601596832
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 8,
+        "column": "training_seconds_including_epoch_selection",
+        "value": 616.5540800094604
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 9,
+        "column": "training_seconds_including_epoch_selection",
+        "value": 730.1784660816193
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 10,
+        "column": "training_seconds_including_epoch_selection",
+        "value": 699.5058648586273
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 11,
+        "column": "training_seconds_including_epoch_selection",
+        "value": 589.2328667640686
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 12,
+        "column": "training_seconds_including_epoch_selection",
+        "value": 626.9319849014282
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 13,
+        "column": "training_seconds_including_epoch_selection",
+        "value": 780.9385840892792
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 14,
+        "column": "training_seconds_including_epoch_selection",
+        "value": 726.1065921783447
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 15,
+        "column": "training_seconds_including_epoch_selection",
+        "value": 650.436644077301
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "AUS2015:timing_units",
+    "value": 15,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "fold",
+        "value": 4
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "fold",
+        "value": 2
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "fold",
+        "value": 5
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "fold",
+        "value": 3
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "fold",
+        "value": 4
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "fold",
+        "value": 1
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "fold",
+        "value": 5
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 8,
+        "column": "fold",
+        "value": 5
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 9,
+        "column": "fold",
+        "value": 3
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 10,
+        "column": "fold",
+        "value": 4
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 11,
+        "column": "fold",
+        "value": 2
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 12,
+        "column": "fold",
+        "value": 1
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 13,
+        "column": "fold",
+        "value": 3
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 14,
+        "column": "fold",
+        "value": 2
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv",
+        "kind": "csv",
+        "data_row": 15,
+        "column": "fold",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit1:preparation",
+    "value": 37.42856693267822,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r1_f1_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 37.42856693267822
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit1:total",
+    "value": 1411.210901124985,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r1_f1_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 1411.210901124985
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit1:share",
+    "value": 0.02652230570415877,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:lentil:unit1:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit1:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit2:preparation",
+    "value": 43.785667181015015,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r1_f1_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 43.785667181015015
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit2:total",
+    "value": 958.6475295000128,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r1_f1_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 958.6475295000128
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit2:share",
+    "value": 0.045674417169626086,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:lentil:unit2:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit2:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit3:preparation",
+    "value": 34.57236099243164,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r1_f2_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 34.57236099243164
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit3:total",
+    "value": 554.2226904589916,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r1_f2_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 554.2226904589916
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit3:share",
+    "value": 0.06237990899253834,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:lentil:unit3:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit3:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit4:preparation",
+    "value": 37.70663571357727,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r1_f2_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 37.70663571357727
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit4:total",
+    "value": 704.4817900410271,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r1_f2_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 704.4817900410271
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit4:share",
+    "value": 0.05352393240907098,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:lentil:unit4:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit4:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit5:preparation",
+    "value": 37.45915198326111,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r1_f3_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 37.45915198326111
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit5:total",
+    "value": 601.4620497500291,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r1_f3_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 601.4620497500291
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit5:share",
+    "value": 0.062280158821041716,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:lentil:unit5:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit5:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit6:preparation",
+    "value": 38.74402475357056,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r1_f3_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 38.74402475357056
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit6:total",
+    "value": 796.7805602499866,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r1_f3_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 796.7805602499866
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit6:share",
+    "value": 0.04862571539322543,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:lentil:unit6:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit6:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit7:preparation",
+    "value": 30.247742891311646,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r1_f4_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 30.247742891311646
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit7:total",
+    "value": 638.9102092079702,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r1_f4_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 638.9102092079702
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit7:share",
+    "value": 0.0473427133506107,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:lentil:unit7:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit7:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit8:preparation",
+    "value": 39.357293128967285,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r1_f4_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 39.357293128967285
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit8:total",
+    "value": 892.222881624999,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r1_f4_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 892.222881624999
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit8:share",
+    "value": 0.044111503907281704,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:lentil:unit8:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit8:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit9:preparation",
+    "value": 33.31867074966431,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r1_f5_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 33.31867074966431
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit9:total",
+    "value": 549.2220625830232,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r1_f5_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 549.2220625830232
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit9:share",
+    "value": 0.06066520815453892,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:lentil:unit9:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit9:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit10:preparation",
+    "value": 40.36021709442139,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r1_f5_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 40.36021709442139
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit10:total",
+    "value": 764.183897165989,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r1_f5_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 764.183897165989
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit10:share",
+    "value": 0.05281479660079086,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:lentil:unit10:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit10:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit11:preparation",
+    "value": 36.8376567363739,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r2_f1_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 36.8376567363739
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit11:total",
+    "value": 526.8621721250238,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r2_f1_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 526.8621721250238
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit11:share",
+    "value": 0.06991896303314858,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:lentil:unit11:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit11:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit12:preparation",
+    "value": 43.98388910293579,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r2_f1_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 43.98388910293579
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit12:total",
+    "value": 3230.11741024995,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r2_f1_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 3230.11741024995
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit12:share",
+    "value": 0.013616808157921502,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:lentil:unit12:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit12:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit13:preparation",
+    "value": 33.686854124069214,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r2_f2_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 33.686854124069214
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit13:total",
+    "value": 566.9075627920101,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r2_f2_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 566.9075627920101
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit13:share",
+    "value": 0.059422128641505555,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:lentil:unit13:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit13:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit14:preparation",
+    "value": 42.1861629486084,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r2_f2_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 42.1861629486084
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit14:total",
+    "value": 5205.739930125012,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r2_f2_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 5205.739930125012
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit14:share",
+    "value": 0.00810377842820806,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:lentil:unit14:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit14:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit15:preparation",
+    "value": 33.93778586387634,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r2_f3_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 33.93778586387634
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit15:total",
+    "value": 531.5144716249779,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r2_f3_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 531.5144716249779
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit15:share",
+    "value": 0.06385110411033534,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:lentil:unit15:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit15:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit16:preparation",
+    "value": 43.63806104660034,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r2_f3_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 43.63806104660034
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit16:total",
+    "value": 4353.782678374962,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r2_f3_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 4353.782678374962
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit16:share",
+    "value": 0.010023022339481614,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:lentil:unit16:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit16:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit17:preparation",
+    "value": 39.376620054244995,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r2_f4_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 39.376620054244995
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit17:total",
+    "value": 695.5350516660255,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r2_f4_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 695.5350516660255
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit17:share",
+    "value": 0.05661342294673085,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:lentil:unit17:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit17:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit18:preparation",
+    "value": 27.18840193748474,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r2_f4_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 27.18840193748474
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit18:total",
+    "value": 2720.01941899996,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r2_f4_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 2720.01941899996
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit18:share",
+    "value": 0.00999566464399758,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:lentil:unit18:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit18:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit19:preparation",
+    "value": 39.57943391799927,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r2_f5_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 39.57943391799927
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit19:total",
+    "value": 741.395449374977,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r2_f5_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 741.395449374977
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit19:share",
+    "value": 0.05338505105658006,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:lentil:unit19:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit19:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit20:preparation",
+    "value": 26.924216985702515,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r2_f5_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 26.924216985702515
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit20:total",
+    "value": 2267.358658000012,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/lentil_r2_f5_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 2267.358658000012
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:lentil:unit20:share",
+    "value": 0.011874705790680591,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:lentil:unit20:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit20:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit21:preparation",
+    "value": 10.308243989944458,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r1_f1_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 10.308243989944458
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit21:total",
+    "value": 2308.1629198750015,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r1_f1_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 2308.1629198750015
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit21:share",
+    "value": 0.004465994969931629,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:pine:unit21:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit21:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit22:preparation",
+    "value": 8.752871990203857,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r1_f1_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 8.752871990203857
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit22:total",
+    "value": 1266.5952675000299,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r1_f1_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 1266.5952675000299
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit22:share",
+    "value": 0.006910551629866761,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:pine:unit22:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit22:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit23:preparation",
+    "value": 7.996696949005127,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r1_f2_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 7.996696949005127
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit23:total",
+    "value": 946.2087793340324,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r1_f2_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 946.2087793340324
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit23:share",
+    "value": 0.008451302845269962,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:pine:unit23:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit23:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit24:preparation",
+    "value": 11.596353769302368,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r1_f2_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 11.596353769302368
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit24:total",
+    "value": 1312.5426832919475,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r1_f2_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 1312.5426832919475
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit24:share",
+    "value": 0.008835029837062452,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:pine:unit24:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit24:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit25:preparation",
+    "value": 8.31361198425293,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r1_f3_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 8.31361198425293
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit25:total",
+    "value": 912.8677962499787,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r1_f3_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 912.8677962499787
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit25:share",
+    "value": 0.009107136891458858,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:pine:unit25:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit25:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit26:preparation",
+    "value": 10.741312980651855,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r1_f3_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 10.741312980651855
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit26:total",
+    "value": 763.3995124169742,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r1_f3_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 763.3995124169742
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit26:share",
+    "value": 0.01407036919193744,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:pine:unit26:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit26:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit27:preparation",
+    "value": 6.703377962112427,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r1_f4_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 6.703377962112427
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit27:total",
+    "value": 895.0981274580117,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r1_f4_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 895.0981274580117
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit27:share",
+    "value": 0.007488986689257572,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:pine:unit27:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit27:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit28:preparation",
+    "value": 11.4984130859375,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r1_f4_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 11.4984130859375
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit28:total",
+    "value": 1548.9078609999851,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r1_f4_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 1548.9078609999851
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit28:share",
+    "value": 0.007423561707869472,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:pine:unit28:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit28:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit29:preparation",
+    "value": 6.4778711795806885,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r1_f5_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 6.4778711795806885
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit29:total",
+    "value": 1254.140973875008,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r1_f5_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 1254.140973875008
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit29:share",
+    "value": 0.005165185824019091,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:pine:unit29:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit29:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit30:preparation",
+    "value": 11.56750226020813,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r1_f5_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 11.56750226020813
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit30:total",
+    "value": 1299.6695849160315,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r1_f5_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 1299.6695849160315
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit30:share",
+    "value": 0.008900340820821378,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:pine:unit30:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit30:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit31:preparation",
+    "value": 6.872908115386963,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r2_f1_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 6.872908115386963
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit31:total",
+    "value": 991.2824574169936,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r2_f1_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 991.2824574169936
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit31:share",
+    "value": 0.006933349888280935,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:pine:unit31:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit31:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit32:preparation",
+    "value": 9.348663091659546,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r2_f1_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 9.348663091659546
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit32:total",
+    "value": 1261.9999370420119,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r2_f1_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 1261.9999370420119
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit32:share",
+    "value": 0.007407815814612303,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:pine:unit32:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit32:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit33:preparation",
+    "value": 6.324542999267578,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r2_f2_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 6.324542999267578
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit33:total",
+    "value": 1525.4984172499971,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r2_f2_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 1525.4984172499971
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit33:share",
+    "value": 0.004145886306895537,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:pine:unit33:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit33:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit34:preparation",
+    "value": 9.908214092254639,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r2_f2_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 9.908214092254639
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit34:total",
+    "value": 1119.355567333987,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r2_f2_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 1119.355567333987
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit34:share",
+    "value": 0.008851712879628965,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:pine:unit34:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit34:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit35:preparation",
+    "value": 5.927764177322388,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r2_f3_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 5.927764177322388
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit35:total",
+    "value": 1006.2219490829739,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r2_f3_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 1006.2219490829739
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit35:share",
+    "value": 0.005891109990916705,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:pine:unit35:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit35:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit36:preparation",
+    "value": 10.010429859161377,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r2_f3_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 10.010429859161377
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit36:total",
+    "value": 1090.8873411249951,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r2_f3_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 1090.8873411249951
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit36:share",
+    "value": 0.009176410323762636,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:pine:unit36:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit36:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit37:preparation",
+    "value": 8.27549695968628,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r2_f4_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 8.27549695968628
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit37:total",
+    "value": 796.0545107919606,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r2_f4_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 796.0545107919606
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit37:share",
+    "value": 0.010395641061631999,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:pine:unit37:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit37:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit38:preparation",
+    "value": 10.468071222305298,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r2_f4_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 10.468071222305298
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit38:total",
+    "value": 678.9621025830274,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r2_f4_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 678.9621025830274
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit38:share",
+    "value": 0.01541775480911352,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:pine:unit38:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit38:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit39:preparation",
+    "value": 7.625938892364502,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r2_f5_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 7.625938892364502
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit39:total",
+    "value": 1009.6060356250382,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r2_f5_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 1009.6060356250382
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit39:share",
+    "value": 0.007553380846860083,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:pine:unit39:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit39:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit40:preparation",
+    "value": 8.46936297416687,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r2_f5_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 8.46936297416687
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit40:total",
+    "value": 984.6323873750516,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/pine_r2_f5_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 984.6323873750516
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:pine:unit40:share",
+    "value": 0.008601548235423669,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:pine:unit40:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit40:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit41:preparation",
+    "value": 41.324662923812866,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r1_f1_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 41.324662923812866
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit41:total",
+    "value": 1149.0531167910085,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r1_f1_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 1149.0531167910085
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit41:share",
+    "value": 0.03596410150230597,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:rice:unit41:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit41:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit42:preparation",
+    "value": 49.32710123062134,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r1_f1_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 49.32710123062134
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit42:total",
+    "value": 851.7227394999936,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r1_f1_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 851.7227394999936
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit42:share",
+    "value": 0.05791450544056034,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:rice:unit42:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit42:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit43:preparation",
+    "value": 42.359375,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r1_f2_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 42.359375
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit43:total",
+    "value": 573.5282691250322,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r1_f2_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 573.5282691250322
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit43:share",
+    "value": 0.07385751894082387,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:rice:unit43:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit43:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit44:preparation",
+    "value": 45.499549865722656,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r1_f2_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 45.499549865722656
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit44:total",
+    "value": 629.9121057910379,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r1_f2_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 629.9121057910379
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit44:share",
+    "value": 0.07223158508532668,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:rice:unit44:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit44:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit45:preparation",
+    "value": 40.236494064331055,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r1_f3_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 40.236494064331055
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit45:total",
+    "value": 628.0004469999694,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r1_f3_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 628.0004469999694
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit45:share",
+    "value": 0.06407080481637462,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:rice:unit45:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit45:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit46:preparation",
+    "value": 48.181880950927734,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r1_f3_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 48.181880950927734
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit46:total",
+    "value": 667.4774801249732,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r1_f3_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 667.4774801249732
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit46:share",
+    "value": 0.07218502853745198,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:rice:unit46:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit46:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit47:preparation",
+    "value": 45.387288093566895,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r1_f4_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 45.387288093566895
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit47:total",
+    "value": 697.9694267919986,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r1_f4_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 697.9694267919986
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit47:share",
+    "value": 0.06502761632723024,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:rice:unit47:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit47:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit48:preparation",
+    "value": 45.30258512496948,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r1_f4_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 45.30258512496948
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit48:total",
+    "value": 707.7469381659757,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r1_f4_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 707.7469381659757
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit48:share",
+    "value": 0.06400958122456116,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:rice:unit48:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit48:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit49:preparation",
+    "value": 33.53478384017944,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r1_f5_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 33.53478384017944
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit49:total",
+    "value": 612.2252059160382,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r1_f5_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 612.2252059160382
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit49:share",
+    "value": 0.054775242045128195,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:rice:unit49:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit49:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit50:preparation",
+    "value": 44.56260681152344,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r1_f5_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 44.56260681152344
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit50:total",
+    "value": 702.0581140840077,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r1_f5_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 702.0581140840077
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit50:share",
+    "value": 0.0634742422565194,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:rice:unit50:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit50:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit51:preparation",
+    "value": 39.39729118347168,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r2_f1_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 39.39729118347168
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit51:total",
+    "value": 598.9017052909476,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r2_f1_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 598.9017052909476
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit51:share",
+    "value": 0.06578256638012477,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:rice:unit51:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit51:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit52:preparation",
+    "value": 47.74872183799744,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r2_f1_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 47.74872183799744
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit52:total",
+    "value": 631.167462708021,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r2_f1_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 631.167462708021
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit52:share",
+    "value": 0.07565143113228899,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:rice:unit52:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit52:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit53:preparation",
+    "value": 43.924028158187866,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r2_f2_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 43.924028158187866
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit53:total",
+    "value": 672.4574096660363,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r2_f2_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 672.4574096660363
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit53:share",
+    "value": 0.06531867673225868,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:rice:unit53:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit53:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit54:preparation",
+    "value": 48.02052927017212,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r2_f2_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 48.02052927017212
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit54:total",
+    "value": 716.5068738329574,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r2_f2_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 716.5068738329574
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit54:share",
+    "value": 0.06702033298478498,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:rice:unit54:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit54:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit55:preparation",
+    "value": 43.848042249679565,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r2_f3_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 43.848042249679565
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit55:total",
+    "value": 631.8184003750212,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r2_f3_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 631.8184003750212
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit55:share",
+    "value": 0.06939975509363638,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:rice:unit55:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit55:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit56:preparation",
+    "value": 46.05556011199951,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r2_f3_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 46.05556011199951
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit56:total",
+    "value": 651.6659501659451,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r2_f3_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 651.6659501659451
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit56:share",
+    "value": 0.07067357148286109,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:rice:unit56:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit56:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit57:preparation",
+    "value": 43.47509574890137,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r2_f4_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 43.47509574890137
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit57:total",
+    "value": 709.4677739170147,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r2_f4_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 709.4677739170147
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit57:share",
+    "value": 0.061278464430981436,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:rice:unit57:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit57:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit58:preparation",
+    "value": 46.33708739280701,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r2_f4_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 46.33708739280701
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit58:total",
+    "value": 727.3839512080303,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r2_f4_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 727.3839512080303
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit58:share",
+    "value": 0.06370375276475504,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:rice:unit58:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit58:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit59:preparation",
+    "value": 45.39357590675354,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r2_f5_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 45.39357590675354
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit59:total",
+    "value": 700.0275984170148,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r2_f5_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 700.0275984170148
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit59:share",
+    "value": 0.06484540896587915,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:rice:unit59:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit59:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit60:preparation",
+    "value": 45.797701835632324,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r2_f5_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 45.797701835632324
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit60:total",
+    "value": 686.945641499944,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/rice_r2_f5_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 686.945641499944
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:rice:unit60:share",
+    "value": 0.066668596565564,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:rice:unit60:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit60:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit61:preparation",
+    "value": 17.046424865722656,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r1_f1_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 17.046424865722656
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit61:total",
+    "value": 619.003576374962,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r1_f1_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 619.003576374962
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit61:share",
+    "value": 0.027538491724960194,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:wheatG:unit61:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit61:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit62:preparation",
+    "value": 20.4762601852417,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r1_f1_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 20.4762601852417
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit62:total",
+    "value": 611.6938157919794,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r1_f1_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 611.6938157919794
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit62:share",
+    "value": 0.033474688899266435,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:wheatG:unit62:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit62:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit63:preparation",
+    "value": 16.125894784927368,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r1_f2_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 16.125894784927368
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit63:total",
+    "value": 661.1956738330191,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r1_f2_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 661.1956738330191
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit63:share",
+    "value": 0.02438899016299351,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:wheatG:unit63:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit63:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit64:preparation",
+    "value": 17.80089807510376,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r1_f2_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 17.80089807510376
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit64:total",
+    "value": 627.2370549580082,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r1_f2_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 627.2370549580082
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit64:share",
+    "value": 0.028379857239613306,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:wheatG:unit64:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit64:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit65:preparation",
+    "value": 15.630534172058105,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r1_f3_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 15.630534172058105
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit65:total",
+    "value": 468.9818898750236,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r1_f3_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 468.9818898750236
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit65:share",
+    "value": 0.033328651936268584,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:wheatG:unit65:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit65:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit66:preparation",
+    "value": 19.204046964645386,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r1_f3_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 19.204046964645386
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit66:total",
+    "value": 511.03791091701714,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r1_f3_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 511.03791091701714
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit66:share",
+    "value": 0.03757851727709446,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:wheatG:unit66:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit66:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit67:preparation",
+    "value": 14.487957000732422,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r1_f4_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 14.487957000732422
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit67:total",
+    "value": 405.85452595801326,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r1_f4_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 405.85452595801326
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit67:share",
+    "value": 0.03569741391089289,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:wheatG:unit67:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit67:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit68:preparation",
+    "value": 17.947146892547607,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r1_f4_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 17.947146892547607
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit68:total",
+    "value": 478.66568712500157,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r1_f4_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 478.66568712500157
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit68:share",
+    "value": 0.03749411619692887,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:wheatG:unit68:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit68:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit69:preparation",
+    "value": 15.918750047683716,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r1_f5_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 15.918750047683716
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit69:total",
+    "value": 552.0762840419775,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r1_f5_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 552.0762840419775
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit69:share",
+    "value": 0.028834330522470555,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:wheatG:unit69:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit69:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit70:preparation",
+    "value": 18.860853910446167,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r1_f5_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 18.860853910446167
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit70:total",
+    "value": 588.2864118329599,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r1_f5_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 588.2864118329599
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit70:share",
+    "value": 0.032060665572200206,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:wheatG:unit70:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit70:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit71:preparation",
+    "value": 13.79401969909668,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r2_f1_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 13.79401969909668
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit71:total",
+    "value": 357.78567000001203,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r2_f1_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 357.78567000001203
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit71:share",
+    "value": 0.03855386298477582,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:wheatG:unit71:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit71:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit72:preparation",
+    "value": 18.247778177261353,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r2_f1_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 18.247778177261353
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit72:total",
+    "value": 491.12744124996243,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r2_f1_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 491.12744124996243
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit72:share",
+    "value": 0.03715487395861888,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:wheatG:unit72:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit72:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit73:preparation",
+    "value": 14.896911144256592,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r2_f2_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 14.896911144256592
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit73:total",
+    "value": 381.1860019589658,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r2_f2_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 381.1860019589658
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit73:share",
+    "value": 0.039080425481784156,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:wheatG:unit73:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit73:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit74:preparation",
+    "value": 18.373000860214233,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r2_f2_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 18.373000860214233
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit74:total",
+    "value": 436.5248124169884,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r2_f2_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 436.5248124169884
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit74:share",
+    "value": 0.04208924747824759,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:wheatG:unit74:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit74:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit75:preparation",
+    "value": 16.176271200180054,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r2_f3_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 16.176271200180054
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit75:total",
+    "value": 444.9252940000151,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r2_f3_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 444.9252940000151
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit75:share",
+    "value": 0.03635727484663864,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:wheatG:unit75:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit75:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit76:preparation",
+    "value": 18.875932216644287,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r2_f3_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 18.875932216644287
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit76:total",
+    "value": 2331.751918833994,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r2_f3_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 2331.751918833994
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit76:share",
+    "value": 0.008095171730826025,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:wheatG:unit76:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit76:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit77:preparation",
+    "value": 16.811051845550537,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r2_f4_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 16.811051845550537
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit77:total",
+    "value": 436.9363490000251,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r2_f4_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 436.9363490000251
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit77:share",
+    "value": 0.038474830221894796,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:wheatG:unit77:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit77:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit78:preparation",
+    "value": 18.472821950912476,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r2_f4_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 18.472821950912476
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit78:total",
+    "value": 1516.3075627500075,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r2_f4_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 1516.3075627500075
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit78:share",
+    "value": 0.012182767140862751,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:wheatG:unit78:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit78:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit79:preparation",
+    "value": 15.714190244674683,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r2_f5_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 15.714190244674683
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit79:total",
+    "value": 512.9410730000236,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r2_f5_AF-MT.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 512.9410730000236
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit79:share",
+    "value": 0.03063546881275768,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:wheatG:unit79:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit79:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit80:preparation",
+    "value": 19.170166969299316,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r2_f5_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "full_fit_preprocessing_seconds"
+        ],
+        "value": 19.170166969299316
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit80:total",
+    "value": 3885.324829042016,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/rows/wheatG_r2_f5_AF-ST.json",
+        "kind": "json",
+        "keys": [
+          "total_seconds"
+        ],
+        "value": 3885.324829042016
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:wheatG:unit80:share",
+    "value": 0.004933993375793499,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:wheatG:unit80:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit80:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:preparation_median",
+    "value": 23.700238585472107,
+    "operation": "median",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:lentil:unit1:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit2:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit3:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit4:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit5:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit6:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit7:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit8:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit9:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit10:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit11:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit12:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit13:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit14:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit15:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit16:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit17:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit18:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit19:preparation"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit20:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit21:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit22:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit23:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit24:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit25:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit26:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit27:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit28:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit29:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit30:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit31:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit32:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit33:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit34:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit35:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit36:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit37:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit38:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit39:preparation"
+      },
+      {
+        "element": "EasyGeSe:pine:unit40:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit41:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit42:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit43:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit44:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit45:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit46:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit47:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit48:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit49:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit50:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit51:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit52:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit53:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit54:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit55:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit56:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit57:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit58:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit59:preparation"
+      },
+      {
+        "element": "EasyGeSe:rice:unit60:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit61:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit62:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit63:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit64:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit65:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit66:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit67:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit68:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit69:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit70:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit71:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit72:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit73:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit74:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit75:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit76:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit77:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit78:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit79:preparation"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit80:preparation"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:total_median",
+    "value": 703.2699520625174,
+    "operation": "median",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:lentil:unit1:total"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit2:total"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit3:total"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit4:total"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit5:total"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit6:total"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit7:total"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit8:total"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit9:total"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit10:total"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit11:total"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit12:total"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit13:total"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit14:total"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit15:total"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit16:total"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit17:total"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit18:total"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit19:total"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit20:total"
+      },
+      {
+        "element": "EasyGeSe:pine:unit21:total"
+      },
+      {
+        "element": "EasyGeSe:pine:unit22:total"
+      },
+      {
+        "element": "EasyGeSe:pine:unit23:total"
+      },
+      {
+        "element": "EasyGeSe:pine:unit24:total"
+      },
+      {
+        "element": "EasyGeSe:pine:unit25:total"
+      },
+      {
+        "element": "EasyGeSe:pine:unit26:total"
+      },
+      {
+        "element": "EasyGeSe:pine:unit27:total"
+      },
+      {
+        "element": "EasyGeSe:pine:unit28:total"
+      },
+      {
+        "element": "EasyGeSe:pine:unit29:total"
+      },
+      {
+        "element": "EasyGeSe:pine:unit30:total"
+      },
+      {
+        "element": "EasyGeSe:pine:unit31:total"
+      },
+      {
+        "element": "EasyGeSe:pine:unit32:total"
+      },
+      {
+        "element": "EasyGeSe:pine:unit33:total"
+      },
+      {
+        "element": "EasyGeSe:pine:unit34:total"
+      },
+      {
+        "element": "EasyGeSe:pine:unit35:total"
+      },
+      {
+        "element": "EasyGeSe:pine:unit36:total"
+      },
+      {
+        "element": "EasyGeSe:pine:unit37:total"
+      },
+      {
+        "element": "EasyGeSe:pine:unit38:total"
+      },
+      {
+        "element": "EasyGeSe:pine:unit39:total"
+      },
+      {
+        "element": "EasyGeSe:pine:unit40:total"
+      },
+      {
+        "element": "EasyGeSe:rice:unit41:total"
+      },
+      {
+        "element": "EasyGeSe:rice:unit42:total"
+      },
+      {
+        "element": "EasyGeSe:rice:unit43:total"
+      },
+      {
+        "element": "EasyGeSe:rice:unit44:total"
+      },
+      {
+        "element": "EasyGeSe:rice:unit45:total"
+      },
+      {
+        "element": "EasyGeSe:rice:unit46:total"
+      },
+      {
+        "element": "EasyGeSe:rice:unit47:total"
+      },
+      {
+        "element": "EasyGeSe:rice:unit48:total"
+      },
+      {
+        "element": "EasyGeSe:rice:unit49:total"
+      },
+      {
+        "element": "EasyGeSe:rice:unit50:total"
+      },
+      {
+        "element": "EasyGeSe:rice:unit51:total"
+      },
+      {
+        "element": "EasyGeSe:rice:unit52:total"
+      },
+      {
+        "element": "EasyGeSe:rice:unit53:total"
+      },
+      {
+        "element": "EasyGeSe:rice:unit54:total"
+      },
+      {
+        "element": "EasyGeSe:rice:unit55:total"
+      },
+      {
+        "element": "EasyGeSe:rice:unit56:total"
+      },
+      {
+        "element": "EasyGeSe:rice:unit57:total"
+      },
+      {
+        "element": "EasyGeSe:rice:unit58:total"
+      },
+      {
+        "element": "EasyGeSe:rice:unit59:total"
+      },
+      {
+        "element": "EasyGeSe:rice:unit60:total"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit61:total"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit62:total"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit63:total"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit64:total"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit65:total"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit66:total"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit67:total"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit68:total"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit69:total"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit70:total"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit71:total"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit72:total"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit73:total"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit74:total"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit75:total"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit76:total"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit77:total"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit78:total"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit79:total"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit80:total"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:preparation_share_median",
+    "value": 0.03675607440262876,
+    "operation": "median",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:lentil:unit1:share"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit2:share"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit3:share"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit4:share"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit5:share"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit6:share"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit7:share"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit8:share"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit9:share"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit10:share"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit11:share"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit12:share"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit13:share"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit14:share"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit15:share"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit16:share"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit17:share"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit18:share"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit19:share"
+      },
+      {
+        "element": "EasyGeSe:lentil:unit20:share"
+      },
+      {
+        "element": "EasyGeSe:pine:unit21:share"
+      },
+      {
+        "element": "EasyGeSe:pine:unit22:share"
+      },
+      {
+        "element": "EasyGeSe:pine:unit23:share"
+      },
+      {
+        "element": "EasyGeSe:pine:unit24:share"
+      },
+      {
+        "element": "EasyGeSe:pine:unit25:share"
+      },
+      {
+        "element": "EasyGeSe:pine:unit26:share"
+      },
+      {
+        "element": "EasyGeSe:pine:unit27:share"
+      },
+      {
+        "element": "EasyGeSe:pine:unit28:share"
+      },
+      {
+        "element": "EasyGeSe:pine:unit29:share"
+      },
+      {
+        "element": "EasyGeSe:pine:unit30:share"
+      },
+      {
+        "element": "EasyGeSe:pine:unit31:share"
+      },
+      {
+        "element": "EasyGeSe:pine:unit32:share"
+      },
+      {
+        "element": "EasyGeSe:pine:unit33:share"
+      },
+      {
+        "element": "EasyGeSe:pine:unit34:share"
+      },
+      {
+        "element": "EasyGeSe:pine:unit35:share"
+      },
+      {
+        "element": "EasyGeSe:pine:unit36:share"
+      },
+      {
+        "element": "EasyGeSe:pine:unit37:share"
+      },
+      {
+        "element": "EasyGeSe:pine:unit38:share"
+      },
+      {
+        "element": "EasyGeSe:pine:unit39:share"
+      },
+      {
+        "element": "EasyGeSe:pine:unit40:share"
+      },
+      {
+        "element": "EasyGeSe:rice:unit41:share"
+      },
+      {
+        "element": "EasyGeSe:rice:unit42:share"
+      },
+      {
+        "element": "EasyGeSe:rice:unit43:share"
+      },
+      {
+        "element": "EasyGeSe:rice:unit44:share"
+      },
+      {
+        "element": "EasyGeSe:rice:unit45:share"
+      },
+      {
+        "element": "EasyGeSe:rice:unit46:share"
+      },
+      {
+        "element": "EasyGeSe:rice:unit47:share"
+      },
+      {
+        "element": "EasyGeSe:rice:unit48:share"
+      },
+      {
+        "element": "EasyGeSe:rice:unit49:share"
+      },
+      {
+        "element": "EasyGeSe:rice:unit50:share"
+      },
+      {
+        "element": "EasyGeSe:rice:unit51:share"
+      },
+      {
+        "element": "EasyGeSe:rice:unit52:share"
+      },
+      {
+        "element": "EasyGeSe:rice:unit53:share"
+      },
+      {
+        "element": "EasyGeSe:rice:unit54:share"
+      },
+      {
+        "element": "EasyGeSe:rice:unit55:share"
+      },
+      {
+        "element": "EasyGeSe:rice:unit56:share"
+      },
+      {
+        "element": "EasyGeSe:rice:unit57:share"
+      },
+      {
+        "element": "EasyGeSe:rice:unit58:share"
+      },
+      {
+        "element": "EasyGeSe:rice:unit59:share"
+      },
+      {
+        "element": "EasyGeSe:rice:unit60:share"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit61:share"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit62:share"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit63:share"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit64:share"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit65:share"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit66:share"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit67:share"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit68:share"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit69:share"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit70:share"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit71:share"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit72:share"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit73:share"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit74:share"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit75:share"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit76:share"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit77:share"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit78:share"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit79:share"
+      },
+      {
+        "element": "EasyGeSe:wheatG:unit80:share"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "EasyGeSe:preparation_share_percent",
+    "value": 3.6756074402628762,
+    "operation": "percent",
+    "args": {},
+    "inputs": [
+      {
+        "element": "EasyGeSe:preparation_share_median"
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "LR:PCC_range_min",
+    "value": 0.0040890312194824,
+    "operation": "min",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp3/FP3_E8B_LR_RANGE.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "range_across_tier_means",
+        "value": 0.0068269157409668
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp3/FP3_E8B_LR_RANGE.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "range_across_tier_means",
+        "value": 0.0110074865818023
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp3/FP3_E8B_LR_RANGE.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "range_across_tier_means",
+        "value": 0.0040890312194824
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp3/FP3_E8B_LR_RANGE.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "range_across_tier_means",
+        "value": 0.0146393334865569
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "LR:PCC_range_max",
+    "value": 0.0146393334865569,
+    "operation": "max",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp3/FP3_E8B_LR_RANGE.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "range_across_tier_means",
+        "value": 0.0068269157409668
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp3/FP3_E8B_LR_RANGE.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "range_across_tier_means",
+        "value": 0.0110074865818023
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp3/FP3_E8B_LR_RANGE.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "range_across_tier_means",
+        "value": 0.0040890312194824
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp3/FP3_E8B_LR_RANGE.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "range_across_tier_means",
+        "value": 0.0146393334865569
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "LR:lentil:PCC_range",
+    "value": 0.0068269157409668,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp3/FP3_E8B_LR_RANGE.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "range_across_tier_means",
+        "value": 0.0068269157409668
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "LR:pine:PCC_range",
+    "value": 0.0110074865818023,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp3/FP3_E8B_LR_RANGE.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "range_across_tier_means",
+        "value": 0.0110074865818023
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "LR:rice:PCC_range",
+    "value": 0.0040890312194824,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp3/FP3_E8B_LR_RANGE.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "range_across_tier_means",
+        "value": 0.0040890312194824
+      }
+    ]
+  },
+  {
+    "artifact": "Table V",
+    "element": "LR:wheatG:PCC_range",
+    "value": 0.0146393334865569,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp3/FP3_E8B_LR_RANGE.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "range_across_tier_means",
+        "value": 0.0146393334865569
+      }
+    ]
+  }
+]

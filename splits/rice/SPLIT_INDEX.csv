@@ -1,0 +1,11 @@
+dataset,repeat,fold,official_key,train_n,test_n,manifest,sha256,source
+rice,1,1,Split1CV1,272,69,repeat_1_fold_1.csv,dff14845677a9fdd2da6b3725d447dc1d2f611685e3c8ce7e7eec3425a5d0d0d,EasyGeSe riceZ.json
+rice,1,2,Split2CV1,273,68,repeat_1_fold_2.csv,70de4c52bfaaaf8c172cebdd696a7c7b79836730c4f2bba1900bf4c4f1f990dc,EasyGeSe riceZ.json
+rice,1,3,Split3CV1,273,68,repeat_1_fold_3.csv,621d73621a32496e80737118bb9dbaea66f00921e54dc53facc0d4734b7ed649,EasyGeSe riceZ.json
+rice,1,4,Split4CV1,273,68,repeat_1_fold_4.csv,393551461de8b420a9a3755d5cf4c7f852ecac69eb6449af8c18861240f97ed9,EasyGeSe riceZ.json
+rice,1,5,Split5CV1,273,68,repeat_1_fold_5.csv,56e0074497452ec23b24d2f83f52d556f4a6980880ec97e6604a0be1c1c260f4,EasyGeSe riceZ.json
+rice,2,1,Split1CV2,272,69,repeat_2_fold_1.csv,ab1994ba3cbd2c911fe79a89c7e3430d3e19a5d9f767f3211186bc839a6d2433,EasyGeSe riceZ.json
+rice,2,2,Split2CV2,273,68,repeat_2_fold_2.csv,8e8c8b656d18e077ff54c266a9a2f643cde4f7595e59b4281642238ddd8e3be2,EasyGeSe riceZ.json
+rice,2,3,Split3CV2,273,68,repeat_2_fold_3.csv,95c5282779f23beb41a7060374c658e48fb605992bad72a7c20af3869e3036b2,EasyGeSe riceZ.json
+rice,2,4,Split4CV2,273,68,repeat_2_fold_4.csv,8e6754e65bb9063142c17e98c3d0d97a6ad6fe5dc9ae2fe6586eb84d8412f03c,EasyGeSe riceZ.json
+rice,2,5,Split5CV2,273,68,repeat_2_fold_5.csv,87694da5a0f87a3b7c287fdf27c63bb52232218717ba8d1447c5dbb825ee573f,EasyGeSe riceZ.json

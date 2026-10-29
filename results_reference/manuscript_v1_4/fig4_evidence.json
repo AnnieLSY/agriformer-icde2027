@@ -1,0 +1,3454 @@
+[
+  {
+    "artifact": "Fig. 4",
+    "element": "sample:0.25:ratio",
+    "value": 0.25,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "ratio",
+        "value": 0.25
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "sample:0.25:AF",
+    "value": 0.4919989529514716,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "AF_mean_CCC",
+        "value": 0.4919989529514716
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "sample:0.25:ranking",
+    "value": "AF:0.491998953 > MLP-Dual:0.361631748 > Ridge:0.342010807 > SVR-RBF:0.321671169 > BayesB:0.294473676 > RF:0.269928707 > GBLUP:0.228942062 > VMGP:0.043556090",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "full_ranking",
+        "value": "AF:0.491998953 > MLP-Dual:0.361631748 > Ridge:0.342010807 > SVR-RBF:0.321671169 > BayesB:0.294473676 > RF:0.269928707 > GBLUP:0.228942062 > VMGP:0.043556090"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "sample:0.25:Ridge",
+    "value": 0.342010807,
+    "operation": "ranking_value",
+    "args": {
+      "rank": 2
+    },
+    "inputs": [
+      {
+        "element": "sample:0.25:ranking"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "sample:0.25:ranking",
+    "value": "AF:0.491998953 > MLP-Dual:0.361631748 > Ridge:0.342010807 > SVR-RBF:0.321671169 > BayesB:0.294473676 > RF:0.269928707 > GBLUP:0.228942062 > VMGP:0.043556090",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "full_ranking",
+        "value": "AF:0.491998953 > MLP-Dual:0.361631748 > Ridge:0.342010807 > SVR-RBF:0.321671169 > BayesB:0.294473676 > RF:0.269928707 > GBLUP:0.228942062 > VMGP:0.043556090"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "sample:0.25:MLP-Dual",
+    "value": 0.361631748,
+    "operation": "ranking_value",
+    "args": {
+      "rank": 1
+    },
+    "inputs": [
+      {
+        "element": "sample:0.25:ranking"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "sample:0.5:ratio",
+    "value": 0.5,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "ratio",
+        "value": 0.5
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "sample:0.5:AF",
+    "value": 0.4865021119372883,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "AF_mean_CCC",
+        "value": 0.4865021119372883
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "sample:0.5:ranking",
+    "value": "AF:0.486502112 > MLP-Dual:0.433289145 > Ridge:0.410095249 > BayesB:0.399567037 > GBLUP:0.365194622 > SVR-RBF:0.348356741 > RF:0.272499688 > VMGP:0.106468305",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "full_ranking",
+        "value": "AF:0.486502112 > MLP-Dual:0.433289145 > Ridge:0.410095249 > BayesB:0.399567037 > GBLUP:0.365194622 > SVR-RBF:0.348356741 > RF:0.272499688 > VMGP:0.106468305"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "sample:0.5:Ridge",
+    "value": 0.410095249,
+    "operation": "ranking_value",
+    "args": {
+      "rank": 2
+    },
+    "inputs": [
+      {
+        "element": "sample:0.5:ranking"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "sample:0.5:ranking",
+    "value": "AF:0.486502112 > MLP-Dual:0.433289145 > Ridge:0.410095249 > BayesB:0.399567037 > GBLUP:0.365194622 > SVR-RBF:0.348356741 > RF:0.272499688 > VMGP:0.106468305",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "full_ranking",
+        "value": "AF:0.486502112 > MLP-Dual:0.433289145 > Ridge:0.410095249 > BayesB:0.399567037 > GBLUP:0.365194622 > SVR-RBF:0.348356741 > RF:0.272499688 > VMGP:0.106468305"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "sample:0.5:MLP-Dual",
+    "value": 0.433289145,
+    "operation": "ranking_value",
+    "args": {
+      "rank": 1
+    },
+    "inputs": [
+      {
+        "element": "sample:0.5:ranking"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "sample:0.75:ratio",
+    "value": 0.75,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "ratio",
+        "value": 0.75
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "sample:0.75:AF",
+    "value": 0.558496935062656,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "AF_mean_CCC",
+        "value": 0.558496935062656
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "sample:0.75:ranking",
+    "value": "AF:0.558496935 > MLP-Dual:0.462249123 > BayesB:0.457157868 > Ridge:0.453982822 > GBLUP:0.447475989 > SVR-RBF:0.425666751 > RF:0.369614219 > VMGP:0.163987449",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "full_ranking",
+        "value": "AF:0.558496935 > MLP-Dual:0.462249123 > BayesB:0.457157868 > Ridge:0.453982822 > GBLUP:0.447475989 > SVR-RBF:0.425666751 > RF:0.369614219 > VMGP:0.163987449"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "sample:0.75:Ridge",
+    "value": 0.453982822,
+    "operation": "ranking_value",
+    "args": {
+      "rank": 3
+    },
+    "inputs": [
+      {
+        "element": "sample:0.75:ranking"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "sample:0.75:ranking",
+    "value": "AF:0.558496935 > MLP-Dual:0.462249123 > BayesB:0.457157868 > Ridge:0.453982822 > GBLUP:0.447475989 > SVR-RBF:0.425666751 > RF:0.369614219 > VMGP:0.163987449",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "full_ranking",
+        "value": "AF:0.558496935 > MLP-Dual:0.462249123 > BayesB:0.457157868 > Ridge:0.453982822 > GBLUP:0.447475989 > SVR-RBF:0.425666751 > RF:0.369614219 > VMGP:0.163987449"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "sample:0.75:MLP-Dual",
+    "value": 0.462249123,
+    "operation": "ranking_value",
+    "args": {
+      "rank": 1
+    },
+    "inputs": [
+      {
+        "element": "sample:0.75:ranking"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "sample:1.0:ratio",
+    "value": 1.0,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "ratio",
+        "value": 1.0
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "sample:1.0:AF",
+    "value": 0.591276726939898,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "AF_mean_CCC",
+        "value": 0.591276726939898
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "sample:1.0:ranking",
+    "value": "AF:0.591276727 > BayesB:0.503297597 > Ridge:0.495941309 > GBLUP:0.473465787 > SVR-RBF:0.472798383 > MLP-Dual:0.422740111 > RF:0.402370318 > VMGP:0.130964600",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "full_ranking",
+        "value": "AF:0.591276727 > BayesB:0.503297597 > Ridge:0.495941309 > GBLUP:0.473465787 > SVR-RBF:0.472798383 > MLP-Dual:0.422740111 > RF:0.402370318 > VMGP:0.130964600"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "sample:1.0:Ridge",
+    "value": 0.495941309,
+    "operation": "ranking_value",
+    "args": {
+      "rank": 2
+    },
+    "inputs": [
+      {
+        "element": "sample:1.0:ranking"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "sample:1.0:ranking",
+    "value": "AF:0.591276727 > BayesB:0.503297597 > Ridge:0.495941309 > GBLUP:0.473465787 > SVR-RBF:0.472798383 > MLP-Dual:0.422740111 > RF:0.402370318 > VMGP:0.130964600",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "full_ranking",
+        "value": "AF:0.591276727 > BayesB:0.503297597 > Ridge:0.495941309 > GBLUP:0.473465787 > SVR-RBF:0.472798383 > MLP-Dual:0.422740111 > RF:0.402370318 > VMGP:0.130964600"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "sample:1.0:MLP-Dual",
+    "value": 0.422740111,
+    "operation": "ranking_value",
+    "args": {
+      "rank": 5
+    },
+    "inputs": [
+      {
+        "element": "sample:1.0:ranking"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "marker:0.125:ratio",
+    "value": 0.125,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "ratio",
+        "value": 0.125
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "marker:0.125:AF",
+    "value": 0.5725695169724505,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "AF_mean_CCC",
+        "value": 0.5725695169724505
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "marker:0.125:BayesB",
+    "value": 0.4835470977446605,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "corrected_BayesB_mean_CCC",
+        "value": 0.4835470977446605
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "marker:0.125:ranking",
+    "value": "AF:0.572569517 > Ridge:0.487072204 > BayesB:0.483547098 > GBLUP:0.467355101 > MLP-Dual:0.464172385 > SVR-RBF:0.456330213 > RF:0.404918243 > VMGP:0.176281149",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "full_ranking",
+        "value": "AF:0.572569517 > Ridge:0.487072204 > BayesB:0.483547098 > GBLUP:0.467355101 > MLP-Dual:0.464172385 > SVR-RBF:0.456330213 > RF:0.404918243 > VMGP:0.176281149"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "marker:0.125:Ridge",
+    "value": 0.487072204,
+    "operation": "ranking_value",
+    "args": {
+      "rank": 1
+    },
+    "inputs": [
+      {
+        "element": "marker:0.125:ranking"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "marker:0.25:ratio",
+    "value": 0.25,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "ratio",
+        "value": 0.25
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "marker:0.25:AF",
+    "value": 0.5740440079823156,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "AF_mean_CCC",
+        "value": 0.5740440079823156
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "marker:0.25:BayesB",
+    "value": 0.5194265938043469,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "corrected_BayesB_mean_CCC",
+        "value": 0.5194265938043469
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "marker:0.25:ranking",
+    "value": "AF:0.574044008 > BayesB:0.519426594 > Ridge:0.503283920 > MLP-Dual:0.481174093 > GBLUP:0.474854452 > SVR-RBF:0.460798524 > RF:0.390432874 > VMGP:0.149598827",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "full_ranking",
+        "value": "AF:0.574044008 > BayesB:0.519426594 > Ridge:0.503283920 > MLP-Dual:0.481174093 > GBLUP:0.474854452 > SVR-RBF:0.460798524 > RF:0.390432874 > VMGP:0.149598827"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "marker:0.25:Ridge",
+    "value": 0.50328392,
+    "operation": "ranking_value",
+    "args": {
+      "rank": 2
+    },
+    "inputs": [
+      {
+        "element": "marker:0.25:ranking"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "marker:0.5:ratio",
+    "value": 0.5,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "ratio",
+        "value": 0.5
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "marker:0.5:AF",
+    "value": 0.5615502957269269,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "AF_mean_CCC",
+        "value": 0.5615502957269269
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "marker:0.5:BayesB",
+    "value": 0.5116139326733482,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "corrected_BayesB_mean_CCC",
+        "value": 0.5116139326733482
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "marker:0.5:ranking",
+    "value": "AF:0.561550296 > SVR-RBF:0.511771307 > BayesB:0.511613933 > MLP-Dual:0.503034156 > Ridge:0.502154174 > GBLUP:0.496791470 > RF:0.421826683 > VMGP:0.182184153",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "full_ranking",
+        "value": "AF:0.561550296 > SVR-RBF:0.511771307 > BayesB:0.511613933 > MLP-Dual:0.503034156 > Ridge:0.502154174 > GBLUP:0.496791470 > RF:0.421826683 > VMGP:0.182184153"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "marker:0.5:Ridge",
+    "value": 0.502154174,
+    "operation": "ranking_value",
+    "args": {
+      "rank": 4
+    },
+    "inputs": [
+      {
+        "element": "marker:0.5:ranking"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "marker:shared100:ratio",
+    "value": 1.0,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "ratio",
+        "value": 1.0
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "marker:shared100:AF",
+    "value": 0.591276726939898,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "AF_mean_CCC",
+        "value": 0.591276726939898
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "marker:shared100:BayesB",
+    "value": 0.5032975969925397,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "corrected_BayesB_mean_CCC",
+        "value": 0.5032975969925397
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "marker:shared100:ranking",
+    "value": "AF:0.591276727 > BayesB:0.503297597 > Ridge:0.495941309 > GBLUP:0.473465787 > SVR-RBF:0.472798383 > MLP-Dual:0.422740111 > RF:0.402370318 > VMGP:0.130964600",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "full_ranking",
+        "value": "AF:0.591276727 > BayesB:0.503297597 > Ridge:0.495941309 > GBLUP:0.473465787 > SVR-RBF:0.472798383 > MLP-Dual:0.422740111 > RF:0.402370318 > VMGP:0.130964600"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "marker:shared100:Ridge",
+    "value": 0.495941309,
+    "operation": "ranking_value",
+    "args": {
+      "rank": 2
+    },
+    "inputs": [
+      {
+        "element": "marker:shared100:ranking"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.0:row1:baseline",
+    "value": 0.8135225802044967,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/A_X4_missing.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "ccc_population",
+        "value": 0.8135225802044967
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.0:row1:observed",
+    "value": 0.8135225802044967,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/A_X4_missing.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "ccc_population",
+        "value": 0.8135225802044967
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.0:row1:drop",
+    "value": 0.0,
+    "operation": "subtract",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:AUS2015:AF:0.0:row1:baseline"
+      },
+      {
+        "element": "missing:AUS2015:AF:0.0:row1:observed"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.0:row2:baseline",
+    "value": 0.8135225802044967,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/A_X4_missing.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "ccc_population",
+        "value": 0.8135225802044967
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.0:row2:observed",
+    "value": 0.8135225802044967,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/A_X4_missing.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "ccc_population",
+        "value": 0.8135225802044967
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.0:row2:drop",
+    "value": 0.0,
+    "operation": "subtract",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:AUS2015:AF:0.0:row2:baseline"
+      },
+      {
+        "element": "missing:AUS2015:AF:0.0:row2:observed"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.0:row3:baseline",
+    "value": 0.8135225802044967,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/A_X4_missing.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "ccc_population",
+        "value": 0.8135225802044967
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.0:row3:observed",
+    "value": 0.8135225802044967,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/A_X4_missing.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "ccc_population",
+        "value": 0.8135225802044967
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.0:row3:drop",
+    "value": 0.0,
+    "operation": "subtract",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:AUS2015:AF:0.0:row3:baseline"
+      },
+      {
+        "element": "missing:AUS2015:AF:0.0:row3:observed"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.0:mean_drop",
+    "value": 0.0,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:AUS2015:AF:0.0:row1:drop"
+      },
+      {
+        "element": "missing:AUS2015:AF:0.0:row2:drop"
+      },
+      {
+        "element": "missing:AUS2015:AF:0.0:row3:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.0:units",
+    "value": 3,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:AUS2015:AF:0.0:row1:drop"
+      },
+      {
+        "element": "missing:AUS2015:AF:0.0:row2:drop"
+      },
+      {
+        "element": "missing:AUS2015:AF:0.0:row3:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.1:row7:baseline",
+    "value": 0.8135225802044967,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/A_X4_missing.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "ccc_population",
+        "value": 0.8135225802044967
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.1:row7:observed",
+    "value": 0.8114340021257397,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/A_X4_missing.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "ccc_population",
+        "value": 0.8114340021257397
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.1:row7:drop",
+    "value": 0.002088578078757064,
+    "operation": "subtract",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:AUS2015:AF:0.1:row7:baseline"
+      },
+      {
+        "element": "missing:AUS2015:AF:0.1:row7:observed"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.1:row8:baseline",
+    "value": 0.8135225802044967,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/A_X4_missing.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "ccc_population",
+        "value": 0.8135225802044967
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.1:row8:observed",
+    "value": 0.8145726608126177,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/A_X4_missing.csv",
+        "kind": "csv",
+        "data_row": 8,
+        "column": "ccc_population",
+        "value": 0.8145726608126177
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.1:row8:drop",
+    "value": -0.0010500806081209513,
+    "operation": "subtract",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:AUS2015:AF:0.1:row8:baseline"
+      },
+      {
+        "element": "missing:AUS2015:AF:0.1:row8:observed"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.1:row9:baseline",
+    "value": 0.8135225802044967,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/A_X4_missing.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "ccc_population",
+        "value": 0.8135225802044967
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.1:row9:observed",
+    "value": 0.8136929862798691,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/A_X4_missing.csv",
+        "kind": "csv",
+        "data_row": 9,
+        "column": "ccc_population",
+        "value": 0.8136929862798691
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.1:row9:drop",
+    "value": -0.00017040607537233132,
+    "operation": "subtract",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:AUS2015:AF:0.1:row9:baseline"
+      },
+      {
+        "element": "missing:AUS2015:AF:0.1:row9:observed"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.1:mean_drop",
+    "value": 0.0002893637984212605,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:AUS2015:AF:0.1:row7:drop"
+      },
+      {
+        "element": "missing:AUS2015:AF:0.1:row8:drop"
+      },
+      {
+        "element": "missing:AUS2015:AF:0.1:row9:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.1:units",
+    "value": 3,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:AUS2015:AF:0.1:row7:drop"
+      },
+      {
+        "element": "missing:AUS2015:AF:0.1:row8:drop"
+      },
+      {
+        "element": "missing:AUS2015:AF:0.1:row9:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.5:row13:baseline",
+    "value": 0.8135225802044967,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/A_X4_missing.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "ccc_population",
+        "value": 0.8135225802044967
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.5:row13:observed",
+    "value": 0.8053388063680753,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/A_X4_missing.csv",
+        "kind": "csv",
+        "data_row": 13,
+        "column": "ccc_population",
+        "value": 0.8053388063680753
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.5:row13:drop",
+    "value": 0.008183773836421437,
+    "operation": "subtract",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:AUS2015:AF:0.5:row13:baseline"
+      },
+      {
+        "element": "missing:AUS2015:AF:0.5:row13:observed"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.5:row14:baseline",
+    "value": 0.8135225802044967,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/A_X4_missing.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "ccc_population",
+        "value": 0.8135225802044967
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.5:row14:observed",
+    "value": 0.8135861341182702,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/A_X4_missing.csv",
+        "kind": "csv",
+        "data_row": 14,
+        "column": "ccc_population",
+        "value": 0.8135861341182702
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.5:row14:drop",
+    "value": -6.355391377343977e-05,
+    "operation": "subtract",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:AUS2015:AF:0.5:row14:baseline"
+      },
+      {
+        "element": "missing:AUS2015:AF:0.5:row14:observed"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.5:row15:baseline",
+    "value": 0.8135225802044967,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/A_X4_missing.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "ccc_population",
+        "value": 0.8135225802044967
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.5:row15:observed",
+    "value": 0.8114436189387633,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/A_X4_missing.csv",
+        "kind": "csv",
+        "data_row": 15,
+        "column": "ccc_population",
+        "value": 0.8114436189387633
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.5:row15:drop",
+    "value": 0.002078961265733481,
+    "operation": "subtract",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:AUS2015:AF:0.5:row15:baseline"
+      },
+      {
+        "element": "missing:AUS2015:AF:0.5:row15:observed"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.5:mean_drop",
+    "value": 0.003399727062793826,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:AUS2015:AF:0.5:row13:drop"
+      },
+      {
+        "element": "missing:AUS2015:AF:0.5:row14:drop"
+      },
+      {
+        "element": "missing:AUS2015:AF:0.5:row15:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:AF:0.5:units",
+    "value": 3,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:AUS2015:AF:0.5:row13:drop"
+      },
+      {
+        "element": "missing:AUS2015:AF:0.5:row14:drop"
+      },
+      {
+        "element": "missing:AUS2015:AF:0.5:row15:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:GBLUP:0.0:row1:drop",
+    "value": 0.0,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/A_GBLUP_missing.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "delta_ccc_from_f0",
+        "value": 0.0
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:GBLUP:0.0:mean_drop",
+    "value": 0.0,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:AUS2015:GBLUP:0.0:row1:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:GBLUP:0.0:units",
+    "value": 1,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:AUS2015:GBLUP:0.0:row1:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:GBLUP:0.1:row5:drop",
+    "value": 0.0247483950616135,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/A_GBLUP_missing.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "delta_ccc_from_f0",
+        "value": 0.0247483950616135
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:GBLUP:0.1:row6:drop",
+    "value": 0.0188671227509484,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/A_GBLUP_missing.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "delta_ccc_from_f0",
+        "value": 0.0188671227509484
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:GBLUP:0.1:row7:drop",
+    "value": 0.0233401785272305,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/A_GBLUP_missing.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "delta_ccc_from_f0",
+        "value": 0.0233401785272305
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:GBLUP:0.1:mean_drop",
+    "value": 0.022318565446597466,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:AUS2015:GBLUP:0.1:row5:drop"
+      },
+      {
+        "element": "missing:AUS2015:GBLUP:0.1:row6:drop"
+      },
+      {
+        "element": "missing:AUS2015:GBLUP:0.1:row7:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:GBLUP:0.1:units",
+    "value": 3,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:AUS2015:GBLUP:0.1:row5:drop"
+      },
+      {
+        "element": "missing:AUS2015:GBLUP:0.1:row6:drop"
+      },
+      {
+        "element": "missing:AUS2015:GBLUP:0.1:row7:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:GBLUP:0.5:row11:drop",
+    "value": 0.2429327018941691,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/A_GBLUP_missing.csv",
+        "kind": "csv",
+        "data_row": 11,
+        "column": "delta_ccc_from_f0",
+        "value": 0.2429327018941691
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:GBLUP:0.5:row12:drop",
+    "value": 0.2282791844096769,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/A_GBLUP_missing.csv",
+        "kind": "csv",
+        "data_row": 12,
+        "column": "delta_ccc_from_f0",
+        "value": 0.2282791844096769
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:GBLUP:0.5:row13:drop",
+    "value": 0.2319112572043062,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/A_GBLUP_missing.csv",
+        "kind": "csv",
+        "data_row": 13,
+        "column": "delta_ccc_from_f0",
+        "value": 0.2319112572043062
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:GBLUP:0.5:mean_drop",
+    "value": 0.23437438116938406,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:AUS2015:GBLUP:0.5:row11:drop"
+      },
+      {
+        "element": "missing:AUS2015:GBLUP:0.5:row12:drop"
+      },
+      {
+        "element": "missing:AUS2015:GBLUP:0.5:row13:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:AUS2015:GBLUP:0.5:units",
+    "value": 3,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:AUS2015:GBLUP:0.5:row11:drop"
+      },
+      {
+        "element": "missing:AUS2015:GBLUP:0.5:row12:drop"
+      },
+      {
+        "element": "missing:AUS2015:GBLUP:0.5:row13:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.0:row61:drop",
+    "value": 2.435965562597175e-08,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 61,
+        "column": "ccc_drop_from_f0",
+        "value": 2.435965562597175e-08
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.0:row62:drop",
+    "value": 2.435965562597175e-08,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 62,
+        "column": "ccc_drop_from_f0",
+        "value": 2.435965562597175e-08
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.0:row63:drop",
+    "value": 2.435965562597175e-08,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 63,
+        "column": "ccc_drop_from_f0",
+        "value": 2.435965562597175e-08
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.0:row73:drop",
+    "value": 2.023346379331769e-09,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 73,
+        "column": "ccc_drop_from_f0",
+        "value": 2.023346379331769e-09
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.0:row74:drop",
+    "value": 2.023346379331769e-09,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 74,
+        "column": "ccc_drop_from_f0",
+        "value": 2.023346379331769e-09
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.0:row75:drop",
+    "value": 2.023346379331769e-09,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 75,
+        "column": "ccc_drop_from_f0",
+        "value": 2.023346379331769e-09
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.0:row85:drop",
+    "value": -1.2356365930443758e-08,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 85,
+        "column": "ccc_drop_from_f0",
+        "value": -1.2356365930443758e-08
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.0:row86:drop",
+    "value": -1.2356365930443758e-08,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 86,
+        "column": "ccc_drop_from_f0",
+        "value": -1.2356365930443758e-08
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.0:row87:drop",
+    "value": -1.2356365930443758e-08,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 87,
+        "column": "ccc_drop_from_f0",
+        "value": -1.2356365930443758e-08
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.0:row97:drop",
+    "value": -4.2950353384973994e-08,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 97,
+        "column": "ccc_drop_from_f0",
+        "value": -4.2950353384973994e-08
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.0:row98:drop",
+    "value": -4.2950353384973994e-08,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 98,
+        "column": "ccc_drop_from_f0",
+        "value": -4.2950353384973994e-08
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.0:row99:drop",
+    "value": -4.2950353384973994e-08,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 99,
+        "column": "ccc_drop_from_f0",
+        "value": -4.2950353384973994e-08
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.0:row109:drop",
+    "value": -1.0094494240497909e-08,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 109,
+        "column": "ccc_drop_from_f0",
+        "value": -1.0094494240497909e-08
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.0:row110:drop",
+    "value": -1.0094494240497909e-08,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 110,
+        "column": "ccc_drop_from_f0",
+        "value": -1.0094494240497909e-08
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.0:row111:drop",
+    "value": -1.0094494240497909e-08,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 111,
+        "column": "ccc_drop_from_f0",
+        "value": -1.0094494240497909e-08
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.0:mean_drop",
+    "value": -7.803642310122428e-09,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:GABI:AF:0.0:row61:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row62:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row63:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row73:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row74:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row75:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row85:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row86:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row87:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row97:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row98:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row99:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row109:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row110:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row111:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.0:units",
+    "value": 15,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:GABI:AF:0.0:row61:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row62:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row63:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row73:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row74:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row75:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row85:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row86:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row87:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row97:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row98:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row99:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row109:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row110:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.0:row111:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.1:row64:drop",
+    "value": 0.0228093189833462,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 64,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0228093189833462
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.1:row65:drop",
+    "value": 0.0089161291146689,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 65,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0089161291146689
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.1:row66:drop",
+    "value": 0.0007127888453239,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 66,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0007127888453239
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.1:row76:drop",
+    "value": 0.0234384074653398,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 76,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0234384074653398
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.1:row77:drop",
+    "value": 0.0045961144436839,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 77,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0045961144436839
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.1:row78:drop",
+    "value": -0.0023436693962313,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 78,
+        "column": "ccc_drop_from_f0",
+        "value": -0.0023436693962313
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.1:row88:drop",
+    "value": 0.0163992489489525,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 88,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0163992489489525
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.1:row89:drop",
+    "value": 0.0026919153055872,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 89,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0026919153055872
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.1:row90:drop",
+    "value": -0.0038461749023183,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 90,
+        "column": "ccc_drop_from_f0",
+        "value": -0.0038461749023183
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.1:row100:drop",
+    "value": 0.0147199861989922,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 100,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0147199861989922
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.1:row101:drop",
+    "value": -0.0016689393224855,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 101,
+        "column": "ccc_drop_from_f0",
+        "value": -0.0016689393224855
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.1:row102:drop",
+    "value": -0.0068239419643103,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 102,
+        "column": "ccc_drop_from_f0",
+        "value": -0.0068239419643103
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.1:row112:drop",
+    "value": 0.0149505104992793,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 112,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0149505104992793
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.1:row113:drop",
+    "value": 0.0024603349866633,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 113,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0024603349866633
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.1:row114:drop",
+    "value": -0.0054186247493096,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 114,
+        "column": "ccc_drop_from_f0",
+        "value": -0.0054186247493096
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.1:mean_drop",
+    "value": 0.0061062269638121475,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:GABI:AF:0.1:row64:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row65:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row66:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row76:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row77:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row78:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row88:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row89:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row90:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row100:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row101:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row102:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row112:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row113:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row114:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:AF:0.1:units",
+    "value": 15,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:GABI:AF:0.1:row64:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row65:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row66:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row76:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row77:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row78:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row88:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row89:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row90:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row100:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row101:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row102:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row112:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row113:drop"
+      },
+      {
+        "element": "missing:GABI:AF:0.1:row114:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.0:row1:drop",
+    "value": 2.694181544526941e-09,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "ccc_drop_from_f0",
+        "value": 2.694181544526941e-09
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.0:row2:drop",
+    "value": 2.694181544526941e-09,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "ccc_drop_from_f0",
+        "value": 2.694181544526941e-09
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.0:row3:drop",
+    "value": 2.694181544526941e-09,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "ccc_drop_from_f0",
+        "value": 2.694181544526941e-09
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.0:row13:drop",
+    "value": 1.2609321808909613e-08,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 13,
+        "column": "ccc_drop_from_f0",
+        "value": 1.2609321808909613e-08
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.0:row14:drop",
+    "value": 1.2609321808909613e-08,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 14,
+        "column": "ccc_drop_from_f0",
+        "value": 1.2609321808909613e-08
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.0:row15:drop",
+    "value": 1.2609321808909613e-08,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 15,
+        "column": "ccc_drop_from_f0",
+        "value": 1.2609321808909613e-08
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.0:row25:drop",
+    "value": 2.702331358683807e-08,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 25,
+        "column": "ccc_drop_from_f0",
+        "value": 2.702331358683807e-08
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.0:row26:drop",
+    "value": 2.702331358683807e-08,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 26,
+        "column": "ccc_drop_from_f0",
+        "value": 2.702331358683807e-08
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.0:row27:drop",
+    "value": 2.702331358683807e-08,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 27,
+        "column": "ccc_drop_from_f0",
+        "value": 2.702331358683807e-08
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.0:row37:drop",
+    "value": 9.338844308981464e-09,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 37,
+        "column": "ccc_drop_from_f0",
+        "value": 9.338844308981464e-09
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.0:row38:drop",
+    "value": 9.338844308981464e-09,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 38,
+        "column": "ccc_drop_from_f0",
+        "value": 9.338844308981464e-09
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.0:row39:drop",
+    "value": 9.338844308981464e-09,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 39,
+        "column": "ccc_drop_from_f0",
+        "value": 9.338844308981464e-09
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.0:row49:drop",
+    "value": 5.511819611836444e-09,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 49,
+        "column": "ccc_drop_from_f0",
+        "value": 5.511819611836444e-09
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.0:row50:drop",
+    "value": 5.511819611836444e-09,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 50,
+        "column": "ccc_drop_from_f0",
+        "value": 5.511819611836444e-09
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.0:row51:drop",
+    "value": 5.511819611836444e-09,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 51,
+        "column": "ccc_drop_from_f0",
+        "value": 5.511819611836444e-09
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.0:mean_drop",
+    "value": 1.1435496172218506e-08,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:Ward:AF:0.0:row1:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row2:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row3:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row13:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row14:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row15:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row25:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row26:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row27:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row37:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row38:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row39:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row49:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row50:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row51:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.0:units",
+    "value": 15,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:Ward:AF:0.0:row1:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row2:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row3:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row13:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row14:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row15:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row25:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row26:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row27:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row37:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row38:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row39:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row49:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row50:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.0:row51:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.1:row4:drop",
+    "value": 0.0163067885733519,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0163067885733519
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.1:row5:drop",
+    "value": 0.0041337486743612,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0041337486743612
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.1:row6:drop",
+    "value": 0.0082427720615291,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0082427720615291
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.1:row16:drop",
+    "value": 0.0178497750390602,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 16,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0178497750390602
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.1:row17:drop",
+    "value": 0.0031896933194108,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 17,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0031896933194108
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.1:row18:drop",
+    "value": 0.0079884360188976,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 18,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0079884360188976
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.1:row28:drop",
+    "value": 0.0161454438253571,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 28,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0161454438253571
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.1:row29:drop",
+    "value": 0.0026483991853367,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 29,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0026483991853367
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.1:row30:drop",
+    "value": 0.0081460544216824,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 30,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0081460544216824
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.1:row40:drop",
+    "value": 0.016820741974016,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 40,
+        "column": "ccc_drop_from_f0",
+        "value": 0.016820741974016
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.1:row41:drop",
+    "value": 0.003371023042922,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 41,
+        "column": "ccc_drop_from_f0",
+        "value": 0.003371023042922
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.1:row42:drop",
+    "value": 0.0074516785215045,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 42,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0074516785215045
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.1:row52:drop",
+    "value": 0.0143516179460732,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 52,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0143516179460732
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.1:row53:drop",
+    "value": 0.0025232235042431,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 53,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0025232235042431
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.1:row54:drop",
+    "value": 0.0064093552104906,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv",
+        "kind": "csv",
+        "data_row": 54,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0064093552104906
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.1:mean_drop",
+    "value": 0.009038583421215761,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:Ward:AF:0.1:row4:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row5:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row6:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row16:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row17:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row18:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row28:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row29:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row30:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row40:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row41:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row42:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row52:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row53:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row54:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:AF:0.1:units",
+    "value": 15,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:Ward:AF:0.1:row4:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row5:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row6:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row16:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row17:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row18:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row28:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row29:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row30:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row40:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row41:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row42:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row52:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row53:drop"
+      },
+      {
+        "element": "missing:Ward:AF:0.1:row54:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:GBLUP:0.0:row1:drop",
+    "value": 0.0,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_GBLUP_missing_external.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:GBLUP:0.0:row2:drop",
+    "value": 0.0,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_GBLUP_missing_external.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:GBLUP:0.0:row3:drop",
+    "value": 0.0,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_GBLUP_missing_external.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:GBLUP:0.0:mean_drop",
+    "value": 0.0,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:GABI:GBLUP:0.0:row1:drop"
+      },
+      {
+        "element": "missing:GABI:GBLUP:0.0:row2:drop"
+      },
+      {
+        "element": "missing:GABI:GBLUP:0.0:row3:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:GBLUP:0.0:units",
+    "value": 3,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:GABI:GBLUP:0.0:row1:drop"
+      },
+      {
+        "element": "missing:GABI:GBLUP:0.0:row2:drop"
+      },
+      {
+        "element": "missing:GABI:GBLUP:0.0:row3:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:GBLUP:0.1:row4:drop",
+    "value": 0.0225200355629404,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_GBLUP_missing_external.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0225200355629404
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:GBLUP:0.1:row5:drop",
+    "value": 0.0145786720460237,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_GBLUP_missing_external.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0145786720460237
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:GBLUP:0.1:row6:drop",
+    "value": 0.0301820327747119,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_GBLUP_missing_external.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0301820327747119
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:GBLUP:0.1:mean_drop",
+    "value": 0.022426913461225332,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:GABI:GBLUP:0.1:row4:drop"
+      },
+      {
+        "element": "missing:GABI:GBLUP:0.1:row5:drop"
+      },
+      {
+        "element": "missing:GABI:GBLUP:0.1:row6:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:GABI:GBLUP:0.1:units",
+    "value": 3,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:GABI:GBLUP:0.1:row4:drop"
+      },
+      {
+        "element": "missing:GABI:GBLUP:0.1:row5:drop"
+      },
+      {
+        "element": "missing:GABI:GBLUP:0.1:row6:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:GBLUP:0.0:row13:drop",
+    "value": 0.0,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_GBLUP_missing_external.csv",
+        "kind": "csv",
+        "data_row": 13,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:GBLUP:0.0:row14:drop",
+    "value": 0.0,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_GBLUP_missing_external.csv",
+        "kind": "csv",
+        "data_row": 14,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:GBLUP:0.0:row15:drop",
+    "value": 0.0,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_GBLUP_missing_external.csv",
+        "kind": "csv",
+        "data_row": 15,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:GBLUP:0.0:mean_drop",
+    "value": 0.0,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:Ward:GBLUP:0.0:row13:drop"
+      },
+      {
+        "element": "missing:Ward:GBLUP:0.0:row14:drop"
+      },
+      {
+        "element": "missing:Ward:GBLUP:0.0:row15:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:GBLUP:0.0:units",
+    "value": 3,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:Ward:GBLUP:0.0:row13:drop"
+      },
+      {
+        "element": "missing:Ward:GBLUP:0.0:row14:drop"
+      },
+      {
+        "element": "missing:Ward:GBLUP:0.0:row15:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:GBLUP:0.1:row16:drop",
+    "value": 0.0214126490353895,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_GBLUP_missing_external.csv",
+        "kind": "csv",
+        "data_row": 16,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0214126490353895
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:GBLUP:0.1:row17:drop",
+    "value": 0.0171532498255551,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_GBLUP_missing_external.csv",
+        "kind": "csv",
+        "data_row": 17,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0171532498255551
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:GBLUP:0.1:row18:drop",
+    "value": 0.0255870554829317,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/E_GBLUP_missing_external.csv",
+        "kind": "csv",
+        "data_row": 18,
+        "column": "ccc_drop_from_f0",
+        "value": 0.0255870554829317
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:GBLUP:0.1:mean_drop",
+    "value": 0.021384318114625434,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:Ward:GBLUP:0.1:row16:drop"
+      },
+      {
+        "element": "missing:Ward:GBLUP:0.1:row17:drop"
+      },
+      {
+        "element": "missing:Ward:GBLUP:0.1:row18:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "missing:Ward:GBLUP:0.1:units",
+    "value": 3,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "element": "missing:Ward:GBLUP:0.1:row16:drop"
+      },
+      {
+        "element": "missing:Ward:GBLUP:0.1:row17:drop"
+      },
+      {
+        "element": "missing:Ward:GBLUP:0.1:row18:drop"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "applicability:AUS2015:Cb",
+    "value": 0.9625807858515576,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R6_APPLICABILITY.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "linear_cb",
+        "value": 0.9625807858515576
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "applicability:AUS2015:delta",
+    "value": -0.0588643092003607,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R6_APPLICABILITY.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "af_minus_linear_ccc",
+        "value": -0.0588643092003607
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "applicability:GABI:Cb",
+    "value": 0.9090750821214816,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R6_APPLICABILITY.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "linear_cb",
+        "value": 0.9090750821214816
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "applicability:GABI:delta",
+    "value": 0.0008045227659936,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R6_APPLICABILITY.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "af_minus_linear_ccc",
+        "value": 0.0008045227659936
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "applicability:Ward:Cb",
+    "value": 0.6842865868332173,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R6_APPLICABILITY.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "linear_cb",
+        "value": 0.6842865868332173
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "applicability:Ward:delta",
+    "value": 0.0977235194814853,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R6_APPLICABILITY.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "af_minus_linear_ccc",
+        "value": 0.0977235194814853
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "applicability:lentil:Cb",
+    "value": 0.9781753026854572,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R6_APPLICABILITY.csv",
+        "kind": "csv",
+        "data_row": 19,
+        "column": "linear_cb",
+        "value": 0.9781753026854572
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "applicability:lentil:delta",
+    "value": -0.0347240154363384,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R6_APPLICABILITY.csv",
+        "kind": "csv",
+        "data_row": 19,
+        "column": "af_minus_linear_ccc",
+        "value": -0.0347240154363384
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "applicability:pine:Cb",
+    "value": 0.9631606259765308,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R6_APPLICABILITY.csv",
+        "kind": "csv",
+        "data_row": 22,
+        "column": "linear_cb",
+        "value": 0.9631606259765308
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "applicability:pine:delta",
+    "value": -0.0022866891874421,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R6_APPLICABILITY.csv",
+        "kind": "csv",
+        "data_row": 22,
+        "column": "af_minus_linear_ccc",
+        "value": -0.0022866891874421
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "applicability:rice:Cb",
+    "value": 0.9517057139635678,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R6_APPLICABILITY.csv",
+        "kind": "csv",
+        "data_row": 13,
+        "column": "linear_cb",
+        "value": 0.9517057139635678
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "applicability:rice:delta",
+    "value": 0.0200833431876276,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R6_APPLICABILITY.csv",
+        "kind": "csv",
+        "data_row": 13,
+        "column": "af_minus_linear_ccc",
+        "value": 0.0200833431876276
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "applicability:wheatG:Cb",
+    "value": 0.9118641085018796,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R6_APPLICABILITY.csv",
+        "kind": "csv",
+        "data_row": 10,
+        "column": "linear_cb",
+        "value": 0.9118641085018796
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "applicability:wheatG:delta",
+    "value": -0.020836833640794,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R6_APPLICABILITY.csv",
+        "kind": "csv",
+        "data_row": 10,
+        "column": "af_minus_linear_ccc",
+        "value": -0.020836833640794
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "applicability:Spearman_rho",
+    "value": -0.6785714285714287,
+    "operation": "spearman",
+    "args": {},
+    "inputs": [
+      {
+        "element": "applicability:AUS2015:Cb"
+      },
+      {
+        "element": "applicability:GABI:Cb"
+      },
+      {
+        "element": "applicability:Ward:Cb"
+      },
+      {
+        "element": "applicability:lentil:Cb"
+      },
+      {
+        "element": "applicability:pine:Cb"
+      },
+      {
+        "element": "applicability:rice:Cb"
+      },
+      {
+        "element": "applicability:wheatG:Cb"
+      },
+      {
+        "element": "applicability:AUS2015:delta"
+      },
+      {
+        "element": "applicability:GABI:delta"
+      },
+      {
+        "element": "applicability:Ward:delta"
+      },
+      {
+        "element": "applicability:lentil:delta"
+      },
+      {
+        "element": "applicability:pine:delta"
+      },
+      {
+        "element": "applicability:rice:delta"
+      },
+      {
+        "element": "applicability:wheatG:delta"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 4",
+    "element": "applicability:n",
+    "value": 7,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "element": "applicability:AUS2015:Cb"
+      },
+      {
+        "element": "applicability:GABI:Cb"
+      },
+      {
+        "element": "applicability:Ward:Cb"
+      },
+      {
+        "element": "applicability:lentil:Cb"
+      },
+      {
+        "element": "applicability:pine:Cb"
+      },
+      {
+        "element": "applicability:rice:Cb"
+      },
+      {
+        "element": "applicability:wheatG:Cb"
+      }
+    ]
+  }
+]

@@ -1,0 +1,667 @@
+[
+  {
+    "artifact": "Fig. 3",
+    "element": "AUS2015:mean_delta_ln_pcc",
+    "value": 0.0052121414953643,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "mean_delta_ln_pcc",
+        "value": 0.0052121414953643
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "AUS2015:mean_delta_ln_cb",
+    "value": 0.1089866860603288,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "mean_delta_ln_cb",
+        "value": 0.1089866860603288
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "AUS2015:mean_delta_ccc",
+    "value": 0.0686853370076369,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "mean_delta_ccc",
+        "value": 0.0686853370076369
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "AUS2015:n_units",
+    "value": 15,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "n_units",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "AUS2015:protocol",
+    "value": "v13k K",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "protocol",
+        "value": "v13k K"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "AUS2015:delta_ln_ccc",
+    "value": 0.11419882755569309,
+    "operation": "sum",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:mean_delta_ln_pcc"
+      },
+      {
+        "element": "AUS2015:mean_delta_ln_cb"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "GABI:mean_delta_ln_pcc",
+    "value": -0.0086106089474388,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "mean_delta_ln_pcc",
+        "value": -0.0086106089474388
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "GABI:mean_delta_ln_cb",
+    "value": 0.618246167048275,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "mean_delta_ln_cb",
+        "value": 0.618246167048275
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "GABI:mean_delta_ccc",
+    "value": 0.2649093571949064,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "mean_delta_ccc",
+        "value": 0.2649093571949064
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "GABI:n_units",
+    "value": 15,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "n_units",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "GABI:protocol",
+    "value": "v13k K",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "protocol",
+        "value": "v13k K"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "GABI:delta_ln_ccc",
+    "value": 0.6096355581008361,
+    "operation": "sum",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:mean_delta_ln_pcc"
+      },
+      {
+        "element": "GABI:mean_delta_ln_cb"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "Ward:mean_delta_ln_pcc",
+    "value": -0.104151226286046,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "mean_delta_ln_pcc",
+        "value": -0.104151226286046
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "Ward:mean_delta_ln_cb",
+    "value": 0.3483561799772098,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "mean_delta_ln_cb",
+        "value": 0.3483561799772098
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "Ward:mean_delta_ccc",
+    "value": 0.0706018595827842,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "mean_delta_ccc",
+        "value": 0.0706018595827842
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "Ward:n_units",
+    "value": 15,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "n_units",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "Ward:protocol",
+    "value": "v13k K",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "protocol",
+        "value": "v13k K"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "Ward:delta_ln_ccc",
+    "value": 0.2442049536911638,
+    "operation": "sum",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:mean_delta_ln_pcc"
+      },
+      {
+        "element": "Ward:mean_delta_ln_cb"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "lentil:mean_delta_ln_pcc",
+    "value": -0.0034599819982524,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "mean_delta_ln_pcc",
+        "value": -0.0034599819982524
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "lentil:mean_delta_ln_cb",
+    "value": 0.1315808058901391,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "mean_delta_ln_cb",
+        "value": 0.1315808058901391
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "lentil:mean_delta_ccc",
+    "value": 0.0876886670261574,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "mean_delta_ccc",
+        "value": 0.0876886670261574
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "lentil:n_units",
+    "value": 10,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "n_units",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "lentil:protocol",
+    "value": "v13o O",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "protocol",
+        "value": "v13o O"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "lentil:delta_ln_ccc",
+    "value": 0.1281208238918867,
+    "operation": "sum",
+    "args": {},
+    "inputs": [
+      {
+        "element": "lentil:mean_delta_ln_pcc"
+      },
+      {
+        "element": "lentil:mean_delta_ln_cb"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "pine:mean_delta_ln_pcc",
+    "value": 0.0155442303877511,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "mean_delta_ln_pcc",
+        "value": 0.0155442303877511
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "pine:mean_delta_ln_cb",
+    "value": 0.1994901815931389,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "mean_delta_ln_cb",
+        "value": 0.1994901815931389
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "pine:mean_delta_ccc",
+    "value": 0.1410877942940506,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "mean_delta_ccc",
+        "value": 0.1410877942940506
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "pine:n_units",
+    "value": 10,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "n_units",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "pine:protocol",
+    "value": "v13o O",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "protocol",
+        "value": "v13o O"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "pine:delta_ln_ccc",
+    "value": 0.21503441198089,
+    "operation": "sum",
+    "args": {},
+    "inputs": [
+      {
+        "element": "pine:mean_delta_ln_pcc"
+      },
+      {
+        "element": "pine:mean_delta_ln_cb"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "rice:mean_delta_ln_pcc",
+    "value": 0.0231601061324773,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "mean_delta_ln_pcc",
+        "value": 0.0231601061324773
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "rice:mean_delta_ln_cb",
+    "value": 0.0867822766222095,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "mean_delta_ln_cb",
+        "value": 0.0867822766222095
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "rice:mean_delta_ccc",
+    "value": 0.0701793393838756,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "mean_delta_ccc",
+        "value": 0.0701793393838756
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "rice:n_units",
+    "value": 10,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "n_units",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "rice:protocol",
+    "value": "v13o O",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "protocol",
+        "value": "v13o O"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "rice:delta_ln_ccc",
+    "value": 0.10994238275468679,
+    "operation": "sum",
+    "args": {},
+    "inputs": [
+      {
+        "element": "rice:mean_delta_ln_pcc"
+      },
+      {
+        "element": "rice:mean_delta_ln_cb"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "wheatG:mean_delta_ln_pcc",
+    "value": 0.0227784378678625,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 8,
+        "column": "mean_delta_ln_pcc",
+        "value": 0.0227784378678625
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "wheatG:mean_delta_ln_cb",
+    "value": 0.372716263337402,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 8,
+        "column": "mean_delta_ln_cb",
+        "value": 0.372716263337402
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "wheatG:mean_delta_ccc",
+    "value": 0.1645940835047338,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 8,
+        "column": "mean_delta_ccc",
+        "value": 0.1645940835047338
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "wheatG:n_units",
+    "value": 10,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 8,
+        "column": "n_units",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "wheatG:protocol",
+    "value": "v13o O",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv",
+        "kind": "csv",
+        "data_row": 8,
+        "column": "protocol",
+        "value": "v13o O"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 3",
+    "element": "wheatG:delta_ln_ccc",
+    "value": 0.3954947012052645,
+    "operation": "sum",
+    "args": {},
+    "inputs": [
+      {
+        "element": "wheatG:mean_delta_ln_pcc"
+      },
+      {
+        "element": "wheatG:mean_delta_ln_cb"
+      }
+    ]
+  }
+]

@@ -1,0 +1,3 @@
+outcome,n,rho_CCC,rho_conditional_unbiasedness_score,larger_absolute_association
+threshold_balanced_accuracy,9,0.75,0.4666666666666666,CCC
+negative_absolute_gain_bias,9,0.5499999999999999,0.7,b1_closeness

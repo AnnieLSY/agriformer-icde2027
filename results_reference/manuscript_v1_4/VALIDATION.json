@@ -1,0 +1,155 @@
+{
+  "evidence": {
+    "fig3_evidence.json": {
+      "records": 42,
+      "validated": true
+    },
+    "fig4_evidence.json": {
+      "records": 194,
+      "validated": true
+    },
+    "fig5_evidence.json": {
+      "records": 70,
+      "validated": true
+    },
+    "table_i_evidence.json": {
+      "records": 18,
+      "validated": true
+    },
+    "table_ii_evidence.json": {
+      "records": 77,
+      "validated": true
+    },
+    "table_iii_evidence.json": {
+      "records": 261,
+      "validated": true
+    },
+    "table_iv_evidence.json": {
+      "records": 176,
+      "validated": true
+    },
+    "table_v_evidence.json": {
+      "records": 297,
+      "validated": true
+    }
+  },
+  "source_immutability": {
+    "${WORKSPACE}/CLEANUP_AUDIT_20261022/DUAL_INPUT_IDENTITY_AUDIT_20261025.md": true,
+    "${WORKSPACE}/CLEANUP_AUDIT_20261022/READONLY_RANK_REVERSAL_CLASSIC_DATASETS_20261025.csv": true,
+    "${WORKSPACE}/CLEANUP_AUDIT_20261022/READONLY_RANK_REVERSAL_RANKS_20261025.csv": true,
+    "${WORKSPACE}/ICDE_drafts/LIT_ASSUMPTIONS_20261026.csv": true,
+    "${WORKSPACE}/ICDE_drafts/LIT_ASSUMPTIONS_20261026.md": true,
+    "${WORKSPACE}/ICDE_drafts/VMGP_AND_CITES_20261028.md": true,
+    "${WORKSPACE}/ICDE_drafts/figures_v1/fig1_routing.pdf": true,
+    "${WORKSPACE}/ICDE_drafts/figures_v1/fig2_arch.pdf": true,
+    "${WORKSPACE}/pilot_20261013/aus_infold_pheno_sensitivity_20261025/SUMMARY.json": true,
+    "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv": true,
+    "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv": true,
+    "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG1/FG1_OLD_VS_STRICT.csv": true,
+    "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_DIFFICULTY_INFLATION.csv": true,
+    "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv": true,
+    "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_SUMMARY.json": true,
+    "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp1/FP1_RATIO_COMPARISON.csv": true,
+    "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp3/FP3_E8B_LR_RANGE.csv": true,
+    "${WORKSPACE}/pilot_20261013/final_pack_20261027/fp3/FP3_WHEAT_STAGE1_RANGES.csv": true,
+    "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HF2_AF_RANKS.csv": true,
+    "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HF2_FAMILY_BEST.csv": true,
+    "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv": true,
+    "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R2_AF_SEED_SUMMARY.csv": true,
+    "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R3_WITH_WITHOUT_BEAN_COUNTS.csv": true,
+    "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R5_RECORDED_TIMINGS.csv": true,
+    "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R6_APPLICABILITY.csv": true,
+    "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv": true,
+    "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv": true,
+    "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv": true,
+    "${WORKSPACE}/pilot_20261013/run_v13/A_GBLUP_missing.csv": true,
+    "${WORKSPACE}/pilot_20261013/run_v13/A_X4_missing.csv": true,
+    "${WORKSPACE}/pilot_20261013/run_v13/E_GBLUP_missing_external.csv": true,
+    "${WORKSPACE}/pilot_20261013/run_v13/E_X4_missing_external.csv": true,
+    "${WORKSPACE}/pilot_20261013/run_v13/K/K_SUMMARY.json": true,
+    "${WORKSPACE}/pilot_20261013/run_v13/M/M_SUMMARY.json": true,
+    "${WORKSPACE}/pilot_20261013/run_v13/O/O_SUMMARY.json": true
+  },
+  "figures": {
+    "fig3_tas_gain_decomposition": {
+      "pages": 1,
+      "width_inches": 3.5,
+      "dpi": 299.9994,
+      "font_size_pt": 8,
+      "text_inside_canvas": true,
+      "embedded_fonts_report": "${WORKSPACE}/ICDE_drafts/figures_v1/data/qa/fig3_tas_gain_decomposition_pdffonts.txt"
+    },
+    "fig4_data_conditions": {
+      "pages": 1,
+      "width_inches": 7.16,
+      "dpi": 299.9994,
+      "font_size_pt": 8,
+      "text_inside_canvas": true,
+      "embedded_fonts_report": "${WORKSPACE}/ICDE_drafts/figures_v1/data/qa/fig4_data_conditions_pdffonts.txt"
+    },
+    "fig5_preparation_validity": {
+      "pages": 1,
+      "width_inches": 7.16,
+      "dpi": 299.9994,
+      "font_size_pt": 8,
+      "text_inside_canvas": true,
+      "embedded_fonts_report": "${WORKSPACE}/ICDE_drafts/figures_v1/data/qa/fig5_preparation_validity_pdffonts.txt"
+    }
+  },
+  "tables": {
+    "table_i_related_work.tex": {
+      "scope_check": true,
+      "booktabs": true
+    },
+    "table_iii_holdout_comparison.tex": {
+      "scope_check": true,
+      "booktabs": true,
+      "displayed_entries": 14,
+      "three_population_models": 13,
+      "af_ranks_pcc_ccc": {
+        "AUS2015": "6/8",
+        "GABI": "4/2",
+        "Ward": "9/1"
+      },
+      "aus2015_only_regressors_omitted": 30,
+      "omitted_results_location": "released artifact"
+    },
+    "table_iv_replacements.tex": {
+      "scope_check": true,
+      "booktabs": true
+    },
+    "table_ii_data_profiles.tex": {
+      "scope_check": true,
+      "booktabs": true
+    },
+    "table_v_efficiency_parameters.tex": {
+      "scope_check": true,
+      "booktabs": true,
+      "preparation_share_percent": 3.675607440262876,
+      "preparation_share_display": "3.68%",
+      "timing_units": 80,
+      "timing_datasets": [
+        "lentil",
+        "pine",
+        "rice",
+        "wheatG"
+      ]
+    }
+  },
+  "checks": {
+    "all_numeric_evidence_matches_sources": true,
+    "seven_dataset_scope": true,
+    "table_iii_common_model_scope_and_ranks": true,
+    "table_v_four_dataset_timing_scope": true,
+    "existing_results_unchanged": true,
+    "no_unsolicited_production_notes": true
+  },
+  "table_compile": {
+    "class": "IEEEtran conference",
+    "pages": 5,
+    "overflow_warnings": 0,
+    "undefined_references": 0,
+    "fonts_embedded": true
+  },
+  "failures": []
+}

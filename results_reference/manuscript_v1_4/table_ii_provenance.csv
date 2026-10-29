@@ -1,0 +1,78 @@
+artifact,element,value,source,locator,transform
+Table II,AUS2015:cv_outer_unit_count,15,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 1, column cv_outer_unit_count",identity
+Table II,AUS2015:species,bread wheat (Triticum aestivum),${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 1, column species",identity
+Table II,AUS2015:n,494,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 1, column n",identity
+Table II,AUS2015:p,23899,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 1, column p",identity
+Table II,AUS2015:p_over_n,48.378542510121456,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 1, column p_over_n",identity
+Table II,AUS2015:genotype_encoding,0/2 homozygous additive calls; -1 denotes missing,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 1, column genotype_encoding",identity
+Table II,AUS2015:current_matrix_missing_fraction,0.0082982483809649,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 1, column current_matrix_missing_fraction",identity
+Table II,AUS2015:recorded_trait_count,9,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 1, column recorded_trait_count",identity
+Table II,AUS2015:cv_gblup_prediction_observed_sd_ratio_mean,0.7694683592323578,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 1, column cv_gblup_prediction_observed_sd_ratio_mean",identity
+Table II,AUS2015:cv_gblup_cb_mean,0.9625807858515576,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 1, column cv_gblup_cb_mean",identity
+Table II,AUS2015:missing_percent,0.82982483809649,derived:AUS2015:current_matrix_missing_fraction,,percent
+Table II,GABI:cv_outer_unit_count,15,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 2, column cv_outer_unit_count",identity
+Table II,GABI:species,bread wheat (Triticum aestivum),${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 2, column species",identity
+Table II,GABI:n,371,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 2, column n",identity
+Table II,GABI:p,35143,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 2, column p",identity
+Table II,GABI:p_over_n,94.72506738544476,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 2, column p_over_n",identity
+Table II,GABI:genotype_encoding,0/2 homozygous additive calls; -1 denotes missing,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 2, column genotype_encoding",identity
+Table II,GABI:current_matrix_missing_fraction,0.1373948242118666,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 2, column current_matrix_missing_fraction",identity
+Table II,GABI:recorded_trait_count,18,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 2, column recorded_trait_count",identity
+Table II,GABI:cv_gblup_prediction_observed_sd_ratio_mean,0.6546388504190215,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 2, column cv_gblup_prediction_observed_sd_ratio_mean",identity
+Table II,GABI:cv_gblup_cb_mean,0.9090750821214816,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 2, column cv_gblup_cb_mean",identity
+Table II,GABI:missing_percent,13.739482421186661,derived:GABI:current_matrix_missing_fraction,,percent
+Table II,Ward:cv_outer_unit_count,15,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 3, column cv_outer_unit_count",identity
+Table II,Ward:species,bread wheat (Triticum aestivum),${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 3, column species",identity
+Table II,Ward:n,314,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 3, column n",identity
+Table II,Ward:p,29949,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 3, column p",identity
+Table II,Ward:p_over_n,95.37898089171976,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 3, column p_over_n",identity
+Table II,Ward:genotype_encoding,0/2 homozygous additive calls; -1 denotes missing,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 3, column genotype_encoding",identity
+Table II,Ward:current_matrix_missing_fraction,0.0527888918592605,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 3, column current_matrix_missing_fraction",identity
+Table II,Ward:recorded_trait_count,14,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 3, column recorded_trait_count",identity
+Table II,Ward:cv_gblup_prediction_observed_sd_ratio_mean,0.4139499034060479,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 3, column cv_gblup_prediction_observed_sd_ratio_mean",identity
+Table II,Ward:cv_gblup_cb_mean,0.6842865868332172,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 3, column cv_gblup_cb_mean",identity
+Table II,Ward:missing_percent,5.27888918592605,derived:Ward:current_matrix_missing_fraction,,percent
+Table II,lentil:cv_outer_unit_count,10,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 4, column cv_outer_unit_count",identity
+Table II,lentil:species,lentil (Lens culinaris),${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 4, column species",identity
+Table II,lentil:n,324,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 4, column n",identity
+Table II,lentil:p,23590,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 4, column p",identity
+Table II,lentil:p_over_n,72.80864197530865,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 4, column p_over_n",identity
+Table II,lentil:genotype_encoding,0/1/2 additive genotype encoding,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 4, column genotype_encoding",identity
+Table II,lentil:current_matrix_missing_fraction,0.0,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 4, column current_matrix_missing_fraction",identity
+Table II,lentil:recorded_trait_count,5,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 4, column recorded_trait_count",identity
+Table II,lentil:cv_gblup_prediction_observed_sd_ratio_mean,0.8538875759498399,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 4, column cv_gblup_prediction_observed_sd_ratio_mean",identity
+Table II,lentil:cv_gblup_cb_mean,0.9781753026854572,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 4, column cv_gblup_cb_mean",identity
+Table II,lentil:missing_percent,0.0,derived:lentil:current_matrix_missing_fraction,,percent
+Table II,pine:cv_outer_unit_count,10,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 5, column cv_outer_unit_count",identity
+Table II,pine:species,loblolly pine (Pinus taeda),${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 5, column species",identity
+Table II,pine:n,926,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 5, column n",identity
+Table II,pine:p,4782,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 5, column p",identity
+Table II,pine:p_over_n,5.16414686825054,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 5, column p_over_n",identity
+Table II,pine:genotype_encoding,0/1/2 additive genotype encoding,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 5, column genotype_encoding",identity
+Table II,pine:current_matrix_missing_fraction,0.0,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 5, column current_matrix_missing_fraction",identity
+Table II,pine:recorded_trait_count,17,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 5, column recorded_trait_count",identity
+Table II,pine:cv_gblup_prediction_observed_sd_ratio_mean,0.7786477082306693,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 5, column cv_gblup_prediction_observed_sd_ratio_mean",identity
+Table II,pine:cv_gblup_cb_mean,0.963160625976531,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 5, column cv_gblup_cb_mean",identity
+Table II,pine:missing_percent,0.0,derived:pine:current_matrix_missing_fraction,,percent
+Table II,rice:cv_outer_unit_count,10,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 6, column cv_outer_unit_count",identity
+Table II,rice:species,rice (Oryza sativa),${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 6, column species",identity
+Table II,rice:n,352,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 6, column n",identity
+Table II,rice:p,27232,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 6, column p",identity
+Table II,rice:p_over_n,77.36363636363636,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 6, column p_over_n",identity
+Table II,rice:genotype_encoding,0/1/2 additive genotype encoding,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 6, column genotype_encoding",identity
+Table II,rice:current_matrix_missing_fraction,0.0,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 6, column current_matrix_missing_fraction",identity
+Table II,rice:recorded_trait_count,36,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 6, column recorded_trait_count",identity
+Table II,rice:cv_gblup_prediction_observed_sd_ratio_mean,0.7374987743011152,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 6, column cv_gblup_prediction_observed_sd_ratio_mean",identity
+Table II,rice:cv_gblup_cb_mean,0.9517057139635678,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 6, column cv_gblup_cb_mean",identity
+Table II,rice:missing_percent,0.0,derived:rice:current_matrix_missing_fraction,,percent
+Table II,wheatG:cv_outer_unit_count,10,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 7, column cv_outer_unit_count",identity
+Table II,wheatG:species,bread wheat (Triticum aestivum),${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 7, column species",identity
+Table II,wheatG:n,371,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 7, column n",identity
+Table II,wheatG:p,12546,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 7, column p",identity
+Table II,wheatG:p_over_n,33.8167115902965,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 7, column p_over_n",identity
+Table II,wheatG:genotype_encoding,numeric dosage; includes non-integer SVD-imputed values,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 7, column genotype_encoding",identity
+Table II,wheatG:current_matrix_missing_fraction,0.0,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 7, column current_matrix_missing_fraction",identity
+Table II,wheatG:recorded_trait_count,16,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 7, column recorded_trait_count",identity
+Table II,wheatG:cv_gblup_prediction_observed_sd_ratio_mean,0.6796856638577733,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 7, column cv_gblup_prediction_observed_sd_ratio_mean",identity
+Table II,wheatG:cv_gblup_cb_mean,0.9118641085018796,${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv,"data row 7, column cv_gblup_cb_mean",identity
+Table II,wheatG:missing_percent,0.0,derived:wheatG:current_matrix_missing_fraction,,percent

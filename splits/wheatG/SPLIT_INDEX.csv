@@ -1,0 +1,11 @@
+dataset,repeat,fold,official_key,train_n,test_n,manifest,sha256,source
+wheatG,1,1,Split1CV1,296,75,repeat_1_fold_1.csv,3ef3401a1ccce007d05b941f959802200270c787150b2a7650ad2322b7f50118,EasyGeSe wheatGZ.json
+wheatG,1,2,Split2CV1,297,74,repeat_1_fold_2.csv,ae167e1d7b503ec34a3de39a481a862e0b63fbdb4546ffe1ca72b8ea03a8f9de,EasyGeSe wheatGZ.json
+wheatG,1,3,Split3CV1,297,74,repeat_1_fold_3.csv,8b82812e15a0305a874ebff46e2234b166e0c45424b2792edc2a12540c1952eb,EasyGeSe wheatGZ.json
+wheatG,1,4,Split4CV1,297,74,repeat_1_fold_4.csv,e766d5620c805876abac84d55eef49bd99f2c1e31b13e4ff38fdd6830e4fe9a5,EasyGeSe wheatGZ.json
+wheatG,1,5,Split5CV1,297,74,repeat_1_fold_5.csv,91a2914c6b537f8408ae1b16ea666d90e4fde9fd76bd15b0bd4f9d05b4b8f204,EasyGeSe wheatGZ.json
+wheatG,2,1,Split1CV2,296,75,repeat_2_fold_1.csv,26e170eccd795ece6abbdbefb3bf14bef8f7e236d6be7eefb8091a99af27c820,EasyGeSe wheatGZ.json
+wheatG,2,2,Split2CV2,297,74,repeat_2_fold_2.csv,b69e46aed82f838e370a5142b11d88700f34a3b8799a6e0cf0da7434470cb380,EasyGeSe wheatGZ.json
+wheatG,2,3,Split3CV2,297,74,repeat_2_fold_3.csv,541a6af324c64b4d928ff001ab4f9a163d84f3986bf9d1372aa2553b464b6b03,EasyGeSe wheatGZ.json
+wheatG,2,4,Split4CV2,297,74,repeat_2_fold_4.csv,d8c68a384d224fdfc222e0a1b3e548d5c085d967b5a08a2c5fa220c23522bd61,EasyGeSe wheatGZ.json
+wheatG,2,5,Split5CV2,297,74,repeat_2_fold_5.csv,e2077b08f55f5fc4327f76a21cc5e9cfea9d3f1ce19fe5121831b4f7a9964e41,EasyGeSe wheatGZ.json

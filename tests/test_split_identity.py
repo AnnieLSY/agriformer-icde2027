@@ -20,7 +20,9 @@ class SplitTests(unittest.TestCase):
         root = Path(__file__).resolve().parents[1] / "splits"
         for dataset_dir in sorted(path for path in root.iterdir() if path.is_dir()):
             index = pd.read_csv(dataset_dir / "SPLIT_INDEX.csv")
-            self.assertEqual(len(index), 15)
+            expected_repeats = 3 if dataset_dir.name in {"AUS2015", "GABI", "Ward"} else 2
+            self.assertEqual(len(index), expected_repeats * 5)
+            self.assertEqual(set(index["repeat"]), set(range(1, expected_repeats + 1)))
             for repeat, group in index.groupby("repeat"):
                 self.assertEqual(len(group), 5)
                 test_ids = []

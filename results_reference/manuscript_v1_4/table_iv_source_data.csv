@@ -1,0 +1,56 @@
+replacement,learner,dataset,delta_ccc,established,value_element,decision_element
+w/o SBV,MLP-Dual,AUS2015,0.0025030878251394,False,w/o SBV:MLP-Dual:AUS2015,w/o SBV:MLP-Dual:AUS2015:pass
+w/o SBV,MLP-Dual,GABI,0.0244020034777104,True,w/o SBV:MLP-Dual:GABI,w/o SBV:MLP-Dual:GABI:pass
+w/o SBV,MLP-Dual,Ward,0.0511551180493126,True,w/o SBV:MLP-Dual:Ward,w/o SBV:MLP-Dual:Ward:pass
+w/o SBV,MLP-Dual,lentil,0.0097943375080074,False,w/o SBV:MLP-Dual:lentil,w/o SBV:MLP-Dual:lentil:pass
+w/o SBV,MLP-Dual,pine,0.0137220276982281,False,w/o SBV:MLP-Dual:pine,w/o SBV:MLP-Dual:pine:pass
+w/o SBV,MLP-Dual,rice,0.0142066462575715,False,w/o SBV:MLP-Dual:rice,w/o SBV:MLP-Dual:rice:pass
+w/o SBV,MLP-Dual,wheatG,0.0370302100411742,True,w/o SBV:MLP-Dual:wheatG,w/o SBV:MLP-Dual:wheatG:pass
+w/o SBV,Ridge,AUS2015,-0.0015427941231253,False,w/o SBV:Ridge:AUS2015,w/o SBV:Ridge:AUS2015:pass
+w/o SBV,Ridge,GABI,0.0038798220955142,False,w/o SBV:Ridge:GABI,w/o SBV:Ridge:GABI:pass
+w/o SBV,Ridge,Ward,0.0061861179070083,False,w/o SBV:Ridge:Ward,w/o SBV:Ridge:Ward:pass
+w/o SBV,Ridge,lentil,0.0015596898142084,False,w/o SBV:Ridge:lentil,w/o SBV:Ridge:lentil:pass
+w/o SBV,Ridge,pine,0.005962838369354,False,w/o SBV:Ridge:pine,w/o SBV:Ridge:pine:pass
+w/o SBV,Ridge,rice,-0.0002216340879263,False,w/o SBV:Ridge:rice,w/o SBV:Ridge:rice:pass
+w/o SBV,Ridge,wheatG,-0.0015203611192391,False,w/o SBV:Ridge:wheatG,w/o SBV:Ridge:wheatG:pass
+w/o SBV,AF,AUS2015,0.09196625946172408,1,w/o SBV:AF:AUS2015,w/o SBV:AF:AUS2015:pass
+w/o SBV,AF,GABI,0.2581710845147639,True,w/o SBV:AF:GABI,w/o SBV:AF:GABI:pass
+w/o SBV,AF,Ward,0.2813123756504808,True,w/o SBV:AF:Ward,w/o SBV:AF:Ward:pass
+w/o SBV,AF,lentil,0.227380460554303,1,w/o SBV:AF:lentil,w/o SBV:AF:lentil:pass
+w/o SBV,AF,pine,0.5281087408257796,1,w/o SBV:AF:pine,w/o SBV:AF:pine:pass
+w/o SBV,AF,rice,0.4387757005288546,1,w/o SBV:AF:rice,w/o SBV:AF:rice:pass
+w/o SBV,AF,wheatG,0.5291755445496369,1,w/o SBV:AF:wheatG,w/o SBV:AF:wheatG:pass
+SBV to PCA,MLP-Dual,AUS2015,0.0126664965992631,True,SBV to PCA:MLP-Dual:AUS2015,SBV to PCA:MLP-Dual:AUS2015:pass
+SBV to PCA,MLP-Dual,GABI,0.0085933600469731,False,SBV to PCA:MLP-Dual:GABI,SBV to PCA:MLP-Dual:GABI:pass
+SBV to PCA,MLP-Dual,Ward,0.0523253847998145,True,SBV to PCA:MLP-Dual:Ward,SBV to PCA:MLP-Dual:Ward:pass
+SBV to PCA,MLP-Dual,lentil,0.0107903728275283,True,SBV to PCA:MLP-Dual:lentil,SBV to PCA:MLP-Dual:lentil:pass
+SBV to PCA,MLP-Dual,pine,0.0058950132361159,False,SBV to PCA:MLP-Dual:pine,SBV to PCA:MLP-Dual:pine:pass
+SBV to PCA,MLP-Dual,rice,-0.0095947551096247,False,SBV to PCA:MLP-Dual:rice,SBV to PCA:MLP-Dual:rice:pass
+SBV to PCA,MLP-Dual,wheatG,0.0139500765074203,True,SBV to PCA:MLP-Dual:wheatG,SBV to PCA:MLP-Dual:wheatG:pass
+SBV to PCA,Ridge,AUS2015,-0.0015869860428434,False,SBV to PCA:Ridge:AUS2015,SBV to PCA:Ridge:AUS2015:pass
+SBV to PCA,Ridge,GABI,0.0039063444058784,False,SBV to PCA:Ridge:GABI,SBV to PCA:Ridge:GABI:pass
+SBV to PCA,Ridge,Ward,0.0062790795559687,False,SBV to PCA:Ridge:Ward,SBV to PCA:Ridge:Ward:pass
+SBV to PCA,Ridge,lentil,0.0015872754015109,False,SBV to PCA:Ridge:lentil,SBV to PCA:Ridge:lentil:pass
+SBV to PCA,Ridge,pine,0.0059221579119251,False,SBV to PCA:Ridge:pine,SBV to PCA:Ridge:pine:pass
+SBV to PCA,Ridge,rice,-0.0001938192434942,False,SBV to PCA:Ridge:rice,SBV to PCA:Ridge:rice:pass
+SBV to PCA,Ridge,wheatG,-0.0016653156749243,False,SBV to PCA:Ridge:wheatG,SBV to PCA:Ridge:wheatG:pass
+SBV to PCA,AF,AUS2015,0.05202301632419086,1,SBV to PCA:AF:AUS2015,SBV to PCA:AF:AUS2015:pass
+SBV to PCA,AF,GABI,0.13033975116327695,True,SBV to PCA:AF:GABI,SBV to PCA:AF:GABI:pass
+SBV to PCA,AF,Ward,0.17881949466688343,True,SBV to PCA:AF:Ward,SBV to PCA:AF:Ward:pass
+SBV to PCA,AF,lentil,0.0766429613838726,1,SBV to PCA:AF:lentil,SBV to PCA:AF:lentil:pass
+SBV to PCA,AF,pine,0.156945966099418,1,SBV to PCA:AF:pine,SBV to PCA:AF:pine:pass
+SBV to PCA,AF,rice,0.0556243990687484,1,SBV to PCA:AF:rice,SBV to PCA:AF:rice:pass
+SBV to PCA,AF,wheatG,0.1200762309007779,1,SBV to PCA:AF:wheatG,SBV to PCA:AF:wheatG:pass
+w/o TAS,AF,AUS2015,0.0686853370076369,True,w/o TAS:AF:AUS2015,w/o TAS:AF:AUS2015:pass
+w/o TAS,AF,GABI,0.1313976984400708,True,w/o TAS:AF:GABI,w/o TAS:AF:GABI:pass
+w/o TAS,AF,Ward,0.0521369225816495,True,w/o TAS:AF:Ward,w/o TAS:AF:Ward:pass
+w/o TAS,AF,lentil,0.08768866702615745,True,w/o TAS:AF:lentil,w/o TAS:AF:lentil:pass
+w/o TAS,AF,pine,0.14108779429405066,True,w/o TAS:AF:pine,w/o TAS:AF:pine:pass
+w/o TAS,AF,rice,0.07017933938387569,True,w/o TAS:AF:rice,w/o TAS:AF:rice:pass
+w/o TAS,AF,wheatG,0.16459408350473387,True,w/o TAS:AF:wheatG,w/o TAS:AF:wheatG:pass
+TAS to linear,AF,AUS2015,0.015464351064334015,0,TAS to linear:AF:AUS2015,TAS to linear:AF:AUS2015:pass
+TAS to linear,AF,GABI,0.1264729579605271,True,TAS to linear:AF:GABI,TAS to linear:AF:GABI:pass
+TAS to linear,AF,Ward,0.1492541701044955,True,TAS to linear:AF:Ward,TAS to linear:AF:Ward:pass
+w/o TAS,MLP-Dual,AUS2015,-0.002353088131642441,False,w/o TAS:MLP-Dual:AUS2015,w/o TAS:MLP-Dual:AUS2015:pass
+w/o TAS,MLP-Dual,GABI,-0.020903115973044773,False,w/o TAS:MLP-Dual:GABI,w/o TAS:MLP-Dual:GABI:pass
+w/o TAS,MLP-Dual,Ward,-0.009724225253565184,False,w/o TAS:MLP-Dual:Ward,w/o TAS:MLP-Dual:Ward:pass

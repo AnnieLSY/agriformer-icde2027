@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "manuscript": "current ICDE submission manuscript",
+  "cross_validation_split_manifests": 85,
+  "wheat_fixed_holdout_manifests": 3,
+  "easygese_split_manifests": 40,
+  "preparation_records": 85,
+  "aus2015_only_regressors": 30,
+  "aus2015_only_prediction_files": 46,
+  "mapped_manuscript_claims": 42
+}

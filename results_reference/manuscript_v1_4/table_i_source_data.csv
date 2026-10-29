@@ -1,0 +1,6 @@
+row,single_target,multi_trait,AF
+How phenotypes enter,One target per run (17/23 studies),Joint targets (5/23 studies); VMGP also uses joint targets,Labels fit SBV/EMV and supervise prediction
+Role of co-recorded traits,Outside joint supervision (17/23 studies),Joint prediction targets (5/23 studies + VMGP),Auxiliary supervision during training
+Fitting scope of label-derived preparation,"5/17 use label-derived preparation: 2/5 train-confined, 1/5 mixed, 2/5 unclear",1/5 use label-derived preparation; 1/1 unclear. VMGP: ---,Within the training partition
+Inference inputs,--- (not separately coded for the 17/23 study group),--- (not separately coded for the 5/23 group); VMGP: genotype-only,Genotypes; auxiliary heads removed
+Evaluation metrics,Error/scale metrics: 11/17; correlation only: 6/17,"Error/scale metrics: 5/5; VMGP official code: PCC, MAE",PCC and CCC

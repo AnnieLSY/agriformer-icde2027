@@ -1,0 +1,24 @@
+key,year,doi,training_objective,preparation_timing,reported_metrics
+Cropformer,2025,10.1016/j.xplc.2024.101223,single_target_per_run,mixed_by_dataset,Pearson correlation coefficient
+DeepWheat2024,2024,10.3389/fpls.2024.1324090,single_target_per_run,not_applicable,Pearson correlation; NRMSE
+EBMGP,2025,10.1007/s00122-025-04894-z,single_target_per_run,train_fold,Pearson R; MSE
+DeepAnnotation,2025,10.1093/gigascience/giaf083,single_target_per_run,unclear_for_comparator,Pearson correlation coefficient; relative efficiency
+CLCNet,2022,10.1093/bib/bbag270,single_target_per_run,train_fold,Pearson correlation; MSE
+MtCro,2025,10.1186/s13007-024-01321-0,multitrait_joint,not_applicable,Pearson correlation; regression coefficient between BLUE-fitted predicted and actual values
+ReaGP,2025,10.1186/s12711-025-01015-8,single_target_per_run,not_applicable,Pearson correlation; MSE
+MoEGP,2024,10.1186/s13007-026-01500-1,single_target_per_run,not_applicable,Pearson correlation; MAE
+AutoGP,2025,10.1016/j.xplc.2025.101240,single_target_per_run,not_applicable,Pearson R
+PNNGS,2024,10.3389/fpls.2024.1410596,single_target_per_run,not_applicable,Pearson correlation; NRMSE
+MultimodalWheat,2023,10.1093/g3journal/jkad045,auxiliary_test_input_CV2_like,not_applicable,Pearson correlation; NRMSEP
+deepGBLUP,2023,10.1186/s12711-023-00825-y,single_target_per_run,not_applicable,predictive ability defined as Pearson correlation divided by sqrt heritability
+BivariateSow,2022,10.5713/ab.23.0264,multitrait_joint,not_applicable,Pearson correlation; MSE
+GatedMultiTask,2025,10.1186/s12859-025-06188-z,multitrait_joint,not_applicable,MSE; Pearson r; distance correlation
+NetGP,2025,10.1111/pbi.14577,single_target_per_run,unclear,Pearson prediction accuracy
+DLvsParametric,2021,10.1186/s12711-020-00531-z,single_target_per_run,not_applicable,Pearson correlation; MSE
+Polyploid2020,2020,10.3389/fpls.2020.00025,single_target_per_run,not_applicable,predictive ability defined as correlation
+DurumWheat2019,2019,10.3389/fpls.2019.01311,multitrait_joint,not_applicable,MAAPE
+TransformerGuided,2023,10.1093/bib/bbad438,single_target_per_run,unclear,Pearson correlation; R2; MAE
+DNAwhisper,2026,10.1111/pbi.70619,multitrait_joint,unclear,Pearson correlation; residual distribution; fitted regression line/slope and bias discussion
+DNNGP,2023,10.1016/j.molp.2022.11.004,single_target_per_run,not_applicable,Pearson correlation; fitted regression slopes
+WheatGP,2025,10.1093/bib/bbaf191,single_target_per_run,not_applicable,Pearson correlation; MAE and MSE in transfer-learning evaluation
+SoyDNGP,2023,10.1093/bib/bbad349,single_target_per_run,not_applicable,Pearson correlation; MSE

@@ -1,0 +1,3342 @@
+[
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:MLP-Dual:AUS2015",
+    "value": 0.0025030878251394,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "mean_delta",
+        "value": 0.0025030878251394
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:MLP-Dual:AUS2015:pass",
+    "value": false,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "decision",
+        "value": "INCONCLUSIVE"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:MLP-Dual:GABI",
+    "value": 0.0244020034777104,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "mean_delta",
+        "value": 0.0244020034777104
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:MLP-Dual:GABI:pass",
+    "value": true,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "decision",
+        "value": "ESTABLISHED"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:MLP-Dual:Ward",
+    "value": 0.0511551180493126,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 10,
+        "column": "mean_delta",
+        "value": 0.0511551180493126
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:MLP-Dual:Ward:pass",
+    "value": true,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 10,
+        "column": "decision",
+        "value": "ESTABLISHED"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:MLP-Dual:lentil",
+    "value": 0.0097943375080074,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 14,
+        "column": "mean_delta",
+        "value": 0.0097943375080074
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:MLP-Dual:lentil:pass",
+    "value": false,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 14,
+        "column": "decision",
+        "value": "INCONCLUSIVE"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:MLP-Dual:pine",
+    "value": 0.0137220276982281,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 18,
+        "column": "mean_delta",
+        "value": 0.0137220276982281
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:MLP-Dual:pine:pass",
+    "value": false,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 18,
+        "column": "decision",
+        "value": "INCONCLUSIVE"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:MLP-Dual:rice",
+    "value": 0.0142066462575715,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 22,
+        "column": "mean_delta",
+        "value": 0.0142066462575715
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:MLP-Dual:rice:pass",
+    "value": false,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 22,
+        "column": "decision",
+        "value": "INCONCLUSIVE"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:MLP-Dual:wheatG",
+    "value": 0.0370302100411742,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 26,
+        "column": "mean_delta",
+        "value": 0.0370302100411742
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:MLP-Dual:wheatG:pass",
+    "value": true,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 26,
+        "column": "decision",
+        "value": "ESTABLISHED"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:MLP-Dual:mean",
+    "value": 0.021830490122449087,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "element": "w/o SBV:MLP-Dual:AUS2015"
+      },
+      {
+        "element": "w/o SBV:MLP-Dual:GABI"
+      },
+      {
+        "element": "w/o SBV:MLP-Dual:Ward"
+      },
+      {
+        "element": "w/o SBV:MLP-Dual:lentil"
+      },
+      {
+        "element": "w/o SBV:MLP-Dual:pine"
+      },
+      {
+        "element": "w/o SBV:MLP-Dual:rice"
+      },
+      {
+        "element": "w/o SBV:MLP-Dual:wheatG"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:MLP-Dual:established",
+    "value": 3,
+    "operation": "count_equal",
+    "args": {
+      "target": true
+    },
+    "inputs": [
+      {
+        "element": "w/o SBV:MLP-Dual:AUS2015:pass"
+      },
+      {
+        "element": "w/o SBV:MLP-Dual:GABI:pass"
+      },
+      {
+        "element": "w/o SBV:MLP-Dual:Ward:pass"
+      },
+      {
+        "element": "w/o SBV:MLP-Dual:lentil:pass"
+      },
+      {
+        "element": "w/o SBV:MLP-Dual:pine:pass"
+      },
+      {
+        "element": "w/o SBV:MLP-Dual:rice:pass"
+      },
+      {
+        "element": "w/o SBV:MLP-Dual:wheatG:pass"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:MLP-Dual:datasets",
+    "value": 7,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "element": "w/o SBV:MLP-Dual:AUS2015"
+      },
+      {
+        "element": "w/o SBV:MLP-Dual:GABI"
+      },
+      {
+        "element": "w/o SBV:MLP-Dual:Ward"
+      },
+      {
+        "element": "w/o SBV:MLP-Dual:lentil"
+      },
+      {
+        "element": "w/o SBV:MLP-Dual:pine"
+      },
+      {
+        "element": "w/o SBV:MLP-Dual:rice"
+      },
+      {
+        "element": "w/o SBV:MLP-Dual:wheatG"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:Ridge:AUS2015",
+    "value": -0.0015427941231253,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 30,
+        "column": "mean_delta",
+        "value": -0.0015427941231253
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:Ridge:AUS2015:pass",
+    "value": false,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 30,
+        "column": "decision",
+        "value": "INCONCLUSIVE"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:Ridge:GABI",
+    "value": 0.0038798220955142,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 34,
+        "column": "mean_delta",
+        "value": 0.0038798220955142
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:Ridge:GABI:pass",
+    "value": false,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 34,
+        "column": "decision",
+        "value": "INCONCLUSIVE"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:Ridge:Ward",
+    "value": 0.0061861179070083,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 38,
+        "column": "mean_delta",
+        "value": 0.0061861179070083
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:Ridge:Ward:pass",
+    "value": false,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 38,
+        "column": "decision",
+        "value": "INCONCLUSIVE"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:Ridge:lentil",
+    "value": 0.0015596898142084,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 42,
+        "column": "mean_delta",
+        "value": 0.0015596898142084
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:Ridge:lentil:pass",
+    "value": false,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 42,
+        "column": "decision",
+        "value": "INCONCLUSIVE"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:Ridge:pine",
+    "value": 0.005962838369354,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 46,
+        "column": "mean_delta",
+        "value": 0.005962838369354
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:Ridge:pine:pass",
+    "value": false,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 46,
+        "column": "decision",
+        "value": "INCONCLUSIVE"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:Ridge:rice",
+    "value": -0.0002216340879263,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 50,
+        "column": "mean_delta",
+        "value": -0.0002216340879263
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:Ridge:rice:pass",
+    "value": false,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 50,
+        "column": "decision",
+        "value": "INCONCLUSIVE"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:Ridge:wheatG",
+    "value": -0.0015203611192391,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 54,
+        "column": "mean_delta",
+        "value": -0.0015203611192391
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:Ridge:wheatG:pass",
+    "value": false,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 54,
+        "column": "decision",
+        "value": "INCONCLUSIVE"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:Ridge:mean",
+    "value": 0.002043382693684886,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "element": "w/o SBV:Ridge:AUS2015"
+      },
+      {
+        "element": "w/o SBV:Ridge:GABI"
+      },
+      {
+        "element": "w/o SBV:Ridge:Ward"
+      },
+      {
+        "element": "w/o SBV:Ridge:lentil"
+      },
+      {
+        "element": "w/o SBV:Ridge:pine"
+      },
+      {
+        "element": "w/o SBV:Ridge:rice"
+      },
+      {
+        "element": "w/o SBV:Ridge:wheatG"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:Ridge:established",
+    "value": 0,
+    "operation": "count_equal",
+    "args": {
+      "target": true
+    },
+    "inputs": [
+      {
+        "element": "w/o SBV:Ridge:AUS2015:pass"
+      },
+      {
+        "element": "w/o SBV:Ridge:GABI:pass"
+      },
+      {
+        "element": "w/o SBV:Ridge:Ward:pass"
+      },
+      {
+        "element": "w/o SBV:Ridge:lentil:pass"
+      },
+      {
+        "element": "w/o SBV:Ridge:pine:pass"
+      },
+      {
+        "element": "w/o SBV:Ridge:rice:pass"
+      },
+      {
+        "element": "w/o SBV:Ridge:wheatG:pass"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:Ridge:datasets",
+    "value": 7,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "element": "w/o SBV:Ridge:AUS2015"
+      },
+      {
+        "element": "w/o SBV:Ridge:GABI"
+      },
+      {
+        "element": "w/o SBV:Ridge:Ward"
+      },
+      {
+        "element": "w/o SBV:Ridge:lentil"
+      },
+      {
+        "element": "w/o SBV:Ridge:pine"
+      },
+      {
+        "element": "w/o SBV:Ridge:rice"
+      },
+      {
+        "element": "w/o SBV:Ridge:wheatG"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:AF:AUS2015",
+    "value": 0.09196625946172408,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/aus_infold_pheno_sensitivity_20261025/SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "rules",
+          "R-K5-CONTEXT",
+          "ccc_population",
+          "mean"
+        ],
+        "value": 0.09196625946172408
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:AF:AUS2015:decision",
+    "value": "established",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/aus_infold_pheno_sensitivity_20261025/SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "rules",
+          "R-K5-CONTEXT",
+          "ccc_population",
+          "decision"
+        ],
+        "value": "established"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:AF:AUS2015:pass",
+    "value": 1,
+    "operation": "count_equal",
+    "args": {
+      "target": "established"
+    },
+    "inputs": [
+      {
+        "element": "w/o SBV:AF:AUS2015:decision"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:AF:GABI",
+    "value": 0.2581710845147639,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/K/K_SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "rules",
+          "R-K5-K5",
+          "ccc_population",
+          "datasets",
+          "GABI",
+          "mean"
+        ],
+        "value": 0.2581710845147639
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:AF:GABI:pass",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/K/K_SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "rules",
+          "R-K5-K5",
+          "ccc_population",
+          "datasets",
+          "GABI",
+          "passes"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:AF:Ward",
+    "value": 0.2813123756504808,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/K/K_SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "rules",
+          "R-K5-K5",
+          "ccc_population",
+          "datasets",
+          "Ward",
+          "mean"
+        ],
+        "value": 0.2813123756504808
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:AF:Ward:pass",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/K/K_SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "rules",
+          "R-K5-K5",
+          "ccc_population",
+          "datasets",
+          "Ward",
+          "passes"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:AF:lentil",
+    "value": 0.227380460554303,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 13,
+        "column": "mean_D",
+        "value": 0.227380460554303
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:AF:lentil:pass",
+    "value": 1,
+    "operation": "count_equal",
+    "args": {
+      "target": "PLS established"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 13,
+        "column": "decision",
+        "value": "PLS established"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:AF:pine",
+    "value": 0.5281087408257796,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 15,
+        "column": "mean_D",
+        "value": 0.5281087408257796
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:AF:pine:pass",
+    "value": 1,
+    "operation": "count_equal",
+    "args": {
+      "target": "PLS established"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 15,
+        "column": "decision",
+        "value": "PLS established"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:AF:rice",
+    "value": 0.4387757005288546,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 17,
+        "column": "mean_D",
+        "value": 0.4387757005288546
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:AF:rice:pass",
+    "value": 1,
+    "operation": "count_equal",
+    "args": {
+      "target": "PLS established"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 17,
+        "column": "decision",
+        "value": "PLS established"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:AF:wheatG",
+    "value": 0.5291755445496369,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 19,
+        "column": "mean_D",
+        "value": 0.5291755445496369
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:AF:wheatG:pass",
+    "value": 1,
+    "operation": "count_equal",
+    "args": {
+      "target": "PLS established"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 19,
+        "column": "decision",
+        "value": "PLS established"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:AF:mean",
+    "value": 0.3364128808693633,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "element": "w/o SBV:AF:AUS2015"
+      },
+      {
+        "element": "w/o SBV:AF:GABI"
+      },
+      {
+        "element": "w/o SBV:AF:Ward"
+      },
+      {
+        "element": "w/o SBV:AF:lentil"
+      },
+      {
+        "element": "w/o SBV:AF:pine"
+      },
+      {
+        "element": "w/o SBV:AF:rice"
+      },
+      {
+        "element": "w/o SBV:AF:wheatG"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:AF:established",
+    "value": 7,
+    "operation": "count_equal",
+    "args": {
+      "target": true
+    },
+    "inputs": [
+      {
+        "element": "w/o SBV:AF:AUS2015:pass"
+      },
+      {
+        "element": "w/o SBV:AF:GABI:pass"
+      },
+      {
+        "element": "w/o SBV:AF:Ward:pass"
+      },
+      {
+        "element": "w/o SBV:AF:lentil:pass"
+      },
+      {
+        "element": "w/o SBV:AF:pine:pass"
+      },
+      {
+        "element": "w/o SBV:AF:rice:pass"
+      },
+      {
+        "element": "w/o SBV:AF:wheatG:pass"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o SBV:AF:datasets",
+    "value": 7,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "element": "w/o SBV:AF:AUS2015"
+      },
+      {
+        "element": "w/o SBV:AF:GABI"
+      },
+      {
+        "element": "w/o SBV:AF:Ward"
+      },
+      {
+        "element": "w/o SBV:AF:lentil"
+      },
+      {
+        "element": "w/o SBV:AF:pine"
+      },
+      {
+        "element": "w/o SBV:AF:rice"
+      },
+      {
+        "element": "w/o SBV:AF:wheatG"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:MLP-Dual:AUS2015",
+    "value": 0.0126664965992631,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "mean_delta",
+        "value": 0.0126664965992631
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:MLP-Dual:AUS2015:pass",
+    "value": true,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "decision",
+        "value": "ESTABLISHED"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:MLP-Dual:GABI",
+    "value": 0.0085933600469731,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "mean_delta",
+        "value": 0.0085933600469731
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:MLP-Dual:GABI:pass",
+    "value": false,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "decision",
+        "value": "INCONCLUSIVE"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:MLP-Dual:Ward",
+    "value": 0.0523253847998145,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 9,
+        "column": "mean_delta",
+        "value": 0.0523253847998145
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:MLP-Dual:Ward:pass",
+    "value": true,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 9,
+        "column": "decision",
+        "value": "ESTABLISHED"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:MLP-Dual:lentil",
+    "value": 0.0107903728275283,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 13,
+        "column": "mean_delta",
+        "value": 0.0107903728275283
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:MLP-Dual:lentil:pass",
+    "value": true,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 13,
+        "column": "decision",
+        "value": "ESTABLISHED"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:MLP-Dual:pine",
+    "value": 0.0058950132361159,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 17,
+        "column": "mean_delta",
+        "value": 0.0058950132361159
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:MLP-Dual:pine:pass",
+    "value": false,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 17,
+        "column": "decision",
+        "value": "INCONCLUSIVE"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:MLP-Dual:rice",
+    "value": -0.0095947551096247,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 21,
+        "column": "mean_delta",
+        "value": -0.0095947551096247
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:MLP-Dual:rice:pass",
+    "value": false,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 21,
+        "column": "decision",
+        "value": "INCONCLUSIVE"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:MLP-Dual:wheatG",
+    "value": 0.0139500765074203,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 25,
+        "column": "mean_delta",
+        "value": 0.0139500765074203
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:MLP-Dual:wheatG:pass",
+    "value": true,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 25,
+        "column": "decision",
+        "value": "ESTABLISHED"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:MLP-Dual:mean",
+    "value": 0.013517992701070073,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "element": "SBV to PCA:MLP-Dual:AUS2015"
+      },
+      {
+        "element": "SBV to PCA:MLP-Dual:GABI"
+      },
+      {
+        "element": "SBV to PCA:MLP-Dual:Ward"
+      },
+      {
+        "element": "SBV to PCA:MLP-Dual:lentil"
+      },
+      {
+        "element": "SBV to PCA:MLP-Dual:pine"
+      },
+      {
+        "element": "SBV to PCA:MLP-Dual:rice"
+      },
+      {
+        "element": "SBV to PCA:MLP-Dual:wheatG"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:MLP-Dual:established",
+    "value": 4,
+    "operation": "count_equal",
+    "args": {
+      "target": true
+    },
+    "inputs": [
+      {
+        "element": "SBV to PCA:MLP-Dual:AUS2015:pass"
+      },
+      {
+        "element": "SBV to PCA:MLP-Dual:GABI:pass"
+      },
+      {
+        "element": "SBV to PCA:MLP-Dual:Ward:pass"
+      },
+      {
+        "element": "SBV to PCA:MLP-Dual:lentil:pass"
+      },
+      {
+        "element": "SBV to PCA:MLP-Dual:pine:pass"
+      },
+      {
+        "element": "SBV to PCA:MLP-Dual:rice:pass"
+      },
+      {
+        "element": "SBV to PCA:MLP-Dual:wheatG:pass"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:MLP-Dual:datasets",
+    "value": 7,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "element": "SBV to PCA:MLP-Dual:AUS2015"
+      },
+      {
+        "element": "SBV to PCA:MLP-Dual:GABI"
+      },
+      {
+        "element": "SBV to PCA:MLP-Dual:Ward"
+      },
+      {
+        "element": "SBV to PCA:MLP-Dual:lentil"
+      },
+      {
+        "element": "SBV to PCA:MLP-Dual:pine"
+      },
+      {
+        "element": "SBV to PCA:MLP-Dual:rice"
+      },
+      {
+        "element": "SBV to PCA:MLP-Dual:wheatG"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:Ridge:AUS2015",
+    "value": -0.0015869860428434,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 29,
+        "column": "mean_delta",
+        "value": -0.0015869860428434
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:Ridge:AUS2015:pass",
+    "value": false,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 29,
+        "column": "decision",
+        "value": "INCONCLUSIVE"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:Ridge:GABI",
+    "value": 0.0039063444058784,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 33,
+        "column": "mean_delta",
+        "value": 0.0039063444058784
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:Ridge:GABI:pass",
+    "value": false,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 33,
+        "column": "decision",
+        "value": "INCONCLUSIVE"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:Ridge:Ward",
+    "value": 0.0062790795559687,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 37,
+        "column": "mean_delta",
+        "value": 0.0062790795559687
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:Ridge:Ward:pass",
+    "value": false,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 37,
+        "column": "decision",
+        "value": "INCONCLUSIVE"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:Ridge:lentil",
+    "value": 0.0015872754015109,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 41,
+        "column": "mean_delta",
+        "value": 0.0015872754015109
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:Ridge:lentil:pass",
+    "value": false,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 41,
+        "column": "decision",
+        "value": "INCONCLUSIVE"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:Ridge:pine",
+    "value": 0.0059221579119251,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 45,
+        "column": "mean_delta",
+        "value": 0.0059221579119251
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:Ridge:pine:pass",
+    "value": false,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 45,
+        "column": "decision",
+        "value": "INCONCLUSIVE"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:Ridge:rice",
+    "value": -0.0001938192434942,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 49,
+        "column": "mean_delta",
+        "value": -0.0001938192434942
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:Ridge:rice:pass",
+    "value": false,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 49,
+        "column": "decision",
+        "value": "INCONCLUSIVE"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:Ridge:wheatG",
+    "value": -0.0016653156749243,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 53,
+        "column": "mean_delta",
+        "value": -0.0016653156749243
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:Ridge:wheatG:pass",
+    "value": false,
+    "operation": "count_equal",
+    "args": {
+      "target": "ESTABLISHED"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 53,
+        "column": "decision",
+        "value": "INCONCLUSIVE"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:Ridge:mean",
+    "value": 0.002035533759145886,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "element": "SBV to PCA:Ridge:AUS2015"
+      },
+      {
+        "element": "SBV to PCA:Ridge:GABI"
+      },
+      {
+        "element": "SBV to PCA:Ridge:Ward"
+      },
+      {
+        "element": "SBV to PCA:Ridge:lentil"
+      },
+      {
+        "element": "SBV to PCA:Ridge:pine"
+      },
+      {
+        "element": "SBV to PCA:Ridge:rice"
+      },
+      {
+        "element": "SBV to PCA:Ridge:wheatG"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:Ridge:established",
+    "value": 0,
+    "operation": "count_equal",
+    "args": {
+      "target": true
+    },
+    "inputs": [
+      {
+        "element": "SBV to PCA:Ridge:AUS2015:pass"
+      },
+      {
+        "element": "SBV to PCA:Ridge:GABI:pass"
+      },
+      {
+        "element": "SBV to PCA:Ridge:Ward:pass"
+      },
+      {
+        "element": "SBV to PCA:Ridge:lentil:pass"
+      },
+      {
+        "element": "SBV to PCA:Ridge:pine:pass"
+      },
+      {
+        "element": "SBV to PCA:Ridge:rice:pass"
+      },
+      {
+        "element": "SBV to PCA:Ridge:wheatG:pass"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:Ridge:datasets",
+    "value": 7,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "element": "SBV to PCA:Ridge:AUS2015"
+      },
+      {
+        "element": "SBV to PCA:Ridge:GABI"
+      },
+      {
+        "element": "SBV to PCA:Ridge:Ward"
+      },
+      {
+        "element": "SBV to PCA:Ridge:lentil"
+      },
+      {
+        "element": "SBV to PCA:Ridge:pine"
+      },
+      {
+        "element": "SBV to PCA:Ridge:rice"
+      },
+      {
+        "element": "SBV to PCA:Ridge:wheatG"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:AF:AUS2015",
+    "value": 0.05202301632419086,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/aus_infold_pheno_sensitivity_20261025/SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "rules",
+          "v13m-R1",
+          "ccc_population",
+          "mean"
+        ],
+        "value": 0.05202301632419086
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:AF:AUS2015:decision",
+    "value": "established",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/aus_infold_pheno_sensitivity_20261025/SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "rules",
+          "v13m-R1",
+          "ccc_population",
+          "decision"
+        ],
+        "value": "established"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:AF:AUS2015:pass",
+    "value": 1,
+    "operation": "count_equal",
+    "args": {
+      "target": "established"
+    },
+    "inputs": [
+      {
+        "element": "SBV to PCA:AF:AUS2015:decision"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:AF:GABI",
+    "value": 0.13033975116327695,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/M/M_SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "arms",
+          "R1",
+          "datasets",
+          "GABI",
+          "ccc_population",
+          "mean_D"
+        ],
+        "value": 0.13033975116327695
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:AF:GABI:pass",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/M/M_SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "arms",
+          "R1",
+          "datasets",
+          "GABI",
+          "ccc_population",
+          "established"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:AF:Ward",
+    "value": 0.17881949466688343,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/M/M_SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "arms",
+          "R1",
+          "datasets",
+          "Ward",
+          "ccc_population",
+          "mean_D"
+        ],
+        "value": 0.17881949466688343
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:AF:Ward:pass",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/M/M_SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "arms",
+          "R1",
+          "datasets",
+          "Ward",
+          "ccc_population",
+          "established"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:AF:lentil",
+    "value": 0.0766429613838726,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "mean_D",
+        "value": 0.0766429613838726
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:AF:lentil:pass",
+    "value": 1,
+    "operation": "count_equal",
+    "args": {
+      "target": "PLS established"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "decision",
+        "value": "PLS established"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:AF:pine",
+    "value": 0.156945966099418,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "mean_D",
+        "value": 0.156945966099418
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:AF:pine:pass",
+    "value": 1,
+    "operation": "count_equal",
+    "args": {
+      "target": "PLS established"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "decision",
+        "value": "PLS established"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:AF:rice",
+    "value": 0.0556243990687484,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "mean_D",
+        "value": 0.0556243990687484
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:AF:rice:pass",
+    "value": 1,
+    "operation": "count_equal",
+    "args": {
+      "target": "PLS established"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "decision",
+        "value": "PLS established"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:AF:wheatG",
+    "value": 0.1200762309007779,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 9,
+        "column": "mean_D",
+        "value": 0.1200762309007779
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:AF:wheatG:pass",
+    "value": 1,
+    "operation": "count_equal",
+    "args": {
+      "target": "PLS established"
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 9,
+        "column": "decision",
+        "value": "PLS established"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:AF:mean",
+    "value": 0.11006740280102402,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "element": "SBV to PCA:AF:AUS2015"
+      },
+      {
+        "element": "SBV to PCA:AF:GABI"
+      },
+      {
+        "element": "SBV to PCA:AF:Ward"
+      },
+      {
+        "element": "SBV to PCA:AF:lentil"
+      },
+      {
+        "element": "SBV to PCA:AF:pine"
+      },
+      {
+        "element": "SBV to PCA:AF:rice"
+      },
+      {
+        "element": "SBV to PCA:AF:wheatG"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:AF:established",
+    "value": 7,
+    "operation": "count_equal",
+    "args": {
+      "target": true
+    },
+    "inputs": [
+      {
+        "element": "SBV to PCA:AF:AUS2015:pass"
+      },
+      {
+        "element": "SBV to PCA:AF:GABI:pass"
+      },
+      {
+        "element": "SBV to PCA:AF:Ward:pass"
+      },
+      {
+        "element": "SBV to PCA:AF:lentil:pass"
+      },
+      {
+        "element": "SBV to PCA:AF:pine:pass"
+      },
+      {
+        "element": "SBV to PCA:AF:rice:pass"
+      },
+      {
+        "element": "SBV to PCA:AF:wheatG:pass"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "SBV to PCA:AF:datasets",
+    "value": 7,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "element": "SBV to PCA:AF:AUS2015"
+      },
+      {
+        "element": "SBV to PCA:AF:GABI"
+      },
+      {
+        "element": "SBV to PCA:AF:Ward"
+      },
+      {
+        "element": "SBV to PCA:AF:lentil"
+      },
+      {
+        "element": "SBV to PCA:AF:pine"
+      },
+      {
+        "element": "SBV to PCA:AF:rice"
+      },
+      {
+        "element": "SBV to PCA:AF:wheatG"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:AF:AUS2015",
+    "value": 0.0686853370076369,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG1/FG1_OLD_VS_STRICT.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "delta_ccc_mean",
+        "value": 0.0686853370076369
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:AF:AUS2015:positive",
+    "value": 0.7333333333333333,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG1/FG1_OLD_VS_STRICT.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "delta_ccc_positive_fraction",
+        "value": 0.7333333333333333
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:AF:AUS2015:pass",
+    "value": true,
+    "operation": "criterion",
+    "args": {
+      "min_delta": 0.01,
+      "min_positive": 0.6
+    },
+    "inputs": [
+      {
+        "element": "w/o TAS:AF:AUS2015"
+      },
+      {
+        "element": "w/o TAS:AF:AUS2015:positive"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:AF:GABI",
+    "value": 0.1313976984400708,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG1/FG1_OLD_VS_STRICT.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "delta_ccc_mean",
+        "value": 0.1313976984400708
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:AF:GABI:positive",
+    "value": 0.9333333333333332,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG1/FG1_OLD_VS_STRICT.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "delta_ccc_positive_fraction",
+        "value": 0.9333333333333332
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:AF:GABI:pass",
+    "value": true,
+    "operation": "criterion",
+    "args": {
+      "min_delta": 0.01,
+      "min_positive": 0.6
+    },
+    "inputs": [
+      {
+        "element": "w/o TAS:AF:GABI"
+      },
+      {
+        "element": "w/o TAS:AF:GABI:positive"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:AF:Ward",
+    "value": 0.0521369225816495,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG1/FG1_OLD_VS_STRICT.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "delta_ccc_mean",
+        "value": 0.0521369225816495
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:AF:Ward:positive",
+    "value": 0.9333333333333332,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG1/FG1_OLD_VS_STRICT.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "delta_ccc_positive_fraction",
+        "value": 0.9333333333333332
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:AF:Ward:pass",
+    "value": true,
+    "operation": "criterion",
+    "args": {
+      "min_delta": 0.01,
+      "min_positive": 0.6
+    },
+    "inputs": [
+      {
+        "element": "w/o TAS:AF:Ward"
+      },
+      {
+        "element": "w/o TAS:AF:Ward:positive"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:AF:lentil",
+    "value": 0.08768866702615745,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/O_SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "C",
+          "decisions",
+          6,
+          "mean_delta"
+        ],
+        "value": 0.08768866702615745
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:AF:lentil:pass",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/O_SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "C",
+          "decisions",
+          6,
+          "passed"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:AF:pine",
+    "value": 0.14108779429405066,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/O_SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "C",
+          "decisions",
+          7,
+          "mean_delta"
+        ],
+        "value": 0.14108779429405066
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:AF:pine:pass",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/O_SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "C",
+          "decisions",
+          7,
+          "passed"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:AF:rice",
+    "value": 0.07017933938387569,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/O_SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "C",
+          "decisions",
+          8,
+          "mean_delta"
+        ],
+        "value": 0.07017933938387569
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:AF:rice:pass",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/O_SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "C",
+          "decisions",
+          8,
+          "passed"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:AF:wheatG",
+    "value": 0.16459408350473387,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/O_SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "C",
+          "decisions",
+          9,
+          "mean_delta"
+        ],
+        "value": 0.16459408350473387
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:AF:wheatG:pass",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/run_v13/O/O_SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "C",
+          "decisions",
+          9,
+          "passed"
+        ],
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:AF:mean",
+    "value": 0.10225283460545355,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "element": "w/o TAS:AF:AUS2015"
+      },
+      {
+        "element": "w/o TAS:AF:GABI"
+      },
+      {
+        "element": "w/o TAS:AF:Ward"
+      },
+      {
+        "element": "w/o TAS:AF:lentil"
+      },
+      {
+        "element": "w/o TAS:AF:pine"
+      },
+      {
+        "element": "w/o TAS:AF:rice"
+      },
+      {
+        "element": "w/o TAS:AF:wheatG"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:AF:established",
+    "value": 7,
+    "operation": "count_equal",
+    "args": {
+      "target": true
+    },
+    "inputs": [
+      {
+        "element": "w/o TAS:AF:AUS2015:pass"
+      },
+      {
+        "element": "w/o TAS:AF:GABI:pass"
+      },
+      {
+        "element": "w/o TAS:AF:Ward:pass"
+      },
+      {
+        "element": "w/o TAS:AF:lentil:pass"
+      },
+      {
+        "element": "w/o TAS:AF:pine:pass"
+      },
+      {
+        "element": "w/o TAS:AF:rice:pass"
+      },
+      {
+        "element": "w/o TAS:AF:wheatG:pass"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:AF:datasets",
+    "value": 7,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "element": "w/o TAS:AF:AUS2015"
+      },
+      {
+        "element": "w/o TAS:AF:GABI"
+      },
+      {
+        "element": "w/o TAS:AF:Ward"
+      },
+      {
+        "element": "w/o TAS:AF:lentil"
+      },
+      {
+        "element": "w/o TAS:AF:pine"
+      },
+      {
+        "element": "w/o TAS:AF:rice"
+      },
+      {
+        "element": "w/o TAS:AF:wheatG"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "TAS to linear:AF:AUS2015",
+    "value": 0.015464351064334015,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/aus_infold_pheno_sensitivity_20261025/SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "rules",
+          "R-K2-linear",
+          "ccc_population",
+          "mean"
+        ],
+        "value": 0.015464351064334015
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "TAS to linear:AF:AUS2015:decision",
+    "value": "not_established",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/aus_infold_pheno_sensitivity_20261025/SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "rules",
+          "R-K2-linear",
+          "ccc_population",
+          "decision"
+        ],
+        "value": "not_established"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "TAS to linear:AF:AUS2015:pass",
+    "value": 0,
+    "operation": "count_equal",
+    "args": {
+      "target": "established"
+    },
+    "inputs": [
+      {
+        "element": "TAS to linear:AF:AUS2015:decision"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "TAS to linear:AF:GABI",
+    "value": 0.1264729579605271,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG1/FG1_OLD_VS_STRICT.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "delta_ccc_mean",
+        "value": 0.1264729579605271
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "TAS to linear:AF:GABI:positive",
+    "value": 1.0,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG1/FG1_OLD_VS_STRICT.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "delta_ccc_positive_fraction",
+        "value": 1.0
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "TAS to linear:AF:GABI:pass",
+    "value": true,
+    "operation": "criterion",
+    "args": {
+      "min_delta": 0.01,
+      "min_positive": 0.6
+    },
+    "inputs": [
+      {
+        "element": "TAS to linear:AF:GABI"
+      },
+      {
+        "element": "TAS to linear:AF:GABI:positive"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "TAS to linear:AF:Ward",
+    "value": 0.1492541701044955,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG1/FG1_OLD_VS_STRICT.csv",
+        "kind": "csv",
+        "data_row": 8,
+        "column": "delta_ccc_mean",
+        "value": 0.1492541701044955
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "TAS to linear:AF:Ward:positive",
+    "value": 1.0,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG1/FG1_OLD_VS_STRICT.csv",
+        "kind": "csv",
+        "data_row": 8,
+        "column": "delta_ccc_positive_fraction",
+        "value": 1.0
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "TAS to linear:AF:Ward:pass",
+    "value": true,
+    "operation": "criterion",
+    "args": {
+      "min_delta": 0.01,
+      "min_positive": 0.6
+    },
+    "inputs": [
+      {
+        "element": "TAS to linear:AF:Ward"
+      },
+      {
+        "element": "TAS to linear:AF:Ward:positive"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "TAS to linear:AF:mean",
+    "value": 0.09706382637645221,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "element": "TAS to linear:AF:AUS2015"
+      },
+      {
+        "element": "TAS to linear:AF:GABI"
+      },
+      {
+        "element": "TAS to linear:AF:Ward"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "TAS to linear:AF:established",
+    "value": 2,
+    "operation": "count_equal",
+    "args": {
+      "target": true
+    },
+    "inputs": [
+      {
+        "element": "TAS to linear:AF:AUS2015:pass"
+      },
+      {
+        "element": "TAS to linear:AF:GABI:pass"
+      },
+      {
+        "element": "TAS to linear:AF:Ward:pass"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "TAS to linear:AF:datasets",
+    "value": 3,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "element": "TAS to linear:AF:AUS2015"
+      },
+      {
+        "element": "TAS to linear:AF:GABI"
+      },
+      {
+        "element": "TAS to linear:AF:Ward"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:MLP-Dual:AUS2015",
+    "value": -0.002353088131642441,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "R-K8",
+          "ccc_population",
+          "datasets",
+          "AUS2015",
+          "mean"
+        ],
+        "value": -0.002353088131642441
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:MLP-Dual:AUS2015:pass",
+    "value": false,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "R-K8",
+          "ccc_population",
+          "datasets",
+          "AUS2015",
+          "passes"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:MLP-Dual:GABI",
+    "value": -0.020903115973044773,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "R-K8",
+          "ccc_population",
+          "datasets",
+          "GABI",
+          "mean"
+        ],
+        "value": -0.020903115973044773
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:MLP-Dual:GABI:pass",
+    "value": false,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "R-K8",
+          "ccc_population",
+          "datasets",
+          "GABI",
+          "passes"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:MLP-Dual:Ward",
+    "value": -0.009724225253565184,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "R-K8",
+          "ccc_population",
+          "datasets",
+          "Ward",
+          "mean"
+        ],
+        "value": -0.009724225253565184
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:MLP-Dual:Ward:pass",
+    "value": false,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_SUMMARY.json",
+        "kind": "json",
+        "keys": [
+          "R-K8",
+          "ccc_population",
+          "datasets",
+          "Ward",
+          "passes"
+        ],
+        "value": false
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:MLP-Dual:mean",
+    "value": -0.010993476452750799,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "element": "w/o TAS:MLP-Dual:AUS2015"
+      },
+      {
+        "element": "w/o TAS:MLP-Dual:GABI"
+      },
+      {
+        "element": "w/o TAS:MLP-Dual:Ward"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:MLP-Dual:established",
+    "value": 0,
+    "operation": "count_equal",
+    "args": {
+      "target": true
+    },
+    "inputs": [
+      {
+        "element": "w/o TAS:MLP-Dual:AUS2015:pass"
+      },
+      {
+        "element": "w/o TAS:MLP-Dual:GABI:pass"
+      },
+      {
+        "element": "w/o TAS:MLP-Dual:Ward:pass"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "w/o TAS:MLP-Dual:datasets",
+    "value": 3,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "element": "w/o TAS:MLP-Dual:AUS2015"
+      },
+      {
+        "element": "w/o TAS:MLP-Dual:GABI"
+      },
+      {
+        "element": "w/o TAS:MLP-Dual:Ward"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:AUS2015:MT:median",
+    "value": 0.776251823881322,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "median",
+        "value": 0.776251823881322
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:AUS2015:MT:n_seeds",
+    "value": 20,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "n_seeds",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:AUS2015:Perm:median",
+    "value": 0.7628499610835988,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "median",
+        "value": 0.7628499610835988
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:AUS2015:Perm:n_seeds",
+    "value": 20,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "n_seeds",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:AUS2015:ST:median",
+    "value": 0.6470578297584235,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "median",
+        "value": 0.6470578297584235
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:AUS2015:ST:n_seeds",
+    "value": 20,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "n_seeds",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:AUS2015:difference_of_medians",
+    "value": 0.013401862797723152,
+    "operation": "subtract",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Perm:AUS2015:MT:median"
+      },
+      {
+        "element": "Perm:AUS2015:Perm:median"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:AUS2015:retained_numerator",
+    "value": 0.1157921313251753,
+    "operation": "subtract",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Perm:AUS2015:Perm:median"
+      },
+      {
+        "element": "Perm:AUS2015:ST:median"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:AUS2015:retained_denominator",
+    "value": 0.12919399412289845,
+    "operation": "subtract",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Perm:AUS2015:MT:median"
+      },
+      {
+        "element": "Perm:AUS2015:ST:median"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:AUS2015:retained",
+    "value": 0.8962655896761397,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Perm:AUS2015:retained_numerator"
+      },
+      {
+        "element": "Perm:AUS2015:retained_denominator"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:GABI:MT:median",
+    "value": 0.5715150604682252,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv",
+        "kind": "csv",
+        "data_row": 8,
+        "column": "median",
+        "value": 0.5715150604682252
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:GABI:MT:n_seeds",
+    "value": 5,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv",
+        "kind": "csv",
+        "data_row": 8,
+        "column": "n_seeds",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:GABI:Perm:median",
+    "value": 0.5591518799796408,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv",
+        "kind": "csv",
+        "data_row": 10,
+        "column": "median",
+        "value": 0.5591518799796408
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:GABI:Perm:n_seeds",
+    "value": 5,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv",
+        "kind": "csv",
+        "data_row": 10,
+        "column": "n_seeds",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:GABI:ST:median",
+    "value": 0.3469739203306358,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv",
+        "kind": "csv",
+        "data_row": 12,
+        "column": "median",
+        "value": 0.3469739203306358
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:GABI:ST:n_seeds",
+    "value": 5,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv",
+        "kind": "csv",
+        "data_row": 12,
+        "column": "n_seeds",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:GABI:difference_of_medians",
+    "value": 0.012363180488584424,
+    "operation": "subtract",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Perm:GABI:MT:median"
+      },
+      {
+        "element": "Perm:GABI:Perm:median"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:GABI:retained_numerator",
+    "value": 0.212177959649005,
+    "operation": "subtract",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Perm:GABI:Perm:median"
+      },
+      {
+        "element": "Perm:GABI:ST:median"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:GABI:retained_denominator",
+    "value": 0.2245411401375894,
+    "operation": "subtract",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Perm:GABI:MT:median"
+      },
+      {
+        "element": "Perm:GABI:ST:median"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:GABI:retained",
+    "value": 0.9449402435517661,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Perm:GABI:retained_numerator"
+      },
+      {
+        "element": "Perm:GABI:retained_denominator"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:Ward:MT:median",
+    "value": 0.3719191980062401,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv",
+        "kind": "csv",
+        "data_row": 14,
+        "column": "median",
+        "value": 0.3719191980062401
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:Ward:MT:n_seeds",
+    "value": 5,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv",
+        "kind": "csv",
+        "data_row": 14,
+        "column": "n_seeds",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:Ward:Perm:median",
+    "value": 0.3350706635841684,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv",
+        "kind": "csv",
+        "data_row": 16,
+        "column": "median",
+        "value": 0.3350706635841684
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:Ward:Perm:n_seeds",
+    "value": 5,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv",
+        "kind": "csv",
+        "data_row": 16,
+        "column": "n_seeds",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:Ward:ST:median",
+    "value": 0.3065028454231898,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv",
+        "kind": "csv",
+        "data_row": 18,
+        "column": "median",
+        "value": 0.3065028454231898
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:Ward:ST:n_seeds",
+    "value": 5,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv",
+        "kind": "csv",
+        "data_row": 18,
+        "column": "n_seeds",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:Ward:difference_of_medians",
+    "value": 0.0368485344220717,
+    "operation": "subtract",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Perm:Ward:MT:median"
+      },
+      {
+        "element": "Perm:Ward:Perm:median"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:Ward:retained_numerator",
+    "value": 0.028567818160978642,
+    "operation": "subtract",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Perm:Ward:Perm:median"
+      },
+      {
+        "element": "Perm:Ward:ST:median"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:Ward:retained_denominator",
+    "value": 0.06541635258305034,
+    "operation": "subtract",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Perm:Ward:MT:median"
+      },
+      {
+        "element": "Perm:Ward:ST:median"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:Ward:retained",
+    "value": 0.43670759730466363,
+    "operation": "divide",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Perm:Ward:retained_numerator"
+      },
+      {
+        "element": "Perm:Ward:retained_denominator"
+      }
+    ]
+  },
+  {
+    "artifact": "Table IV",
+    "element": "Perm:mean_difference_of_medians",
+    "value": 0.020871192569459757,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Perm:AUS2015:difference_of_medians"
+      },
+      {
+        "element": "Perm:GABI:difference_of_medians"
+      },
+      {
+        "element": "Perm:Ward:difference_of_medians"
+      }
+    ]
+  }
+]

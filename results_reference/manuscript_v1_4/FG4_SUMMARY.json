@@ -1,0 +1,78 @@
+{
+  "status": "COMPLETE",
+  "generated_at": "2026-10-26T20:11:28.840749+09:00",
+  "R-DEC-1": true,
+  "R-DEC-2": false,
+  "paired_comparisons": [
+    {
+      "dataset": "AUS2015",
+      "comparison": "AF-MT_minus_AF-ST",
+      "n": 15,
+      "mean_delta_BA": 0.025674147662575305,
+      "positive_fraction_delta_BA": 0.4,
+      "mean_reduction_abs_gain_bias": 0.2238267178001075,
+      "positive_fraction_reduction_abs_gain_bias": 0.8666666666666667
+    },
+    {
+      "dataset": "AUS2015",
+      "comparison": "AF-MT_minus_GBLUP",
+      "n": 15,
+      "mean_delta_BA": -0.07799618804163462,
+      "positive_fraction_delta_BA": 0.06666666666666667,
+      "mean_reduction_abs_gain_bias": -0.05299485531015053,
+      "positive_fraction_reduction_abs_gain_bias": 0.3333333333333333
+    },
+    {
+      "dataset": "GABI",
+      "comparison": "AF-MT_minus_AF-ST",
+      "n": 15,
+      "mean_delta_BA": 0.09483059274256794,
+      "positive_fraction_delta_BA": 0.8666666666666667,
+      "mean_reduction_abs_gain_bias": 0.2061910436134071,
+      "positive_fraction_reduction_abs_gain_bias": 0.4666666666666667
+    },
+    {
+      "dataset": "GABI",
+      "comparison": "AF-MT_minus_GBLUP",
+      "n": 15,
+      "mean_delta_BA": 0.0018640501350900636,
+      "positive_fraction_delta_BA": 0.3333333333333333,
+      "mean_reduction_abs_gain_bias": -0.08106533558319194,
+      "positive_fraction_reduction_abs_gain_bias": 0.3333333333333333
+    },
+    {
+      "dataset": "Ward",
+      "comparison": "AF-MT_minus_AF-ST",
+      "n": 15,
+      "mean_delta_BA": 0.032858233522575685,
+      "positive_fraction_delta_BA": 0.6666666666666666,
+      "mean_reduction_abs_gain_bias": -0.16899562736536294,
+      "positive_fraction_reduction_abs_gain_bias": 0.26666666666666666
+    },
+    {
+      "dataset": "Ward",
+      "comparison": "AF-MT_minus_GBLUP",
+      "n": 15,
+      "mean_delta_BA": 0.022520238814582372,
+      "positive_fraction_delta_BA": 0.6,
+      "mean_reduction_abs_gain_bias": -0.21755888888766906,
+      "positive_fraction_reduction_abs_gain_bias": 0.0
+    }
+  ],
+  "descriptive_associations": [
+    {
+      "outcome": "threshold_balanced_accuracy",
+      "n": 9,
+      "rho_CCC": 0.75,
+      "rho_conditional_unbiasedness_score": 0.4666666666666666,
+      "larger_absolute_association": "CCC"
+    },
+    {
+      "outcome": "negative_absolute_gain_bias",
+      "n": 9,
+      "rho_CCC": 0.5499999999999999,
+      "rho_conditional_unbiasedness_score": 0.7,
+      "larger_absolute_association": "b1_closeness"
+    }
+  ]
+}

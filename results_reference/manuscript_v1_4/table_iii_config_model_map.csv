@@ -1,0 +1,66 @@
+configuration,model,included,rule
+E6H::BayesB_long_s42,BayesB,False,corrected intercept only
+E6H::BayesB_long_s43,BayesB,False,corrected intercept only
+E6H::BayesB_short_s42,BayesB,False,corrected intercept only
+E6H::BayesB_short_s43,BayesB,False,corrected intercept only
+E6H::GBLUP_rrBLUP_mean,GBLUP,True,collapsed by algorithm identity
+E6H::RF_default,RF,True,collapsed by algorithm identity
+E6H::Ridge_default,Ridge,True,collapsed by algorithm identity
+E6H::SVR-RBF_default,SVR-RBF,True,collapsed by algorithm identity
+HF1_E6::BayesB_long_s42,BayesB,True,corrected intercept only
+HF1_E6::BayesB_long_s43,BayesB,True,corrected intercept only
+HF1_E6::BayesB_short_s42,BayesB,True,corrected intercept only
+HF1_E6::BayesB_short_s43,BayesB,True,corrected intercept only
+HF1_N_tuned::GBLUP,GBLUP,True,collapsed by algorithm identity
+HF1_N_tuned::MLP-Dual,MLP-Dual,True,collapsed by algorithm identity
+HF1_N_tuned::RF,RF,True,collapsed by algorithm identity
+HF1_N_tuned::Ridge,Ridge,True,collapsed by algorithm identity
+HF1_N_tuned::SVR-RBF,SVR-RBF,True,collapsed by algorithm identity
+HF1_N_tuned::VMGP,VMGP,True,collapsed by algorithm identity
+HF2_deep::Cropformer,Cropformer,True,collapsed by algorithm identity
+HF2_deep::DeepGS,DeepGS,True,collapsed by algorithm identity
+HF2_deep::WheatGP,WheatGP,True,collapsed by algorithm identity
+HF2_v8_tuned::ElasticNet,ElasticNet,True,collapsed by algorithm identity
+HF2_v8_tuned::LightGBM,LightGBM,True,collapsed by algorithm identity
+TabNet::raw_seed_mean,TabNet,True,collapsed by algorithm identity
+VMGP::seed_mean,VMGP,True,collapsed by algorithm identity
+deep_adapted::Cropformer,Cropformer,True,collapsed by algorithm identity
+deep_adapted::DPCformer,DPCformer,True,collapsed by algorithm identity
+deep_adapted::DeepGS,DeepGS,True,collapsed by algorithm identity
+deep_adapted::GEFormer,GEFormer,True,collapsed by algorithm identity
+deep_adapted::GP_WAITER,GP-WAITER,True,collapsed by algorithm identity
+deep_adapted::GPformer,GPformer,True,collapsed by algorithm identity
+deep_adapted::LSTM,LSTM,True,collapsed by algorithm identity
+deep_adapted::WheatGP,WheatGP,True,collapsed by algorithm identity
+v8_tuned::AdaBoost,AdaBoost,True,collapsed by algorithm identity
+v8_tuned::BayesianRidge,BayesianRidge,True,collapsed by algorithm identity
+v8_tuned::CART,CART,True,collapsed by algorithm identity
+v8_tuned::DecisionTree_pruned,Decision tree,True,collapsed by algorithm identity
+v8_tuned::ElasticNet,ElasticNet,True,collapsed by algorithm identity
+v8_tuned::ExtraTrees,ExtraTrees,True,collapsed by algorithm identity
+v8_tuned::GaussianProcess_RBF,GaussianProcess_RBF,True,collapsed by algorithm identity
+v8_tuned::GaussianRP_Ridge,GaussianRP_Ridge,True,collapsed by algorithm identity
+v8_tuned::GradientBoosting,GradientBoosting,True,collapsed by algorithm identity
+v8_tuned::HistGradientBoosting,HistGradientBoosting,True,collapsed by algorithm identity
+v8_tuned::HuberRegressor,HuberRegressor,True,collapsed by algorithm identity
+v8_tuned::KNN_distance,KNN_distance,True,collapsed by algorithm identity
+v8_tuned::KernelRidge_RBF,KernelRidge_RBF,True,collapsed by algorithm identity
+v8_tuned::Lasso,Lasso,True,collapsed by algorithm identity
+v8_tuned::LightGBM,LightGBM,True,collapsed by algorithm identity
+v8_tuned::LightGBM_extra_regularized,LightGBM,True,collapsed by algorithm identity
+v8_tuned::LinearSVR,LinearSVR,True,collapsed by algorithm identity
+v8_tuned::NuSVR_RBF,NuSVR_RBF,True,collapsed by algorithm identity
+v8_tuned::NystroemRBF_Ridge,NystroemRBF_Ridge,True,collapsed by algorithm identity
+v8_tuned::OrthogonalMatchingPursuit,OrthogonalMatchingPursuit,True,collapsed by algorithm identity
+v8_tuned::PCR_Ridge,PCR_Ridge,True,collapsed by algorithm identity
+v8_tuned::PLSRegression,PLSRegression,True,collapsed by algorithm identity
+v8_tuned::PassiveAggressive,PassiveAggressive,True,collapsed by algorithm identity
+v8_tuned::RBFSampler_Ridge,RBFSampler_Ridge,True,collapsed by algorithm identity
+v8_tuned::RF,RF,True,collapsed by algorithm identity
+v8_tuned::RandomTanhFeatures_Ridge,RandomTanhFeatures_Ridge,True,collapsed by algorithm identity
+v8_tuned::Ridge,Ridge,True,collapsed by algorithm identity
+v8_tuned::SVR,SVR-RBF,True,collapsed by algorithm identity
+v8_tuned::SVR_RBF,SVR-RBF,True,collapsed by algorithm identity
+v8_tuned::SparseRP_Ridge,SparseRP_Ridge,True,collapsed by algorithm identity
+v8_tuned::TruncatedSVD_Ridge,TruncatedSVD_Ridge,True,collapsed by algorithm identity
+v8_tuned::TweedieRegressor,TweedieRegressor,True,collapsed by algorithm identity

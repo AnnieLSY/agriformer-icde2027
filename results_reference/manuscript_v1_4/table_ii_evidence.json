@@ -1,0 +1,1206 @@
+[
+  {
+    "artifact": "Table II",
+    "element": "AUS2015:cv_outer_unit_count",
+    "value": 15,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "cv_outer_unit_count",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "AUS2015:species",
+    "value": "bread wheat (Triticum aestivum)",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "species",
+        "value": "bread wheat (Triticum aestivum)"
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "AUS2015:n",
+    "value": 494,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "n",
+        "value": 494
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "AUS2015:p",
+    "value": 23899,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "p",
+        "value": 23899
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "AUS2015:p_over_n",
+    "value": 48.378542510121456,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "p_over_n",
+        "value": 48.378542510121456
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "AUS2015:genotype_encoding",
+    "value": "0/2 homozygous additive calls; -1 denotes missing",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "genotype_encoding",
+        "value": "0/2 homozygous additive calls; -1 denotes missing"
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "AUS2015:current_matrix_missing_fraction",
+    "value": 0.0082982483809649,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "current_matrix_missing_fraction",
+        "value": 0.0082982483809649
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "AUS2015:recorded_trait_count",
+    "value": 9,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "recorded_trait_count",
+        "value": 9
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "AUS2015:cv_gblup_prediction_observed_sd_ratio_mean",
+    "value": 0.7694683592323578,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "cv_gblup_prediction_observed_sd_ratio_mean",
+        "value": 0.7694683592323578
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "AUS2015:cv_gblup_cb_mean",
+    "value": 0.9625807858515576,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "cv_gblup_cb_mean",
+        "value": 0.9625807858515576
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "AUS2015:missing_percent",
+    "value": 0.82982483809649,
+    "operation": "percent",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:current_matrix_missing_fraction"
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "GABI:cv_outer_unit_count",
+    "value": 15,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "cv_outer_unit_count",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "GABI:species",
+    "value": "bread wheat (Triticum aestivum)",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "species",
+        "value": "bread wheat (Triticum aestivum)"
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "GABI:n",
+    "value": 371,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "n",
+        "value": 371
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "GABI:p",
+    "value": 35143,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "p",
+        "value": 35143
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "GABI:p_over_n",
+    "value": 94.72506738544476,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "p_over_n",
+        "value": 94.72506738544476
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "GABI:genotype_encoding",
+    "value": "0/2 homozygous additive calls; -1 denotes missing",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "genotype_encoding",
+        "value": "0/2 homozygous additive calls; -1 denotes missing"
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "GABI:current_matrix_missing_fraction",
+    "value": 0.1373948242118666,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "current_matrix_missing_fraction",
+        "value": 0.1373948242118666
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "GABI:recorded_trait_count",
+    "value": 18,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "recorded_trait_count",
+        "value": 18
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "GABI:cv_gblup_prediction_observed_sd_ratio_mean",
+    "value": 0.6546388504190215,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "cv_gblup_prediction_observed_sd_ratio_mean",
+        "value": 0.6546388504190215
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "GABI:cv_gblup_cb_mean",
+    "value": 0.9090750821214816,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "cv_gblup_cb_mean",
+        "value": 0.9090750821214816
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "GABI:missing_percent",
+    "value": 13.739482421186661,
+    "operation": "percent",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:current_matrix_missing_fraction"
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "Ward:cv_outer_unit_count",
+    "value": 15,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "cv_outer_unit_count",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "Ward:species",
+    "value": "bread wheat (Triticum aestivum)",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "species",
+        "value": "bread wheat (Triticum aestivum)"
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "Ward:n",
+    "value": 314,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "n",
+        "value": 314
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "Ward:p",
+    "value": 29949,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "p",
+        "value": 29949
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "Ward:p_over_n",
+    "value": 95.37898089171976,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "p_over_n",
+        "value": 95.37898089171976
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "Ward:genotype_encoding",
+    "value": "0/2 homozygous additive calls; -1 denotes missing",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "genotype_encoding",
+        "value": "0/2 homozygous additive calls; -1 denotes missing"
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "Ward:current_matrix_missing_fraction",
+    "value": 0.0527888918592605,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "current_matrix_missing_fraction",
+        "value": 0.0527888918592605
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "Ward:recorded_trait_count",
+    "value": 14,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "recorded_trait_count",
+        "value": 14
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "Ward:cv_gblup_prediction_observed_sd_ratio_mean",
+    "value": 0.4139499034060479,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "cv_gblup_prediction_observed_sd_ratio_mean",
+        "value": 0.4139499034060479
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "Ward:cv_gblup_cb_mean",
+    "value": 0.6842865868332172,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "cv_gblup_cb_mean",
+        "value": 0.6842865868332172
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "Ward:missing_percent",
+    "value": 5.27888918592605,
+    "operation": "percent",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:current_matrix_missing_fraction"
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "lentil:cv_outer_unit_count",
+    "value": 10,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "cv_outer_unit_count",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "lentil:species",
+    "value": "lentil (Lens culinaris)",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "species",
+        "value": "lentil (Lens culinaris)"
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "lentil:n",
+    "value": 324,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "n",
+        "value": 324
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "lentil:p",
+    "value": 23590,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "p",
+        "value": 23590
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "lentil:p_over_n",
+    "value": 72.80864197530865,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "p_over_n",
+        "value": 72.80864197530865
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "lentil:genotype_encoding",
+    "value": "0/1/2 additive genotype encoding",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "genotype_encoding",
+        "value": "0/1/2 additive genotype encoding"
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "lentil:current_matrix_missing_fraction",
+    "value": 0.0,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "current_matrix_missing_fraction",
+        "value": 0.0
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "lentil:recorded_trait_count",
+    "value": 5,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "recorded_trait_count",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "lentil:cv_gblup_prediction_observed_sd_ratio_mean",
+    "value": 0.8538875759498399,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "cv_gblup_prediction_observed_sd_ratio_mean",
+        "value": 0.8538875759498399
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "lentil:cv_gblup_cb_mean",
+    "value": 0.9781753026854572,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "cv_gblup_cb_mean",
+        "value": 0.9781753026854572
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "lentil:missing_percent",
+    "value": 0.0,
+    "operation": "percent",
+    "args": {},
+    "inputs": [
+      {
+        "element": "lentil:current_matrix_missing_fraction"
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "pine:cv_outer_unit_count",
+    "value": 10,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "cv_outer_unit_count",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "pine:species",
+    "value": "loblolly pine (Pinus taeda)",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "species",
+        "value": "loblolly pine (Pinus taeda)"
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "pine:n",
+    "value": 926,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "n",
+        "value": 926
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "pine:p",
+    "value": 4782,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "p",
+        "value": 4782
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "pine:p_over_n",
+    "value": 5.16414686825054,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "p_over_n",
+        "value": 5.16414686825054
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "pine:genotype_encoding",
+    "value": "0/1/2 additive genotype encoding",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "genotype_encoding",
+        "value": "0/1/2 additive genotype encoding"
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "pine:current_matrix_missing_fraction",
+    "value": 0.0,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "current_matrix_missing_fraction",
+        "value": 0.0
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "pine:recorded_trait_count",
+    "value": 17,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "recorded_trait_count",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "pine:cv_gblup_prediction_observed_sd_ratio_mean",
+    "value": 0.7786477082306693,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "cv_gblup_prediction_observed_sd_ratio_mean",
+        "value": 0.7786477082306693
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "pine:cv_gblup_cb_mean",
+    "value": 0.963160625976531,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "cv_gblup_cb_mean",
+        "value": 0.963160625976531
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "pine:missing_percent",
+    "value": 0.0,
+    "operation": "percent",
+    "args": {},
+    "inputs": [
+      {
+        "element": "pine:current_matrix_missing_fraction"
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "rice:cv_outer_unit_count",
+    "value": 10,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "cv_outer_unit_count",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "rice:species",
+    "value": "rice (Oryza sativa)",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "species",
+        "value": "rice (Oryza sativa)"
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "rice:n",
+    "value": 352,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "n",
+        "value": 352
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "rice:p",
+    "value": 27232,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "p",
+        "value": 27232
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "rice:p_over_n",
+    "value": 77.36363636363636,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "p_over_n",
+        "value": 77.36363636363636
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "rice:genotype_encoding",
+    "value": "0/1/2 additive genotype encoding",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "genotype_encoding",
+        "value": "0/1/2 additive genotype encoding"
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "rice:current_matrix_missing_fraction",
+    "value": 0.0,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "current_matrix_missing_fraction",
+        "value": 0.0
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "rice:recorded_trait_count",
+    "value": 36,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "recorded_trait_count",
+        "value": 36
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "rice:cv_gblup_prediction_observed_sd_ratio_mean",
+    "value": 0.7374987743011152,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "cv_gblup_prediction_observed_sd_ratio_mean",
+        "value": 0.7374987743011152
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "rice:cv_gblup_cb_mean",
+    "value": 0.9517057139635678,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "cv_gblup_cb_mean",
+        "value": 0.9517057139635678
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "rice:missing_percent",
+    "value": 0.0,
+    "operation": "percent",
+    "args": {},
+    "inputs": [
+      {
+        "element": "rice:current_matrix_missing_fraction"
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "wheatG:cv_outer_unit_count",
+    "value": 10,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "cv_outer_unit_count",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "wheatG:species",
+    "value": "bread wheat (Triticum aestivum)",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "species",
+        "value": "bread wheat (Triticum aestivum)"
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "wheatG:n",
+    "value": 371,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "n",
+        "value": 371
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "wheatG:p",
+    "value": 12546,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "p",
+        "value": 12546
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "wheatG:p_over_n",
+    "value": 33.8167115902965,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "p_over_n",
+        "value": 33.8167115902965
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "wheatG:genotype_encoding",
+    "value": "numeric dosage; includes non-integer SVD-imputed values",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "genotype_encoding",
+        "value": "numeric dosage; includes non-integer SVD-imputed values"
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "wheatG:current_matrix_missing_fraction",
+    "value": 0.0,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "current_matrix_missing_fraction",
+        "value": 0.0
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "wheatG:recorded_trait_count",
+    "value": 16,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "recorded_trait_count",
+        "value": 16
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "wheatG:cv_gblup_prediction_observed_sd_ratio_mean",
+    "value": 0.6796856638577733,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "cv_gblup_prediction_observed_sd_ratio_mean",
+        "value": 0.6796856638577733
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "wheatG:cv_gblup_cb_mean",
+    "value": 0.9118641085018796,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/data_profile_20261026/DATA_PROFILE.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "cv_gblup_cb_mean",
+        "value": 0.9118641085018796
+      }
+    ]
+  },
+  {
+    "artifact": "Table II",
+    "element": "wheatG:missing_percent",
+    "value": 0.0,
+    "operation": "percent",
+    "args": {},
+    "inputs": [
+      {
+        "element": "wheatG:current_matrix_missing_fraction"
+      }
+    ]
+  }
+]

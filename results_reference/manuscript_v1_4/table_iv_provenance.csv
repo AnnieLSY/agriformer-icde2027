@@ -1,0 +1,177 @@
+artifact,element,value,source,locator,transform
+Table IV,w/o SBV:MLP-Dual:AUS2015,0.0025030878251394,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 2, column mean_delta",identity
+Table IV,w/o SBV:MLP-Dual:AUS2015:pass,False,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 2, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,w/o SBV:MLP-Dual:GABI,0.0244020034777104,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 6, column mean_delta",identity
+Table IV,w/o SBV:MLP-Dual:GABI:pass,True,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 6, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,w/o SBV:MLP-Dual:Ward,0.0511551180493126,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 10, column mean_delta",identity
+Table IV,w/o SBV:MLP-Dual:Ward:pass,True,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 10, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,w/o SBV:MLP-Dual:lentil,0.0097943375080074,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 14, column mean_delta",identity
+Table IV,w/o SBV:MLP-Dual:lentil:pass,False,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 14, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,w/o SBV:MLP-Dual:pine,0.0137220276982281,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 18, column mean_delta",identity
+Table IV,w/o SBV:MLP-Dual:pine:pass,False,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 18, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,w/o SBV:MLP-Dual:rice,0.0142066462575715,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 22, column mean_delta",identity
+Table IV,w/o SBV:MLP-Dual:rice:pass,False,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 22, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,w/o SBV:MLP-Dual:wheatG,0.0370302100411742,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 26, column mean_delta",identity
+Table IV,w/o SBV:MLP-Dual:wheatG:pass,True,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 26, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,w/o SBV:MLP-Dual:mean,0.021830490122449087,derived:w/o SBV:MLP-Dual:AUS2015 | derived:w/o SBV:MLP-Dual:GABI | derived:w/o SBV:MLP-Dual:Ward | derived:w/o SBV:MLP-Dual:lentil | derived:w/o SBV:MLP-Dual:pine | derived:w/o SBV:MLP-Dual:rice | derived:w/o SBV:MLP-Dual:wheatG,,mean
+Table IV,w/o SBV:MLP-Dual:established,3,derived:w/o SBV:MLP-Dual:AUS2015:pass | derived:w/o SBV:MLP-Dual:GABI:pass | derived:w/o SBV:MLP-Dual:Ward:pass | derived:w/o SBV:MLP-Dual:lentil:pass | derived:w/o SBV:MLP-Dual:pine:pass | derived:w/o SBV:MLP-Dual:rice:pass | derived:w/o SBV:MLP-Dual:wheatG:pass,,"count_equal {""target"": true}"
+Table IV,w/o SBV:MLP-Dual:datasets,7,derived:w/o SBV:MLP-Dual:AUS2015 | derived:w/o SBV:MLP-Dual:GABI | derived:w/o SBV:MLP-Dual:Ward | derived:w/o SBV:MLP-Dual:lentil | derived:w/o SBV:MLP-Dual:pine | derived:w/o SBV:MLP-Dual:rice | derived:w/o SBV:MLP-Dual:wheatG,,count
+Table IV,w/o SBV:Ridge:AUS2015,-0.0015427941231253,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 30, column mean_delta",identity
+Table IV,w/o SBV:Ridge:AUS2015:pass,False,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 30, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,w/o SBV:Ridge:GABI,0.0038798220955142,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 34, column mean_delta",identity
+Table IV,w/o SBV:Ridge:GABI:pass,False,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 34, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,w/o SBV:Ridge:Ward,0.0061861179070083,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 38, column mean_delta",identity
+Table IV,w/o SBV:Ridge:Ward:pass,False,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 38, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,w/o SBV:Ridge:lentil,0.0015596898142084,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 42, column mean_delta",identity
+Table IV,w/o SBV:Ridge:lentil:pass,False,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 42, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,w/o SBV:Ridge:pine,0.005962838369354,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 46, column mean_delta",identity
+Table IV,w/o SBV:Ridge:pine:pass,False,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 46, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,w/o SBV:Ridge:rice,-0.0002216340879263,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 50, column mean_delta",identity
+Table IV,w/o SBV:Ridge:rice:pass,False,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 50, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,w/o SBV:Ridge:wheatG,-0.0015203611192391,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 54, column mean_delta",identity
+Table IV,w/o SBV:Ridge:wheatG:pass,False,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 54, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,w/o SBV:Ridge:mean,0.002043382693684886,derived:w/o SBV:Ridge:AUS2015 | derived:w/o SBV:Ridge:GABI | derived:w/o SBV:Ridge:Ward | derived:w/o SBV:Ridge:lentil | derived:w/o SBV:Ridge:pine | derived:w/o SBV:Ridge:rice | derived:w/o SBV:Ridge:wheatG,,mean
+Table IV,w/o SBV:Ridge:established,0,derived:w/o SBV:Ridge:AUS2015:pass | derived:w/o SBV:Ridge:GABI:pass | derived:w/o SBV:Ridge:Ward:pass | derived:w/o SBV:Ridge:lentil:pass | derived:w/o SBV:Ridge:pine:pass | derived:w/o SBV:Ridge:rice:pass | derived:w/o SBV:Ridge:wheatG:pass,,"count_equal {""target"": true}"
+Table IV,w/o SBV:Ridge:datasets,7,derived:w/o SBV:Ridge:AUS2015 | derived:w/o SBV:Ridge:GABI | derived:w/o SBV:Ridge:Ward | derived:w/o SBV:Ridge:lentil | derived:w/o SBV:Ridge:pine | derived:w/o SBV:Ridge:rice | derived:w/o SBV:Ridge:wheatG,,count
+Table IV,w/o SBV:AF:AUS2015,0.09196625946172408,${WORKSPACE}/pilot_20261013/aus_infold_pheno_sensitivity_20261025/SUMMARY.json,"JSON [""rules"", ""R-K5-CONTEXT"", ""ccc_population"", ""mean""]",identity
+Table IV,w/o SBV:AF:AUS2015:decision,established,${WORKSPACE}/pilot_20261013/aus_infold_pheno_sensitivity_20261025/SUMMARY.json,"JSON [""rules"", ""R-K5-CONTEXT"", ""ccc_population"", ""decision""]",identity
+Table IV,w/o SBV:AF:AUS2015:pass,1,derived:w/o SBV:AF:AUS2015:decision,,"count_equal {""target"": ""established""}"
+Table IV,w/o SBV:AF:GABI,0.2581710845147639,${WORKSPACE}/pilot_20261013/run_v13/K/K_SUMMARY.json,"JSON [""rules"", ""R-K5-K5"", ""ccc_population"", ""datasets"", ""GABI"", ""mean""]",identity
+Table IV,w/o SBV:AF:GABI:pass,True,${WORKSPACE}/pilot_20261013/run_v13/K/K_SUMMARY.json,"JSON [""rules"", ""R-K5-K5"", ""ccc_population"", ""datasets"", ""GABI"", ""passes""]",identity
+Table IV,w/o SBV:AF:Ward,0.2813123756504808,${WORKSPACE}/pilot_20261013/run_v13/K/K_SUMMARY.json,"JSON [""rules"", ""R-K5-K5"", ""ccc_population"", ""datasets"", ""Ward"", ""mean""]",identity
+Table IV,w/o SBV:AF:Ward:pass,True,${WORKSPACE}/pilot_20261013/run_v13/K/K_SUMMARY.json,"JSON [""rules"", ""R-K5-K5"", ""ccc_population"", ""datasets"", ""Ward"", ""passes""]",identity
+Table IV,w/o SBV:AF:lentil,0.227380460554303,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv,"data row 13, column mean_D",identity
+Table IV,w/o SBV:AF:lentil:pass,1,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv,"data row 13, column decision","count_equal {""target"": ""PLS established""}"
+Table IV,w/o SBV:AF:pine,0.5281087408257796,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv,"data row 15, column mean_D",identity
+Table IV,w/o SBV:AF:pine:pass,1,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv,"data row 15, column decision","count_equal {""target"": ""PLS established""}"
+Table IV,w/o SBV:AF:rice,0.4387757005288546,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv,"data row 17, column mean_D",identity
+Table IV,w/o SBV:AF:rice:pass,1,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv,"data row 17, column decision","count_equal {""target"": ""PLS established""}"
+Table IV,w/o SBV:AF:wheatG,0.5291755445496369,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv,"data row 19, column mean_D",identity
+Table IV,w/o SBV:AF:wheatG:pass,1,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv,"data row 19, column decision","count_equal {""target"": ""PLS established""}"
+Table IV,w/o SBV:AF:mean,0.3364128808693633,derived:w/o SBV:AF:AUS2015 | derived:w/o SBV:AF:GABI | derived:w/o SBV:AF:Ward | derived:w/o SBV:AF:lentil | derived:w/o SBV:AF:pine | derived:w/o SBV:AF:rice | derived:w/o SBV:AF:wheatG,,mean
+Table IV,w/o SBV:AF:established,7,derived:w/o SBV:AF:AUS2015:pass | derived:w/o SBV:AF:GABI:pass | derived:w/o SBV:AF:Ward:pass | derived:w/o SBV:AF:lentil:pass | derived:w/o SBV:AF:pine:pass | derived:w/o SBV:AF:rice:pass | derived:w/o SBV:AF:wheatG:pass,,"count_equal {""target"": true}"
+Table IV,w/o SBV:AF:datasets,7,derived:w/o SBV:AF:AUS2015 | derived:w/o SBV:AF:GABI | derived:w/o SBV:AF:Ward | derived:w/o SBV:AF:lentil | derived:w/o SBV:AF:pine | derived:w/o SBV:AF:rice | derived:w/o SBV:AF:wheatG,,count
+Table IV,SBV to PCA:MLP-Dual:AUS2015,0.0126664965992631,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 1, column mean_delta",identity
+Table IV,SBV to PCA:MLP-Dual:AUS2015:pass,True,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 1, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,SBV to PCA:MLP-Dual:GABI,0.0085933600469731,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 5, column mean_delta",identity
+Table IV,SBV to PCA:MLP-Dual:GABI:pass,False,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 5, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,SBV to PCA:MLP-Dual:Ward,0.0523253847998145,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 9, column mean_delta",identity
+Table IV,SBV to PCA:MLP-Dual:Ward:pass,True,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 9, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,SBV to PCA:MLP-Dual:lentil,0.0107903728275283,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 13, column mean_delta",identity
+Table IV,SBV to PCA:MLP-Dual:lentil:pass,True,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 13, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,SBV to PCA:MLP-Dual:pine,0.0058950132361159,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 17, column mean_delta",identity
+Table IV,SBV to PCA:MLP-Dual:pine:pass,False,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 17, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,SBV to PCA:MLP-Dual:rice,-0.0095947551096247,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 21, column mean_delta",identity
+Table IV,SBV to PCA:MLP-Dual:rice:pass,False,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 21, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,SBV to PCA:MLP-Dual:wheatG,0.0139500765074203,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 25, column mean_delta",identity
+Table IV,SBV to PCA:MLP-Dual:wheatG:pass,True,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 25, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,SBV to PCA:MLP-Dual:mean,0.013517992701070073,derived:SBV to PCA:MLP-Dual:AUS2015 | derived:SBV to PCA:MLP-Dual:GABI | derived:SBV to PCA:MLP-Dual:Ward | derived:SBV to PCA:MLP-Dual:lentil | derived:SBV to PCA:MLP-Dual:pine | derived:SBV to PCA:MLP-Dual:rice | derived:SBV to PCA:MLP-Dual:wheatG,,mean
+Table IV,SBV to PCA:MLP-Dual:established,4,derived:SBV to PCA:MLP-Dual:AUS2015:pass | derived:SBV to PCA:MLP-Dual:GABI:pass | derived:SBV to PCA:MLP-Dual:Ward:pass | derived:SBV to PCA:MLP-Dual:lentil:pass | derived:SBV to PCA:MLP-Dual:pine:pass | derived:SBV to PCA:MLP-Dual:rice:pass | derived:SBV to PCA:MLP-Dual:wheatG:pass,,"count_equal {""target"": true}"
+Table IV,SBV to PCA:MLP-Dual:datasets,7,derived:SBV to PCA:MLP-Dual:AUS2015 | derived:SBV to PCA:MLP-Dual:GABI | derived:SBV to PCA:MLP-Dual:Ward | derived:SBV to PCA:MLP-Dual:lentil | derived:SBV to PCA:MLP-Dual:pine | derived:SBV to PCA:MLP-Dual:rice | derived:SBV to PCA:MLP-Dual:wheatG,,count
+Table IV,SBV to PCA:Ridge:AUS2015,-0.0015869860428434,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 29, column mean_delta",identity
+Table IV,SBV to PCA:Ridge:AUS2015:pass,False,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 29, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,SBV to PCA:Ridge:GABI,0.0039063444058784,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 33, column mean_delta",identity
+Table IV,SBV to PCA:Ridge:GABI:pass,False,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 33, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,SBV to PCA:Ridge:Ward,0.0062790795559687,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 37, column mean_delta",identity
+Table IV,SBV to PCA:Ridge:Ward:pass,False,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 37, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,SBV to PCA:Ridge:lentil,0.0015872754015109,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 41, column mean_delta",identity
+Table IV,SBV to PCA:Ridge:lentil:pass,False,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 41, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,SBV to PCA:Ridge:pine,0.0059221579119251,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 45, column mean_delta",identity
+Table IV,SBV to PCA:Ridge:pine:pass,False,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 45, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,SBV to PCA:Ridge:rice,-0.0001938192434942,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 49, column mean_delta",identity
+Table IV,SBV to PCA:Ridge:rice:pass,False,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 49, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,SBV to PCA:Ridge:wheatG,-0.0016653156749243,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 53, column mean_delta",identity
+Table IV,SBV to PCA:Ridge:wheatG:pass,False,${WORKSPACE}/pilot_20261013/context_learner_generality_20261026/SUMMARY.csv,"data row 53, column decision","count_equal {""target"": ""ESTABLISHED""}"
+Table IV,SBV to PCA:Ridge:mean,0.002035533759145886,derived:SBV to PCA:Ridge:AUS2015 | derived:SBV to PCA:Ridge:GABI | derived:SBV to PCA:Ridge:Ward | derived:SBV to PCA:Ridge:lentil | derived:SBV to PCA:Ridge:pine | derived:SBV to PCA:Ridge:rice | derived:SBV to PCA:Ridge:wheatG,,mean
+Table IV,SBV to PCA:Ridge:established,0,derived:SBV to PCA:Ridge:AUS2015:pass | derived:SBV to PCA:Ridge:GABI:pass | derived:SBV to PCA:Ridge:Ward:pass | derived:SBV to PCA:Ridge:lentil:pass | derived:SBV to PCA:Ridge:pine:pass | derived:SBV to PCA:Ridge:rice:pass | derived:SBV to PCA:Ridge:wheatG:pass,,"count_equal {""target"": true}"
+Table IV,SBV to PCA:Ridge:datasets,7,derived:SBV to PCA:Ridge:AUS2015 | derived:SBV to PCA:Ridge:GABI | derived:SBV to PCA:Ridge:Ward | derived:SBV to PCA:Ridge:lentil | derived:SBV to PCA:Ridge:pine | derived:SBV to PCA:Ridge:rice | derived:SBV to PCA:Ridge:wheatG,,count
+Table IV,SBV to PCA:AF:AUS2015,0.05202301632419086,${WORKSPACE}/pilot_20261013/aus_infold_pheno_sensitivity_20261025/SUMMARY.json,"JSON [""rules"", ""v13m-R1"", ""ccc_population"", ""mean""]",identity
+Table IV,SBV to PCA:AF:AUS2015:decision,established,${WORKSPACE}/pilot_20261013/aus_infold_pheno_sensitivity_20261025/SUMMARY.json,"JSON [""rules"", ""v13m-R1"", ""ccc_population"", ""decision""]",identity
+Table IV,SBV to PCA:AF:AUS2015:pass,1,derived:SBV to PCA:AF:AUS2015:decision,,"count_equal {""target"": ""established""}"
+Table IV,SBV to PCA:AF:GABI,0.13033975116327695,${WORKSPACE}/pilot_20261013/run_v13/M/M_SUMMARY.json,"JSON [""arms"", ""R1"", ""datasets"", ""GABI"", ""ccc_population"", ""mean_D""]",identity
+Table IV,SBV to PCA:AF:GABI:pass,True,${WORKSPACE}/pilot_20261013/run_v13/M/M_SUMMARY.json,"JSON [""arms"", ""R1"", ""datasets"", ""GABI"", ""ccc_population"", ""established""]",identity
+Table IV,SBV to PCA:AF:Ward,0.17881949466688343,${WORKSPACE}/pilot_20261013/run_v13/M/M_SUMMARY.json,"JSON [""arms"", ""R1"", ""datasets"", ""Ward"", ""ccc_population"", ""mean_D""]",identity
+Table IV,SBV to PCA:AF:Ward:pass,True,${WORKSPACE}/pilot_20261013/run_v13/M/M_SUMMARY.json,"JSON [""arms"", ""R1"", ""datasets"", ""Ward"", ""ccc_population"", ""established""]",identity
+Table IV,SBV to PCA:AF:lentil,0.0766429613838726,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv,"data row 3, column mean_D",identity
+Table IV,SBV to PCA:AF:lentil:pass,1,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv,"data row 3, column decision","count_equal {""target"": ""PLS established""}"
+Table IV,SBV to PCA:AF:pine,0.156945966099418,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv,"data row 5, column mean_D",identity
+Table IV,SBV to PCA:AF:pine:pass,1,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv,"data row 5, column decision","count_equal {""target"": ""PLS established""}"
+Table IV,SBV to PCA:AF:rice,0.0556243990687484,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv,"data row 7, column mean_D",identity
+Table IV,SBV to PCA:AF:rice:pass,1,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv,"data row 7, column decision","count_equal {""target"": ""PLS established""}"
+Table IV,SBV to PCA:AF:wheatG,0.1200762309007779,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv,"data row 9, column mean_D",identity
+Table IV,SBV to PCA:AF:wheatG:pass,1,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E4/E4_DATASET_DECISIONS.csv,"data row 9, column decision","count_equal {""target"": ""PLS established""}"
+Table IV,SBV to PCA:AF:mean,0.11006740280102402,derived:SBV to PCA:AF:AUS2015 | derived:SBV to PCA:AF:GABI | derived:SBV to PCA:AF:Ward | derived:SBV to PCA:AF:lentil | derived:SBV to PCA:AF:pine | derived:SBV to PCA:AF:rice | derived:SBV to PCA:AF:wheatG,,mean
+Table IV,SBV to PCA:AF:established,7,derived:SBV to PCA:AF:AUS2015:pass | derived:SBV to PCA:AF:GABI:pass | derived:SBV to PCA:AF:Ward:pass | derived:SBV to PCA:AF:lentil:pass | derived:SBV to PCA:AF:pine:pass | derived:SBV to PCA:AF:rice:pass | derived:SBV to PCA:AF:wheatG:pass,,"count_equal {""target"": true}"
+Table IV,SBV to PCA:AF:datasets,7,derived:SBV to PCA:AF:AUS2015 | derived:SBV to PCA:AF:GABI | derived:SBV to PCA:AF:Ward | derived:SBV to PCA:AF:lentil | derived:SBV to PCA:AF:pine | derived:SBV to PCA:AF:rice | derived:SBV to PCA:AF:wheatG,,count
+Table IV,w/o TAS:AF:AUS2015,0.0686853370076369,${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG1/FG1_OLD_VS_STRICT.csv,"data row 1, column delta_ccc_mean",identity
+Table IV,w/o TAS:AF:AUS2015:positive,0.7333333333333333,${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG1/FG1_OLD_VS_STRICT.csv,"data row 1, column delta_ccc_positive_fraction",identity
+Table IV,w/o TAS:AF:AUS2015:pass,True,derived:w/o TAS:AF:AUS2015 | derived:w/o TAS:AF:AUS2015:positive,,"criterion {""min_delta"": 0.01, ""min_positive"": 0.6}"
+Table IV,w/o TAS:AF:GABI,0.1313976984400708,${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG1/FG1_OLD_VS_STRICT.csv,"data row 4, column delta_ccc_mean",identity
+Table IV,w/o TAS:AF:GABI:positive,0.9333333333333332,${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG1/FG1_OLD_VS_STRICT.csv,"data row 4, column delta_ccc_positive_fraction",identity
+Table IV,w/o TAS:AF:GABI:pass,True,derived:w/o TAS:AF:GABI | derived:w/o TAS:AF:GABI:positive,,"criterion {""min_delta"": 0.01, ""min_positive"": 0.6}"
+Table IV,w/o TAS:AF:Ward,0.0521369225816495,${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG1/FG1_OLD_VS_STRICT.csv,"data row 7, column delta_ccc_mean",identity
+Table IV,w/o TAS:AF:Ward:positive,0.9333333333333332,${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG1/FG1_OLD_VS_STRICT.csv,"data row 7, column delta_ccc_positive_fraction",identity
+Table IV,w/o TAS:AF:Ward:pass,True,derived:w/o TAS:AF:Ward | derived:w/o TAS:AF:Ward:positive,,"criterion {""min_delta"": 0.01, ""min_positive"": 0.6}"
+Table IV,w/o TAS:AF:lentil,0.08768866702615745,${WORKSPACE}/pilot_20261013/run_v13/O/O_SUMMARY.json,"JSON [""C"", ""decisions"", 6, ""mean_delta""]",identity
+Table IV,w/o TAS:AF:lentil:pass,True,${WORKSPACE}/pilot_20261013/run_v13/O/O_SUMMARY.json,"JSON [""C"", ""decisions"", 6, ""passed""]",identity
+Table IV,w/o TAS:AF:pine,0.14108779429405066,${WORKSPACE}/pilot_20261013/run_v13/O/O_SUMMARY.json,"JSON [""C"", ""decisions"", 7, ""mean_delta""]",identity
+Table IV,w/o TAS:AF:pine:pass,True,${WORKSPACE}/pilot_20261013/run_v13/O/O_SUMMARY.json,"JSON [""C"", ""decisions"", 7, ""passed""]",identity
+Table IV,w/o TAS:AF:rice,0.07017933938387569,${WORKSPACE}/pilot_20261013/run_v13/O/O_SUMMARY.json,"JSON [""C"", ""decisions"", 8, ""mean_delta""]",identity
+Table IV,w/o TAS:AF:rice:pass,True,${WORKSPACE}/pilot_20261013/run_v13/O/O_SUMMARY.json,"JSON [""C"", ""decisions"", 8, ""passed""]",identity
+Table IV,w/o TAS:AF:wheatG,0.16459408350473387,${WORKSPACE}/pilot_20261013/run_v13/O/O_SUMMARY.json,"JSON [""C"", ""decisions"", 9, ""mean_delta""]",identity
+Table IV,w/o TAS:AF:wheatG:pass,True,${WORKSPACE}/pilot_20261013/run_v13/O/O_SUMMARY.json,"JSON [""C"", ""decisions"", 9, ""passed""]",identity
+Table IV,w/o TAS:AF:mean,0.10225283460545355,derived:w/o TAS:AF:AUS2015 | derived:w/o TAS:AF:GABI | derived:w/o TAS:AF:Ward | derived:w/o TAS:AF:lentil | derived:w/o TAS:AF:pine | derived:w/o TAS:AF:rice | derived:w/o TAS:AF:wheatG,,mean
+Table IV,w/o TAS:AF:established,7,derived:w/o TAS:AF:AUS2015:pass | derived:w/o TAS:AF:GABI:pass | derived:w/o TAS:AF:Ward:pass | derived:w/o TAS:AF:lentil:pass | derived:w/o TAS:AF:pine:pass | derived:w/o TAS:AF:rice:pass | derived:w/o TAS:AF:wheatG:pass,,"count_equal {""target"": true}"
+Table IV,w/o TAS:AF:datasets,7,derived:w/o TAS:AF:AUS2015 | derived:w/o TAS:AF:GABI | derived:w/o TAS:AF:Ward | derived:w/o TAS:AF:lentil | derived:w/o TAS:AF:pine | derived:w/o TAS:AF:rice | derived:w/o TAS:AF:wheatG,,count
+Table IV,TAS to linear:AF:AUS2015,0.015464351064334015,${WORKSPACE}/pilot_20261013/aus_infold_pheno_sensitivity_20261025/SUMMARY.json,"JSON [""rules"", ""R-K2-linear"", ""ccc_population"", ""mean""]",identity
+Table IV,TAS to linear:AF:AUS2015:decision,not_established,${WORKSPACE}/pilot_20261013/aus_infold_pheno_sensitivity_20261025/SUMMARY.json,"JSON [""rules"", ""R-K2-linear"", ""ccc_population"", ""decision""]",identity
+Table IV,TAS to linear:AF:AUS2015:pass,0,derived:TAS to linear:AF:AUS2015:decision,,"count_equal {""target"": ""established""}"
+Table IV,TAS to linear:AF:GABI,0.1264729579605271,${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG1/FG1_OLD_VS_STRICT.csv,"data row 5, column delta_ccc_mean",identity
+Table IV,TAS to linear:AF:GABI:positive,1.0,${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG1/FG1_OLD_VS_STRICT.csv,"data row 5, column delta_ccc_positive_fraction",identity
+Table IV,TAS to linear:AF:GABI:pass,True,derived:TAS to linear:AF:GABI | derived:TAS to linear:AF:GABI:positive,,"criterion {""min_delta"": 0.01, ""min_positive"": 0.6}"
+Table IV,TAS to linear:AF:Ward,0.1492541701044955,${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG1/FG1_OLD_VS_STRICT.csv,"data row 8, column delta_ccc_mean",identity
+Table IV,TAS to linear:AF:Ward:positive,1.0,${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG1/FG1_OLD_VS_STRICT.csv,"data row 8, column delta_ccc_positive_fraction",identity
+Table IV,TAS to linear:AF:Ward:pass,True,derived:TAS to linear:AF:Ward | derived:TAS to linear:AF:Ward:positive,,"criterion {""min_delta"": 0.01, ""min_positive"": 0.6}"
+Table IV,TAS to linear:AF:mean,0.09706382637645221,derived:TAS to linear:AF:AUS2015 | derived:TAS to linear:AF:GABI | derived:TAS to linear:AF:Ward,,mean
+Table IV,TAS to linear:AF:established,2,derived:TAS to linear:AF:AUS2015:pass | derived:TAS to linear:AF:GABI:pass | derived:TAS to linear:AF:Ward:pass,,"count_equal {""target"": true}"
+Table IV,TAS to linear:AF:datasets,3,derived:TAS to linear:AF:AUS2015 | derived:TAS to linear:AF:GABI | derived:TAS to linear:AF:Ward,,count
+Table IV,w/o TAS:MLP-Dual:AUS2015,-0.002353088131642441,${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_SUMMARY.json,"JSON [""R-K8"", ""ccc_population"", ""datasets"", ""AUS2015"", ""mean""]",identity
+Table IV,w/o TAS:MLP-Dual:AUS2015:pass,False,${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_SUMMARY.json,"JSON [""R-K8"", ""ccc_population"", ""datasets"", ""AUS2015"", ""passes""]",identity
+Table IV,w/o TAS:MLP-Dual:GABI,-0.020903115973044773,${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_SUMMARY.json,"JSON [""R-K8"", ""ccc_population"", ""datasets"", ""GABI"", ""mean""]",identity
+Table IV,w/o TAS:MLP-Dual:GABI:pass,False,${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_SUMMARY.json,"JSON [""R-K8"", ""ccc_population"", ""datasets"", ""GABI"", ""passes""]",identity
+Table IV,w/o TAS:MLP-Dual:Ward,-0.009724225253565184,${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_SUMMARY.json,"JSON [""R-K8"", ""ccc_population"", ""datasets"", ""Ward"", ""mean""]",identity
+Table IV,w/o TAS:MLP-Dual:Ward:pass,False,${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_SUMMARY.json,"JSON [""R-K8"", ""ccc_population"", ""datasets"", ""Ward"", ""passes""]",identity
+Table IV,w/o TAS:MLP-Dual:mean,-0.010993476452750799,derived:w/o TAS:MLP-Dual:AUS2015 | derived:w/o TAS:MLP-Dual:GABI | derived:w/o TAS:MLP-Dual:Ward,,mean
+Table IV,w/o TAS:MLP-Dual:established,0,derived:w/o TAS:MLP-Dual:AUS2015:pass | derived:w/o TAS:MLP-Dual:GABI:pass | derived:w/o TAS:MLP-Dual:Ward:pass,,"count_equal {""target"": true}"
+Table IV,w/o TAS:MLP-Dual:datasets,3,derived:w/o TAS:MLP-Dual:AUS2015 | derived:w/o TAS:MLP-Dual:GABI | derived:w/o TAS:MLP-Dual:Ward,,count
+Table IV,Perm:AUS2015:MT:median,0.776251823881322,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv,"data row 2, column median",identity
+Table IV,Perm:AUS2015:MT:n_seeds,20,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv,"data row 2, column n_seeds",identity
+Table IV,Perm:AUS2015:Perm:median,0.7628499610835988,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv,"data row 4, column median",identity
+Table IV,Perm:AUS2015:Perm:n_seeds,20,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv,"data row 4, column n_seeds",identity
+Table IV,Perm:AUS2015:ST:median,0.6470578297584235,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv,"data row 6, column median",identity
+Table IV,Perm:AUS2015:ST:n_seeds,20,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv,"data row 6, column n_seeds",identity
+Table IV,Perm:AUS2015:difference_of_medians,0.013401862797723152,derived:Perm:AUS2015:MT:median | derived:Perm:AUS2015:Perm:median,,subtract
+Table IV,Perm:AUS2015:retained_numerator,0.1157921313251753,derived:Perm:AUS2015:Perm:median | derived:Perm:AUS2015:ST:median,,subtract
+Table IV,Perm:AUS2015:retained_denominator,0.12919399412289845,derived:Perm:AUS2015:MT:median | derived:Perm:AUS2015:ST:median,,subtract
+Table IV,Perm:AUS2015:retained,0.8962655896761397,derived:Perm:AUS2015:retained_numerator | derived:Perm:AUS2015:retained_denominator,,divide
+Table IV,Perm:GABI:MT:median,0.5715150604682252,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv,"data row 8, column median",identity
+Table IV,Perm:GABI:MT:n_seeds,5,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv,"data row 8, column n_seeds",identity
+Table IV,Perm:GABI:Perm:median,0.5591518799796408,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv,"data row 10, column median",identity
+Table IV,Perm:GABI:Perm:n_seeds,5,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv,"data row 10, column n_seeds",identity
+Table IV,Perm:GABI:ST:median,0.3469739203306358,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv,"data row 12, column median",identity
+Table IV,Perm:GABI:ST:n_seeds,5,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv,"data row 12, column n_seeds",identity
+Table IV,Perm:GABI:difference_of_medians,0.012363180488584424,derived:Perm:GABI:MT:median | derived:Perm:GABI:Perm:median,,subtract
+Table IV,Perm:GABI:retained_numerator,0.212177959649005,derived:Perm:GABI:Perm:median | derived:Perm:GABI:ST:median,,subtract
+Table IV,Perm:GABI:retained_denominator,0.2245411401375894,derived:Perm:GABI:MT:median | derived:Perm:GABI:ST:median,,subtract
+Table IV,Perm:GABI:retained,0.9449402435517661,derived:Perm:GABI:retained_numerator | derived:Perm:GABI:retained_denominator,,divide
+Table IV,Perm:Ward:MT:median,0.3719191980062401,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv,"data row 14, column median",identity
+Table IV,Perm:Ward:MT:n_seeds,5,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv,"data row 14, column n_seeds",identity
+Table IV,Perm:Ward:Perm:median,0.3350706635841684,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv,"data row 16, column median",identity
+Table IV,Perm:Ward:Perm:n_seeds,5,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv,"data row 16, column n_seeds",identity
+Table IV,Perm:Ward:ST:median,0.3065028454231898,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv,"data row 18, column median",identity
+Table IV,Perm:Ward:ST:n_seeds,5,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_summary.csv,"data row 18, column n_seeds",identity
+Table IV,Perm:Ward:difference_of_medians,0.0368485344220717,derived:Perm:Ward:MT:median | derived:Perm:Ward:Perm:median,,subtract
+Table IV,Perm:Ward:retained_numerator,0.028567818160978642,derived:Perm:Ward:Perm:median | derived:Perm:Ward:ST:median,,subtract
+Table IV,Perm:Ward:retained_denominator,0.06541635258305034,derived:Perm:Ward:MT:median | derived:Perm:Ward:ST:median,,subtract
+Table IV,Perm:Ward:retained,0.43670759730466363,derived:Perm:Ward:retained_numerator | derived:Perm:Ward:retained_denominator,,divide
+Table IV,Perm:mean_difference_of_medians,0.020871192569459757,derived:Perm:AUS2015:difference_of_medians | derived:Perm:GABI:difference_of_medians | derived:Perm:Ward:difference_of_medians,,mean

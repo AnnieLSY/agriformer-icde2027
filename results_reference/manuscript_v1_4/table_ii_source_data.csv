@@ -1,0 +1,8 @@
+dataset,cv_outer_unit_count,species,n,p,p_over_n,genotype_encoding,current_matrix_missing_fraction,recorded_trait_count,cv_gblup_prediction_observed_sd_ratio_mean,cv_gblup_cb_mean,missing_percent
+AUS2015,15,bread wheat (Triticum aestivum),494,23899,48.378542510121456,0/2 homozygous additive calls; -1 denotes missing,0.0082982483809649,9,0.7694683592323578,0.9625807858515576,0.82982483809649
+GABI,15,bread wheat (Triticum aestivum),371,35143,94.72506738544476,0/2 homozygous additive calls; -1 denotes missing,0.1373948242118666,18,0.6546388504190215,0.9090750821214816,13.739482421186661
+Ward,15,bread wheat (Triticum aestivum),314,29949,95.37898089171976,0/2 homozygous additive calls; -1 denotes missing,0.0527888918592605,14,0.4139499034060479,0.6842865868332172,5.27888918592605
+lentil,10,lentil (Lens culinaris),324,23590,72.80864197530865,0/1/2 additive genotype encoding,0.0,5,0.8538875759498399,0.9781753026854572,0.0
+pine,10,loblolly pine (Pinus taeda),926,4782,5.16414686825054,0/1/2 additive genotype encoding,0.0,17,0.7786477082306693,0.963160625976531,0.0
+rice,10,rice (Oryza sativa),352,27232,77.36363636363636,0/1/2 additive genotype encoding,0.0,36,0.7374987743011152,0.9517057139635678,0.0
+wheatG,10,bread wheat (Triticum aestivum),371,12546,33.8167115902965,numeric dosage; includes non-integer SVD-imputed values,0.0,16,0.6796856638577733,0.9118641085018796,0.0

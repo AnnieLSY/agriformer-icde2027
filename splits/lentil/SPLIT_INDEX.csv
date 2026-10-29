@@ -1,0 +1,11 @@
+dataset,repeat,fold,official_key,train_n,test_n,manifest,sha256,source
+lentil,1,1,Split1CV1,259,65,repeat_1_fold_1.csv,9b74de0e635be71ab467321d0206bc667462c0068089272bb2b87b46c4b950c1,EasyGeSe lentilZ.json
+lentil,1,2,Split2CV1,259,65,repeat_1_fold_2.csv,ac4561231c0e191537f9e8f8b65cde8425b0afc086884eedb941e61dd2e8b9f7,EasyGeSe lentilZ.json
+lentil,1,3,Split3CV1,259,65,repeat_1_fold_3.csv,cdc97a7b06530831b2ca7f91eb88d474a4000cd876448894728b64bc33519ab5,EasyGeSe lentilZ.json
+lentil,1,4,Split4CV1,259,65,repeat_1_fold_4.csv,76f3627811e2cfd31574f4e1bf18d0babce50f27f53be8af3243178127f94e1b,EasyGeSe lentilZ.json
+lentil,1,5,Split5CV1,260,64,repeat_1_fold_5.csv,82f6d45e265135ffd6957899077abcb83b521ac4b7e0a6203ecb6a41a6fde0b9,EasyGeSe lentilZ.json
+lentil,2,1,Split1CV2,259,65,repeat_2_fold_1.csv,9d0a4eb52440cca200023cb3e647bde1dc1060768be50c20acd4271c6406d917,EasyGeSe lentilZ.json
+lentil,2,2,Split2CV2,259,65,repeat_2_fold_2.csv,862026b0d61dac7fafb98c18e9807b54f436de257f3b2a513fbfed6df67dd84c,EasyGeSe lentilZ.json
+lentil,2,3,Split3CV2,259,65,repeat_2_fold_3.csv,f99ce1c6f0282d15afa7bb2d27737679459c28ac6bf69e6788f79aa4efe2ea38,EasyGeSe lentilZ.json
+lentil,2,4,Split4CV2,259,65,repeat_2_fold_4.csv,3e2c6f624303fa0dd64867c2e8cc12e95a255ae442994f5be630f6a1d76c2a67,EasyGeSe lentilZ.json
+lentil,2,5,Split5CV2,260,64,repeat_2_fold_5.csv,4892eb87dafca8c14c06356dcd92b4e9f39456b99064c61960babf0cb32bc52c,EasyGeSe lentilZ.json

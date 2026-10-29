@@ -1,0 +1,19 @@
+schema_version: 1
+profile_status: public_minimized
+manuscript:
+  id: agriformer-icde2027
+  title: "AgriFormer: Routing Phenotype Information for Genotype-Only Prediction under Phenotype Scarcity"
+method_contract:
+  research_question: "Where may phenotype information enter a genomic prediction pipeline when only genotypes are available at deployment?"
+  inference_interface: "Genotype-derived inputs only; one target-trait prediction is returned."
+  preparation_scope: "PLS and BayesB are fitted only within the supplied training partition."
+  grouping_scope: "Trait grouping is fixed before inner validation and excludes held-out phenotypes."
+  auxiliary_supervision: "Auxiliary traits are training outputs only and are not inference inputs."
+terminology:
+  SBV: "Scoped Background View: training-partition-fitted PLS scores."
+  EMV: "Effect-Ordered Marker View: training-partition BayesB top-K markers ordered by absolute effect."
+  TAS: "Train-Only Auxiliary Supervision: yield-centred multi-output training with auxiliary heads removed at inference."
+scope_limits:
+  - "No claim of a universally leakage-free pipeline."
+  - "No causal interpretation of candidate-marker attribution."
+  - "Every quantitative claim remains bounded by its named dataset and protocol."

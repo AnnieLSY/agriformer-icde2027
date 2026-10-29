@@ -1,0 +1,11 @@
+dataset,repeat,fold,official_key,train_n,test_n,manifest,sha256,source
+pine,1,1,Split1CV1,688,173,repeat_1_fold_1.csv,d5fa46a2e3ed86b44bf73c3b59d096d0b19df8dfb8eeccd3a5def5af0940f686,EasyGeSe pineZ.json
+pine,1,2,Split2CV1,689,172,repeat_1_fold_2.csv,da67472c1ef99fe839c8f0334b525dfc4b288f1214e50983da2f2693fe8b2f2e,EasyGeSe pineZ.json
+pine,1,3,Split3CV1,689,172,repeat_1_fold_3.csv,15997d8575be005f8def4f80dcc6aca51eb693ef225c50e84bbd593eef46d99d,EasyGeSe pineZ.json
+pine,1,4,Split4CV1,689,172,repeat_1_fold_4.csv,574eaf264da86aa7e2fd70b75cf559c3173bd09af9c2e569e209dc4d3bbebc8e,EasyGeSe pineZ.json
+pine,1,5,Split5CV1,689,172,repeat_1_fold_5.csv,265676b0523695f1fc4372f483cd12150fd966091c86981ca5c5f5b9bb3743ca,EasyGeSe pineZ.json
+pine,2,1,Split1CV2,688,173,repeat_2_fold_1.csv,06eb3d58f68027d1dc390d442d475bb0adcf5359bc4c7216fb42cc188dcee9d2,EasyGeSe pineZ.json
+pine,2,2,Split2CV2,689,172,repeat_2_fold_2.csv,e8a8b78c61e473f670a346c4954ff50738ad1a1afc33ef4880edd6dcbebc92d2,EasyGeSe pineZ.json
+pine,2,3,Split3CV2,689,172,repeat_2_fold_3.csv,2a458c609f07779f342cf6f2440f4ffa3310be3e5cd5973df452b141731110ea,EasyGeSe pineZ.json
+pine,2,4,Split4CV2,689,172,repeat_2_fold_4.csv,75f11e9aa1c52763fd302533f61d0324042d0860651d20861e1bec862573fb56,EasyGeSe pineZ.json
+pine,2,5,Split5CV2,689,172,repeat_2_fold_5.csv,37f0f13ac808548f3c2918ca759e0c9908b9e977d93672a9a0643587ad50688c,EasyGeSe pineZ.json

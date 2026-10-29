@@ -12,11 +12,16 @@ Current initial import:
   AUS2015, GABI, and Ward.
 - `rq1_holdout/hf2_additional/`: normally tuned additional holdout controls for
   GABI and Ward.
-- `rq1_holdout/aus_historical/`: the frozen seed-42 matrix from the final
-  Genome Biology submission package. It is preserved for provenance and is
+- `rq1_holdout/aus_historical/`: the frozen seed-42 matrix from an earlier
+  manuscript package. It is preserved for provenance and is
   not by itself a claim of state-of-the-art superiority.
 - `summaries/`: frozen aggregate panels and paired-comparison summaries.
+- `manuscript_v1_4/`: locked source values, provenance and evidence records for
+  Tables I--V and Figs. 3--5, plus the holdout bootstrap and threshold-decision
+  outputs used by the manuscript.
+- `table_iii/`: all 30 regressors evaluated only on AUS2015, together with a
+  SHA-256 manifest for their copied per-sample prediction files.
 
 `REFERENCE_MANIFEST.tsv` records size and SHA-256 for every imported file. The
-ICDE evidence map v5 will determine which of these rows enter final tables.
+mapping to manuscript claims is frozen in `../CLAIMS_TO_ARTIFACTS.tsv`.
 

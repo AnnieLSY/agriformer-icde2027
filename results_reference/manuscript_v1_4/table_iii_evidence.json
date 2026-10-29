@@ -1,0 +1,8063 @@
+[
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:GBLUP",
+    "value": 0.809198235100852,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "control_pcc",
+        "value": 0.809198235100852
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:GBLUP:configuration",
+    "value": "E6H::GBLUP_rrBLUP_mean",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "control",
+        "value": "E6H::GBLUP_rrBLUP_mean"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:BayesB",
+    "value": 0.8126227083210198,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 78,
+        "column": "control_pcc",
+        "value": 0.8126227083210198
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:BayesB:configuration",
+    "value": "HF1_E6::BayesB_long_s43",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 78,
+        "column": "control",
+        "value": "HF1_E6::BayesB_long_s43"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:Ridge",
+    "value": 0.7862583769306725,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 71,
+        "column": "control_pcc",
+        "value": 0.7862583769306725
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:Ridge:configuration",
+    "value": "HF1_N_tuned::Ridge",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 71,
+        "column": "control",
+        "value": "HF1_N_tuned::Ridge"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:ElasticNet",
+    "value": 0.8432442858318628,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 13,
+        "column": "control_pcc",
+        "value": 0.8432442858318628
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:ElasticNet:configuration",
+    "value": "v8_tuned::ElasticNet",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 13,
+        "column": "control",
+        "value": "v8_tuned::ElasticNet"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:RF",
+    "value": 0.8383472834131078,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 33,
+        "column": "control_pcc",
+        "value": 0.8383472834131078
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:RF:configuration",
+    "value": "v8_tuned::RF",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 33,
+        "column": "control",
+        "value": "v8_tuned::RF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:LightGBM",
+    "value": 0.8474795551335902,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 23,
+        "column": "control_pcc",
+        "value": 0.8474795551335902
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:LightGBM:configuration",
+    "value": "v8_tuned::LightGBM",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 23,
+        "column": "control",
+        "value": "v8_tuned::LightGBM"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:SVR-RBF",
+    "value": 0.8438693912749832,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 72,
+        "column": "control_pcc",
+        "value": 0.8438693912749832
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:SVR-RBF:configuration",
+    "value": "HF1_N_tuned::SVR-RBF",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 72,
+        "column": "control",
+        "value": "HF1_N_tuned::SVR-RBF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:MLP-Dual",
+    "value": 0.7920344461536658,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 75,
+        "column": "control_pcc",
+        "value": 0.7920344461536658
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:MLP-Dual:configuration",
+    "value": "HF1_N_tuned::MLP-Dual",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 75,
+        "column": "control",
+        "value": "HF1_N_tuned::MLP-Dual"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:WheatGP",
+    "value": 0.8354970352696265,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 48,
+        "column": "control_pcc",
+        "value": 0.8354970352696265
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:WheatGP:configuration",
+    "value": "deep_adapted::WheatGP",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 48,
+        "column": "control",
+        "value": "deep_adapted::WheatGP"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:Cropformer",
+    "value": 0.7995634161136591,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 41,
+        "column": "control_pcc",
+        "value": 0.7995634161136591
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:Cropformer:configuration",
+    "value": "deep_adapted::Cropformer",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 41,
+        "column": "control",
+        "value": "deep_adapted::Cropformer"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:VMGP",
+    "value": 0.7499322459865941,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 49,
+        "column": "control_pcc",
+        "value": 0.7499322459865941
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:VMGP:configuration",
+    "value": "VMGP::seed_mean",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 49,
+        "column": "control",
+        "value": "VMGP::seed_mean"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:TabNet",
+    "value": 0.5629491291157459,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 50,
+        "column": "control_pcc",
+        "value": 0.5629491291157459
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:TabNet:configuration",
+    "value": "TabNet::raw_seed_mean",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 50,
+        "column": "control",
+        "value": "TabNet::raw_seed_mean"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:DeepGS",
+    "value": 0.5067909409637317,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 43,
+        "column": "control_pcc",
+        "value": 0.5067909409637317
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:DeepGS:configuration",
+    "value": "deep_adapted::DeepGS",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 43,
+        "column": "control",
+        "value": "deep_adapted::DeepGS"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:AF",
+    "value": 0.8140736669547094,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R2_AF_SEED_SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "mean_prediction_pcc",
+        "value": 0.8140736669547094
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:GBLUP:model_rank",
+    "value": 8,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:PCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:PCC:BayesB"
+      },
+      {
+        "element": "AUS2015:PCC:Ridge"
+      },
+      {
+        "element": "AUS2015:PCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:PCC:RF"
+      },
+      {
+        "element": "AUS2015:PCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:PCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:PCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:PCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:PCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:PCC:VMGP"
+      },
+      {
+        "element": "AUS2015:PCC:TabNet"
+      },
+      {
+        "element": "AUS2015:PCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:BayesB:model_rank",
+    "value": 7,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:PCC:BayesB"
+      },
+      {
+        "element": "AUS2015:PCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:PCC:Ridge"
+      },
+      {
+        "element": "AUS2015:PCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:PCC:RF"
+      },
+      {
+        "element": "AUS2015:PCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:PCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:PCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:PCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:PCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:PCC:VMGP"
+      },
+      {
+        "element": "AUS2015:PCC:TabNet"
+      },
+      {
+        "element": "AUS2015:PCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:Ridge:model_rank",
+    "value": 11,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:PCC:Ridge"
+      },
+      {
+        "element": "AUS2015:PCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:PCC:BayesB"
+      },
+      {
+        "element": "AUS2015:PCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:PCC:RF"
+      },
+      {
+        "element": "AUS2015:PCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:PCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:PCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:PCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:PCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:PCC:VMGP"
+      },
+      {
+        "element": "AUS2015:PCC:TabNet"
+      },
+      {
+        "element": "AUS2015:PCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:ElasticNet:model_rank",
+    "value": 3,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:PCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:PCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:PCC:BayesB"
+      },
+      {
+        "element": "AUS2015:PCC:Ridge"
+      },
+      {
+        "element": "AUS2015:PCC:RF"
+      },
+      {
+        "element": "AUS2015:PCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:PCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:PCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:PCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:PCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:PCC:VMGP"
+      },
+      {
+        "element": "AUS2015:PCC:TabNet"
+      },
+      {
+        "element": "AUS2015:PCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:RF:model_rank",
+    "value": 4,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:PCC:RF"
+      },
+      {
+        "element": "AUS2015:PCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:PCC:BayesB"
+      },
+      {
+        "element": "AUS2015:PCC:Ridge"
+      },
+      {
+        "element": "AUS2015:PCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:PCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:PCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:PCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:PCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:PCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:PCC:VMGP"
+      },
+      {
+        "element": "AUS2015:PCC:TabNet"
+      },
+      {
+        "element": "AUS2015:PCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:LightGBM:model_rank",
+    "value": 1,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:PCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:PCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:PCC:BayesB"
+      },
+      {
+        "element": "AUS2015:PCC:Ridge"
+      },
+      {
+        "element": "AUS2015:PCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:PCC:RF"
+      },
+      {
+        "element": "AUS2015:PCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:PCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:PCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:PCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:PCC:VMGP"
+      },
+      {
+        "element": "AUS2015:PCC:TabNet"
+      },
+      {
+        "element": "AUS2015:PCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:SVR-RBF:model_rank",
+    "value": 2,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:PCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:PCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:PCC:BayesB"
+      },
+      {
+        "element": "AUS2015:PCC:Ridge"
+      },
+      {
+        "element": "AUS2015:PCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:PCC:RF"
+      },
+      {
+        "element": "AUS2015:PCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:PCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:PCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:PCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:PCC:VMGP"
+      },
+      {
+        "element": "AUS2015:PCC:TabNet"
+      },
+      {
+        "element": "AUS2015:PCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:MLP-Dual:model_rank",
+    "value": 10,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:PCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:PCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:PCC:BayesB"
+      },
+      {
+        "element": "AUS2015:PCC:Ridge"
+      },
+      {
+        "element": "AUS2015:PCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:PCC:RF"
+      },
+      {
+        "element": "AUS2015:PCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:PCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:PCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:PCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:PCC:VMGP"
+      },
+      {
+        "element": "AUS2015:PCC:TabNet"
+      },
+      {
+        "element": "AUS2015:PCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:WheatGP:model_rank",
+    "value": 5,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:PCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:PCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:PCC:BayesB"
+      },
+      {
+        "element": "AUS2015:PCC:Ridge"
+      },
+      {
+        "element": "AUS2015:PCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:PCC:RF"
+      },
+      {
+        "element": "AUS2015:PCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:PCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:PCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:PCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:PCC:VMGP"
+      },
+      {
+        "element": "AUS2015:PCC:TabNet"
+      },
+      {
+        "element": "AUS2015:PCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:Cropformer:model_rank",
+    "value": 9,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:PCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:PCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:PCC:BayesB"
+      },
+      {
+        "element": "AUS2015:PCC:Ridge"
+      },
+      {
+        "element": "AUS2015:PCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:PCC:RF"
+      },
+      {
+        "element": "AUS2015:PCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:PCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:PCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:PCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:PCC:VMGP"
+      },
+      {
+        "element": "AUS2015:PCC:TabNet"
+      },
+      {
+        "element": "AUS2015:PCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:VMGP:model_rank",
+    "value": 12,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:PCC:VMGP"
+      },
+      {
+        "element": "AUS2015:PCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:PCC:BayesB"
+      },
+      {
+        "element": "AUS2015:PCC:Ridge"
+      },
+      {
+        "element": "AUS2015:PCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:PCC:RF"
+      },
+      {
+        "element": "AUS2015:PCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:PCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:PCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:PCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:PCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:PCC:TabNet"
+      },
+      {
+        "element": "AUS2015:PCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:TabNet:model_rank",
+    "value": 13,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:PCC:TabNet"
+      },
+      {
+        "element": "AUS2015:PCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:PCC:BayesB"
+      },
+      {
+        "element": "AUS2015:PCC:Ridge"
+      },
+      {
+        "element": "AUS2015:PCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:PCC:RF"
+      },
+      {
+        "element": "AUS2015:PCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:PCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:PCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:PCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:PCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:PCC:VMGP"
+      },
+      {
+        "element": "AUS2015:PCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:DeepGS:model_rank",
+    "value": 14,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:PCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:PCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:PCC:BayesB"
+      },
+      {
+        "element": "AUS2015:PCC:Ridge"
+      },
+      {
+        "element": "AUS2015:PCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:PCC:RF"
+      },
+      {
+        "element": "AUS2015:PCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:PCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:PCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:PCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:PCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:PCC:VMGP"
+      },
+      {
+        "element": "AUS2015:PCC:TabNet"
+      },
+      {
+        "element": "AUS2015:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:PCC:AF:model_rank",
+    "value": 6,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:PCC:AF"
+      },
+      {
+        "element": "AUS2015:PCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:PCC:BayesB"
+      },
+      {
+        "element": "AUS2015:PCC:Ridge"
+      },
+      {
+        "element": "AUS2015:PCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:PCC:RF"
+      },
+      {
+        "element": "AUS2015:PCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:PCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:PCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:PCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:PCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:PCC:VMGP"
+      },
+      {
+        "element": "AUS2015:PCC:TabNet"
+      },
+      {
+        "element": "AUS2015:PCC:DeepGS"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:GBLUP",
+    "value": 0.7882745039087654,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 74,
+        "column": "control_ccc",
+        "value": 0.7882745039087654
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:GBLUP:configuration",
+    "value": "HF1_N_tuned::GBLUP",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 74,
+        "column": "control",
+        "value": "HF1_N_tuned::GBLUP"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:BayesB",
+    "value": 0.7927338883668763,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 78,
+        "column": "control_ccc",
+        "value": 0.7927338883668763
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:BayesB:configuration",
+    "value": "HF1_E6::BayesB_long_s43",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 78,
+        "column": "control",
+        "value": "HF1_E6::BayesB_long_s43"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:Ridge",
+    "value": 0.7784149904851602,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 71,
+        "column": "control_ccc",
+        "value": 0.7784149904851602
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:Ridge:configuration",
+    "value": "HF1_N_tuned::Ridge",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 71,
+        "column": "control",
+        "value": "HF1_N_tuned::Ridge"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:ElasticNet",
+    "value": 0.8204855102979083,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 13,
+        "column": "control_ccc",
+        "value": 0.8204855102979083
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:ElasticNet:configuration",
+    "value": "v8_tuned::ElasticNet",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 13,
+        "column": "control",
+        "value": "v8_tuned::ElasticNet"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:RF",
+    "value": 0.7723235701798475,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 33,
+        "column": "control_ccc",
+        "value": 0.7723235701798475
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:RF:configuration",
+    "value": "v8_tuned::RF",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 33,
+        "column": "control",
+        "value": "v8_tuned::RF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:LightGBM",
+    "value": 0.8112094402782543,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 23,
+        "column": "control_ccc",
+        "value": 0.8112094402782543
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:LightGBM:configuration",
+    "value": "v8_tuned::LightGBM",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 23,
+        "column": "control",
+        "value": "v8_tuned::LightGBM"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:SVR-RBF",
+    "value": 0.8088612664456947,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 72,
+        "column": "control_ccc",
+        "value": 0.8088612664456947
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:SVR-RBF:configuration",
+    "value": "HF1_N_tuned::SVR-RBF",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 72,
+        "column": "control",
+        "value": "HF1_N_tuned::SVR-RBF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:MLP-Dual",
+    "value": 0.7825310427313428,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 75,
+        "column": "control_ccc",
+        "value": 0.7825310427313428
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:MLP-Dual:configuration",
+    "value": "HF1_N_tuned::MLP-Dual",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 75,
+        "column": "control",
+        "value": "HF1_N_tuned::MLP-Dual"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:WheatGP",
+    "value": 0.8139236356740269,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 48,
+        "column": "control_ccc",
+        "value": 0.8139236356740269
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:WheatGP:configuration",
+    "value": "deep_adapted::WheatGP",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 48,
+        "column": "control",
+        "value": "deep_adapted::WheatGP"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:Cropformer",
+    "value": 0.7650093495947775,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 41,
+        "column": "control_ccc",
+        "value": 0.7650093495947775
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:Cropformer:configuration",
+    "value": "deep_adapted::Cropformer",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 41,
+        "column": "control",
+        "value": "deep_adapted::Cropformer"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:VMGP",
+    "value": 0.4051530783253877,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 49,
+        "column": "control_ccc",
+        "value": 0.4051530783253877
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:VMGP:configuration",
+    "value": "VMGP::seed_mean",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 49,
+        "column": "control",
+        "value": "VMGP::seed_mean"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:TabNet",
+    "value": 0.2725865990452112,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 50,
+        "column": "control_ccc",
+        "value": 0.2725865990452112
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:TabNet:configuration",
+    "value": "TabNet::raw_seed_mean",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 50,
+        "column": "control",
+        "value": "TabNet::raw_seed_mean"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:DeepGS",
+    "value": 0.0873608666058682,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 43,
+        "column": "control_ccc",
+        "value": 0.0873608666058682
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:DeepGS:configuration",
+    "value": "deep_adapted::DeepGS",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 43,
+        "column": "control",
+        "value": "deep_adapted::DeepGS"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:AF",
+    "value": 0.7800393998405797,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R2_AF_SEED_SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "mean_prediction_ccc",
+        "value": 0.7800393998405797
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:GBLUP:model_rank",
+    "value": 6,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:CCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:CCC:BayesB"
+      },
+      {
+        "element": "AUS2015:CCC:Ridge"
+      },
+      {
+        "element": "AUS2015:CCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:CCC:RF"
+      },
+      {
+        "element": "AUS2015:CCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:CCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:CCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:CCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:CCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:CCC:VMGP"
+      },
+      {
+        "element": "AUS2015:CCC:TabNet"
+      },
+      {
+        "element": "AUS2015:CCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:BayesB:model_rank",
+    "value": 5,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:CCC:BayesB"
+      },
+      {
+        "element": "AUS2015:CCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:CCC:Ridge"
+      },
+      {
+        "element": "AUS2015:CCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:CCC:RF"
+      },
+      {
+        "element": "AUS2015:CCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:CCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:CCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:CCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:CCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:CCC:VMGP"
+      },
+      {
+        "element": "AUS2015:CCC:TabNet"
+      },
+      {
+        "element": "AUS2015:CCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:Ridge:model_rank",
+    "value": 9,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:CCC:Ridge"
+      },
+      {
+        "element": "AUS2015:CCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:CCC:BayesB"
+      },
+      {
+        "element": "AUS2015:CCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:CCC:RF"
+      },
+      {
+        "element": "AUS2015:CCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:CCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:CCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:CCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:CCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:CCC:VMGP"
+      },
+      {
+        "element": "AUS2015:CCC:TabNet"
+      },
+      {
+        "element": "AUS2015:CCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:ElasticNet:model_rank",
+    "value": 1,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:CCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:CCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:CCC:BayesB"
+      },
+      {
+        "element": "AUS2015:CCC:Ridge"
+      },
+      {
+        "element": "AUS2015:CCC:RF"
+      },
+      {
+        "element": "AUS2015:CCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:CCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:CCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:CCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:CCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:CCC:VMGP"
+      },
+      {
+        "element": "AUS2015:CCC:TabNet"
+      },
+      {
+        "element": "AUS2015:CCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:RF:model_rank",
+    "value": 10,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:CCC:RF"
+      },
+      {
+        "element": "AUS2015:CCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:CCC:BayesB"
+      },
+      {
+        "element": "AUS2015:CCC:Ridge"
+      },
+      {
+        "element": "AUS2015:CCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:CCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:CCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:CCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:CCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:CCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:CCC:VMGP"
+      },
+      {
+        "element": "AUS2015:CCC:TabNet"
+      },
+      {
+        "element": "AUS2015:CCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:LightGBM:model_rank",
+    "value": 3,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:CCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:CCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:CCC:BayesB"
+      },
+      {
+        "element": "AUS2015:CCC:Ridge"
+      },
+      {
+        "element": "AUS2015:CCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:CCC:RF"
+      },
+      {
+        "element": "AUS2015:CCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:CCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:CCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:CCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:CCC:VMGP"
+      },
+      {
+        "element": "AUS2015:CCC:TabNet"
+      },
+      {
+        "element": "AUS2015:CCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:SVR-RBF:model_rank",
+    "value": 4,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:CCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:CCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:CCC:BayesB"
+      },
+      {
+        "element": "AUS2015:CCC:Ridge"
+      },
+      {
+        "element": "AUS2015:CCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:CCC:RF"
+      },
+      {
+        "element": "AUS2015:CCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:CCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:CCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:CCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:CCC:VMGP"
+      },
+      {
+        "element": "AUS2015:CCC:TabNet"
+      },
+      {
+        "element": "AUS2015:CCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:MLP-Dual:model_rank",
+    "value": 7,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:CCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:CCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:CCC:BayesB"
+      },
+      {
+        "element": "AUS2015:CCC:Ridge"
+      },
+      {
+        "element": "AUS2015:CCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:CCC:RF"
+      },
+      {
+        "element": "AUS2015:CCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:CCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:CCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:CCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:CCC:VMGP"
+      },
+      {
+        "element": "AUS2015:CCC:TabNet"
+      },
+      {
+        "element": "AUS2015:CCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:WheatGP:model_rank",
+    "value": 2,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:CCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:CCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:CCC:BayesB"
+      },
+      {
+        "element": "AUS2015:CCC:Ridge"
+      },
+      {
+        "element": "AUS2015:CCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:CCC:RF"
+      },
+      {
+        "element": "AUS2015:CCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:CCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:CCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:CCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:CCC:VMGP"
+      },
+      {
+        "element": "AUS2015:CCC:TabNet"
+      },
+      {
+        "element": "AUS2015:CCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:Cropformer:model_rank",
+    "value": 11,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:CCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:CCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:CCC:BayesB"
+      },
+      {
+        "element": "AUS2015:CCC:Ridge"
+      },
+      {
+        "element": "AUS2015:CCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:CCC:RF"
+      },
+      {
+        "element": "AUS2015:CCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:CCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:CCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:CCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:CCC:VMGP"
+      },
+      {
+        "element": "AUS2015:CCC:TabNet"
+      },
+      {
+        "element": "AUS2015:CCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:VMGP:model_rank",
+    "value": 12,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:CCC:VMGP"
+      },
+      {
+        "element": "AUS2015:CCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:CCC:BayesB"
+      },
+      {
+        "element": "AUS2015:CCC:Ridge"
+      },
+      {
+        "element": "AUS2015:CCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:CCC:RF"
+      },
+      {
+        "element": "AUS2015:CCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:CCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:CCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:CCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:CCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:CCC:TabNet"
+      },
+      {
+        "element": "AUS2015:CCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:TabNet:model_rank",
+    "value": 13,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:CCC:TabNet"
+      },
+      {
+        "element": "AUS2015:CCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:CCC:BayesB"
+      },
+      {
+        "element": "AUS2015:CCC:Ridge"
+      },
+      {
+        "element": "AUS2015:CCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:CCC:RF"
+      },
+      {
+        "element": "AUS2015:CCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:CCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:CCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:CCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:CCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:CCC:VMGP"
+      },
+      {
+        "element": "AUS2015:CCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:DeepGS:model_rank",
+    "value": 14,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:CCC:DeepGS"
+      },
+      {
+        "element": "AUS2015:CCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:CCC:BayesB"
+      },
+      {
+        "element": "AUS2015:CCC:Ridge"
+      },
+      {
+        "element": "AUS2015:CCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:CCC:RF"
+      },
+      {
+        "element": "AUS2015:CCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:CCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:CCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:CCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:CCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:CCC:VMGP"
+      },
+      {
+        "element": "AUS2015:CCC:TabNet"
+      },
+      {
+        "element": "AUS2015:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:CCC:AF:model_rank",
+    "value": 8,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "AUS2015:CCC:AF"
+      },
+      {
+        "element": "AUS2015:CCC:GBLUP"
+      },
+      {
+        "element": "AUS2015:CCC:BayesB"
+      },
+      {
+        "element": "AUS2015:CCC:Ridge"
+      },
+      {
+        "element": "AUS2015:CCC:ElasticNet"
+      },
+      {
+        "element": "AUS2015:CCC:RF"
+      },
+      {
+        "element": "AUS2015:CCC:LightGBM"
+      },
+      {
+        "element": "AUS2015:CCC:SVR-RBF"
+      },
+      {
+        "element": "AUS2015:CCC:MLP-Dual"
+      },
+      {
+        "element": "AUS2015:CCC:WheatGP"
+      },
+      {
+        "element": "AUS2015:CCC:Cropformer"
+      },
+      {
+        "element": "AUS2015:CCC:VMGP"
+      },
+      {
+        "element": "AUS2015:CCC:TabNet"
+      },
+      {
+        "element": "AUS2015:CCC:DeepGS"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:GBLUP",
+    "value": 0.5746805112951394,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 55,
+        "column": "control_pcc",
+        "value": 0.5746805112951394
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:GBLUP:configuration",
+    "value": "E6H::GBLUP_rrBLUP_mean",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 55,
+        "column": "control",
+        "value": "E6H::GBLUP_rrBLUP_mean"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:BayesB",
+    "value": 0.6056309322783267,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 90,
+        "column": "control_pcc",
+        "value": 0.6056309322783267
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:BayesB:configuration",
+    "value": "HF1_E6::BayesB_short_s43",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 90,
+        "column": "control",
+        "value": "HF1_E6::BayesB_short_s43"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:Ridge",
+    "value": 0.5725671815829038,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 81,
+        "column": "control_pcc",
+        "value": 0.5725671815829038
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:Ridge:configuration",
+    "value": "HF1_N_tuned::Ridge",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 81,
+        "column": "control",
+        "value": "HF1_N_tuned::Ridge"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:ElasticNet",
+    "value": 0.6566215301368783,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 101,
+        "column": "control_pcc",
+        "value": 0.6566215301368783
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:ElasticNet:configuration",
+    "value": "HF2_v8_tuned::ElasticNet",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 101,
+        "column": "control",
+        "value": "HF2_v8_tuned::ElasticNet"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:RF",
+    "value": 0.6275199999356256,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 56,
+        "column": "control_pcc",
+        "value": 0.6275199999356256
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:RF:configuration",
+    "value": "E6H::RF_default",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 56,
+        "column": "control",
+        "value": "E6H::RF_default"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:LightGBM",
+    "value": 0.6708888316693542,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 102,
+        "column": "control_pcc",
+        "value": 0.6708888316693542
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:LightGBM:configuration",
+    "value": "HF2_v8_tuned::LightGBM",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 102,
+        "column": "control",
+        "value": "HF2_v8_tuned::LightGBM"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:SVR-RBF",
+    "value": 0.5940561607712205,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 82,
+        "column": "control_pcc",
+        "value": 0.5940561607712205
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:SVR-RBF:configuration",
+    "value": "HF1_N_tuned::SVR-RBF",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 82,
+        "column": "control",
+        "value": "HF1_N_tuned::SVR-RBF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:MLP-Dual",
+    "value": 0.4965740040611424,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 85,
+        "column": "control_pcc",
+        "value": 0.4965740040611424
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:MLP-Dual:configuration",
+    "value": "HF1_N_tuned::MLP-Dual",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 85,
+        "column": "control",
+        "value": "HF1_N_tuned::MLP-Dual"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:WheatGP",
+    "value": 0.5735816961767792,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 103,
+        "column": "control_pcc",
+        "value": 0.5735816961767792
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:WheatGP:configuration",
+    "value": "HF2_deep::WheatGP",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 103,
+        "column": "control",
+        "value": "HF2_deep::WheatGP"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:Cropformer",
+    "value": 0.6049579569059158,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 104,
+        "column": "control_pcc",
+        "value": 0.6049579569059158
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:Cropformer:configuration",
+    "value": "HF2_deep::Cropformer",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 104,
+        "column": "control",
+        "value": "HF2_deep::Cropformer"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:VMGP",
+    "value": 0.6008456841635139,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 59,
+        "column": "control_pcc",
+        "value": 0.6008456841635139
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:VMGP:configuration",
+    "value": "VMGP::seed_mean",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 59,
+        "column": "control",
+        "value": "VMGP::seed_mean"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:TabNet",
+    "value": 0.1002039700310759,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 60,
+        "column": "control_pcc",
+        "value": 0.1002039700310759
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:TabNet:configuration",
+    "value": "TabNet::raw_seed_mean",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 60,
+        "column": "control",
+        "value": "TabNet::raw_seed_mean"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:DeepGS",
+    "value": 0.571216628216454,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 105,
+        "column": "control_pcc",
+        "value": 0.571216628216454
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:DeepGS:configuration",
+    "value": "HF2_deep::DeepGS",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 105,
+        "column": "control",
+        "value": "HF2_deep::DeepGS"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:AF",
+    "value": 0.6131458954143664,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R2_AF_SEED_SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "mean_prediction_pcc",
+        "value": 0.6131458954143664
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:GBLUP:model_rank",
+    "value": 9,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:PCC:GBLUP"
+      },
+      {
+        "element": "GABI:PCC:BayesB"
+      },
+      {
+        "element": "GABI:PCC:Ridge"
+      },
+      {
+        "element": "GABI:PCC:ElasticNet"
+      },
+      {
+        "element": "GABI:PCC:RF"
+      },
+      {
+        "element": "GABI:PCC:LightGBM"
+      },
+      {
+        "element": "GABI:PCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:PCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:PCC:WheatGP"
+      },
+      {
+        "element": "GABI:PCC:Cropformer"
+      },
+      {
+        "element": "GABI:PCC:VMGP"
+      },
+      {
+        "element": "GABI:PCC:TabNet"
+      },
+      {
+        "element": "GABI:PCC:DeepGS"
+      },
+      {
+        "element": "GABI:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:BayesB:model_rank",
+    "value": 5,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:PCC:BayesB"
+      },
+      {
+        "element": "GABI:PCC:GBLUP"
+      },
+      {
+        "element": "GABI:PCC:Ridge"
+      },
+      {
+        "element": "GABI:PCC:ElasticNet"
+      },
+      {
+        "element": "GABI:PCC:RF"
+      },
+      {
+        "element": "GABI:PCC:LightGBM"
+      },
+      {
+        "element": "GABI:PCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:PCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:PCC:WheatGP"
+      },
+      {
+        "element": "GABI:PCC:Cropformer"
+      },
+      {
+        "element": "GABI:PCC:VMGP"
+      },
+      {
+        "element": "GABI:PCC:TabNet"
+      },
+      {
+        "element": "GABI:PCC:DeepGS"
+      },
+      {
+        "element": "GABI:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:Ridge:model_rank",
+    "value": 11,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:PCC:Ridge"
+      },
+      {
+        "element": "GABI:PCC:GBLUP"
+      },
+      {
+        "element": "GABI:PCC:BayesB"
+      },
+      {
+        "element": "GABI:PCC:ElasticNet"
+      },
+      {
+        "element": "GABI:PCC:RF"
+      },
+      {
+        "element": "GABI:PCC:LightGBM"
+      },
+      {
+        "element": "GABI:PCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:PCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:PCC:WheatGP"
+      },
+      {
+        "element": "GABI:PCC:Cropformer"
+      },
+      {
+        "element": "GABI:PCC:VMGP"
+      },
+      {
+        "element": "GABI:PCC:TabNet"
+      },
+      {
+        "element": "GABI:PCC:DeepGS"
+      },
+      {
+        "element": "GABI:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:ElasticNet:model_rank",
+    "value": 2,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:PCC:ElasticNet"
+      },
+      {
+        "element": "GABI:PCC:GBLUP"
+      },
+      {
+        "element": "GABI:PCC:BayesB"
+      },
+      {
+        "element": "GABI:PCC:Ridge"
+      },
+      {
+        "element": "GABI:PCC:RF"
+      },
+      {
+        "element": "GABI:PCC:LightGBM"
+      },
+      {
+        "element": "GABI:PCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:PCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:PCC:WheatGP"
+      },
+      {
+        "element": "GABI:PCC:Cropformer"
+      },
+      {
+        "element": "GABI:PCC:VMGP"
+      },
+      {
+        "element": "GABI:PCC:TabNet"
+      },
+      {
+        "element": "GABI:PCC:DeepGS"
+      },
+      {
+        "element": "GABI:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:RF:model_rank",
+    "value": 3,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:PCC:RF"
+      },
+      {
+        "element": "GABI:PCC:GBLUP"
+      },
+      {
+        "element": "GABI:PCC:BayesB"
+      },
+      {
+        "element": "GABI:PCC:Ridge"
+      },
+      {
+        "element": "GABI:PCC:ElasticNet"
+      },
+      {
+        "element": "GABI:PCC:LightGBM"
+      },
+      {
+        "element": "GABI:PCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:PCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:PCC:WheatGP"
+      },
+      {
+        "element": "GABI:PCC:Cropformer"
+      },
+      {
+        "element": "GABI:PCC:VMGP"
+      },
+      {
+        "element": "GABI:PCC:TabNet"
+      },
+      {
+        "element": "GABI:PCC:DeepGS"
+      },
+      {
+        "element": "GABI:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:LightGBM:model_rank",
+    "value": 1,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:PCC:LightGBM"
+      },
+      {
+        "element": "GABI:PCC:GBLUP"
+      },
+      {
+        "element": "GABI:PCC:BayesB"
+      },
+      {
+        "element": "GABI:PCC:Ridge"
+      },
+      {
+        "element": "GABI:PCC:ElasticNet"
+      },
+      {
+        "element": "GABI:PCC:RF"
+      },
+      {
+        "element": "GABI:PCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:PCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:PCC:WheatGP"
+      },
+      {
+        "element": "GABI:PCC:Cropformer"
+      },
+      {
+        "element": "GABI:PCC:VMGP"
+      },
+      {
+        "element": "GABI:PCC:TabNet"
+      },
+      {
+        "element": "GABI:PCC:DeepGS"
+      },
+      {
+        "element": "GABI:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:SVR-RBF:model_rank",
+    "value": 8,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:PCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:PCC:GBLUP"
+      },
+      {
+        "element": "GABI:PCC:BayesB"
+      },
+      {
+        "element": "GABI:PCC:Ridge"
+      },
+      {
+        "element": "GABI:PCC:ElasticNet"
+      },
+      {
+        "element": "GABI:PCC:RF"
+      },
+      {
+        "element": "GABI:PCC:LightGBM"
+      },
+      {
+        "element": "GABI:PCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:PCC:WheatGP"
+      },
+      {
+        "element": "GABI:PCC:Cropformer"
+      },
+      {
+        "element": "GABI:PCC:VMGP"
+      },
+      {
+        "element": "GABI:PCC:TabNet"
+      },
+      {
+        "element": "GABI:PCC:DeepGS"
+      },
+      {
+        "element": "GABI:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:MLP-Dual:model_rank",
+    "value": 13,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:PCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:PCC:GBLUP"
+      },
+      {
+        "element": "GABI:PCC:BayesB"
+      },
+      {
+        "element": "GABI:PCC:Ridge"
+      },
+      {
+        "element": "GABI:PCC:ElasticNet"
+      },
+      {
+        "element": "GABI:PCC:RF"
+      },
+      {
+        "element": "GABI:PCC:LightGBM"
+      },
+      {
+        "element": "GABI:PCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:PCC:WheatGP"
+      },
+      {
+        "element": "GABI:PCC:Cropformer"
+      },
+      {
+        "element": "GABI:PCC:VMGP"
+      },
+      {
+        "element": "GABI:PCC:TabNet"
+      },
+      {
+        "element": "GABI:PCC:DeepGS"
+      },
+      {
+        "element": "GABI:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:WheatGP:model_rank",
+    "value": 10,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:PCC:WheatGP"
+      },
+      {
+        "element": "GABI:PCC:GBLUP"
+      },
+      {
+        "element": "GABI:PCC:BayesB"
+      },
+      {
+        "element": "GABI:PCC:Ridge"
+      },
+      {
+        "element": "GABI:PCC:ElasticNet"
+      },
+      {
+        "element": "GABI:PCC:RF"
+      },
+      {
+        "element": "GABI:PCC:LightGBM"
+      },
+      {
+        "element": "GABI:PCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:PCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:PCC:Cropformer"
+      },
+      {
+        "element": "GABI:PCC:VMGP"
+      },
+      {
+        "element": "GABI:PCC:TabNet"
+      },
+      {
+        "element": "GABI:PCC:DeepGS"
+      },
+      {
+        "element": "GABI:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:Cropformer:model_rank",
+    "value": 6,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:PCC:Cropformer"
+      },
+      {
+        "element": "GABI:PCC:GBLUP"
+      },
+      {
+        "element": "GABI:PCC:BayesB"
+      },
+      {
+        "element": "GABI:PCC:Ridge"
+      },
+      {
+        "element": "GABI:PCC:ElasticNet"
+      },
+      {
+        "element": "GABI:PCC:RF"
+      },
+      {
+        "element": "GABI:PCC:LightGBM"
+      },
+      {
+        "element": "GABI:PCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:PCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:PCC:WheatGP"
+      },
+      {
+        "element": "GABI:PCC:VMGP"
+      },
+      {
+        "element": "GABI:PCC:TabNet"
+      },
+      {
+        "element": "GABI:PCC:DeepGS"
+      },
+      {
+        "element": "GABI:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:VMGP:model_rank",
+    "value": 7,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:PCC:VMGP"
+      },
+      {
+        "element": "GABI:PCC:GBLUP"
+      },
+      {
+        "element": "GABI:PCC:BayesB"
+      },
+      {
+        "element": "GABI:PCC:Ridge"
+      },
+      {
+        "element": "GABI:PCC:ElasticNet"
+      },
+      {
+        "element": "GABI:PCC:RF"
+      },
+      {
+        "element": "GABI:PCC:LightGBM"
+      },
+      {
+        "element": "GABI:PCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:PCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:PCC:WheatGP"
+      },
+      {
+        "element": "GABI:PCC:Cropformer"
+      },
+      {
+        "element": "GABI:PCC:TabNet"
+      },
+      {
+        "element": "GABI:PCC:DeepGS"
+      },
+      {
+        "element": "GABI:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:TabNet:model_rank",
+    "value": 14,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:PCC:TabNet"
+      },
+      {
+        "element": "GABI:PCC:GBLUP"
+      },
+      {
+        "element": "GABI:PCC:BayesB"
+      },
+      {
+        "element": "GABI:PCC:Ridge"
+      },
+      {
+        "element": "GABI:PCC:ElasticNet"
+      },
+      {
+        "element": "GABI:PCC:RF"
+      },
+      {
+        "element": "GABI:PCC:LightGBM"
+      },
+      {
+        "element": "GABI:PCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:PCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:PCC:WheatGP"
+      },
+      {
+        "element": "GABI:PCC:Cropformer"
+      },
+      {
+        "element": "GABI:PCC:VMGP"
+      },
+      {
+        "element": "GABI:PCC:DeepGS"
+      },
+      {
+        "element": "GABI:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:DeepGS:model_rank",
+    "value": 12,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:PCC:DeepGS"
+      },
+      {
+        "element": "GABI:PCC:GBLUP"
+      },
+      {
+        "element": "GABI:PCC:BayesB"
+      },
+      {
+        "element": "GABI:PCC:Ridge"
+      },
+      {
+        "element": "GABI:PCC:ElasticNet"
+      },
+      {
+        "element": "GABI:PCC:RF"
+      },
+      {
+        "element": "GABI:PCC:LightGBM"
+      },
+      {
+        "element": "GABI:PCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:PCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:PCC:WheatGP"
+      },
+      {
+        "element": "GABI:PCC:Cropformer"
+      },
+      {
+        "element": "GABI:PCC:VMGP"
+      },
+      {
+        "element": "GABI:PCC:TabNet"
+      },
+      {
+        "element": "GABI:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:PCC:AF:model_rank",
+    "value": 4,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:PCC:AF"
+      },
+      {
+        "element": "GABI:PCC:GBLUP"
+      },
+      {
+        "element": "GABI:PCC:BayesB"
+      },
+      {
+        "element": "GABI:PCC:Ridge"
+      },
+      {
+        "element": "GABI:PCC:ElasticNet"
+      },
+      {
+        "element": "GABI:PCC:RF"
+      },
+      {
+        "element": "GABI:PCC:LightGBM"
+      },
+      {
+        "element": "GABI:PCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:PCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:PCC:WheatGP"
+      },
+      {
+        "element": "GABI:PCC:Cropformer"
+      },
+      {
+        "element": "GABI:PCC:VMGP"
+      },
+      {
+        "element": "GABI:PCC:TabNet"
+      },
+      {
+        "element": "GABI:PCC:DeepGS"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:GBLUP",
+    "value": 0.5027696585419968,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 55,
+        "column": "control_ccc",
+        "value": 0.5027696585419968
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:GBLUP:configuration",
+    "value": "E6H::GBLUP_rrBLUP_mean",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 55,
+        "column": "control",
+        "value": "E6H::GBLUP_rrBLUP_mean"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:BayesB",
+    "value": 0.5163135808855789,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 90,
+        "column": "control_ccc",
+        "value": 0.5163135808855789
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:BayesB:configuration",
+    "value": "HF1_E6::BayesB_short_s43",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 90,
+        "column": "control",
+        "value": "HF1_E6::BayesB_short_s43"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:Ridge",
+    "value": 0.5032648739658225,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 57,
+        "column": "control_ccc",
+        "value": 0.5032648739658225
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:Ridge:configuration",
+    "value": "E6H::Ridge_default",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 57,
+        "column": "control",
+        "value": "E6H::Ridge_default"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:ElasticNet",
+    "value": 0.512312442746988,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 101,
+        "column": "control_ccc",
+        "value": 0.512312442746988
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:ElasticNet:configuration",
+    "value": "HF2_v8_tuned::ElasticNet",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 101,
+        "column": "control",
+        "value": "HF2_v8_tuned::ElasticNet"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:RF",
+    "value": 0.428885436444008,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 56,
+        "column": "control_ccc",
+        "value": 0.428885436444008
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:RF:configuration",
+    "value": "E6H::RF_default",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 56,
+        "column": "control",
+        "value": "E6H::RF_default"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:LightGBM",
+    "value": 0.5440210872271313,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 102,
+        "column": "control_ccc",
+        "value": 0.5440210872271313
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:LightGBM:configuration",
+    "value": "HF2_v8_tuned::LightGBM",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 102,
+        "column": "control",
+        "value": "HF2_v8_tuned::LightGBM"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:SVR-RBF",
+    "value": 0.473617300577416,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 82,
+        "column": "control_ccc",
+        "value": 0.473617300577416
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:SVR-RBF:configuration",
+    "value": "HF1_N_tuned::SVR-RBF",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 82,
+        "column": "control",
+        "value": "HF1_N_tuned::SVR-RBF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:MLP-Dual",
+    "value": 0.437260604674166,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 85,
+        "column": "control_ccc",
+        "value": 0.437260604674166
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:MLP-Dual:configuration",
+    "value": "HF1_N_tuned::MLP-Dual",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 85,
+        "column": "control",
+        "value": "HF1_N_tuned::MLP-Dual"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:WheatGP",
+    "value": 0.4522364178568989,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 103,
+        "column": "control_ccc",
+        "value": 0.4522364178568989
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:WheatGP:configuration",
+    "value": "HF2_deep::WheatGP",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 103,
+        "column": "control",
+        "value": "HF2_deep::WheatGP"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:Cropformer",
+    "value": 0.5961870915740501,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 104,
+        "column": "control_ccc",
+        "value": 0.5961870915740501
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:Cropformer:configuration",
+    "value": "HF2_deep::Cropformer",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 104,
+        "column": "control",
+        "value": "HF2_deep::Cropformer"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:VMGP",
+    "value": 0.2329141336538895,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 59,
+        "column": "control_ccc",
+        "value": 0.2329141336538895
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:VMGP:configuration",
+    "value": "VMGP::seed_mean",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 59,
+        "column": "control",
+        "value": "VMGP::seed_mean"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:TabNet",
+    "value": 0.0246272107610012,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 60,
+        "column": "control_ccc",
+        "value": 0.0246272107610012
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:TabNet:configuration",
+    "value": "TabNet::raw_seed_mean",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 60,
+        "column": "control",
+        "value": "TabNet::raw_seed_mean"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:DeepGS",
+    "value": 0.4007375367688788,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 105,
+        "column": "control_ccc",
+        "value": 0.4007375367688788
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:DeepGS:configuration",
+    "value": "HF2_deep::DeepGS",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 105,
+        "column": "control",
+        "value": "HF2_deep::DeepGS"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:AF",
+    "value": 0.5829508787572862,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R2_AF_SEED_SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "mean_prediction_ccc",
+        "value": 0.5829508787572862
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:GBLUP:model_rank",
+    "value": 7,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:CCC:GBLUP"
+      },
+      {
+        "element": "GABI:CCC:BayesB"
+      },
+      {
+        "element": "GABI:CCC:Ridge"
+      },
+      {
+        "element": "GABI:CCC:ElasticNet"
+      },
+      {
+        "element": "GABI:CCC:RF"
+      },
+      {
+        "element": "GABI:CCC:LightGBM"
+      },
+      {
+        "element": "GABI:CCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:CCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:CCC:WheatGP"
+      },
+      {
+        "element": "GABI:CCC:Cropformer"
+      },
+      {
+        "element": "GABI:CCC:VMGP"
+      },
+      {
+        "element": "GABI:CCC:TabNet"
+      },
+      {
+        "element": "GABI:CCC:DeepGS"
+      },
+      {
+        "element": "GABI:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:BayesB:model_rank",
+    "value": 4,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:CCC:BayesB"
+      },
+      {
+        "element": "GABI:CCC:GBLUP"
+      },
+      {
+        "element": "GABI:CCC:Ridge"
+      },
+      {
+        "element": "GABI:CCC:ElasticNet"
+      },
+      {
+        "element": "GABI:CCC:RF"
+      },
+      {
+        "element": "GABI:CCC:LightGBM"
+      },
+      {
+        "element": "GABI:CCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:CCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:CCC:WheatGP"
+      },
+      {
+        "element": "GABI:CCC:Cropformer"
+      },
+      {
+        "element": "GABI:CCC:VMGP"
+      },
+      {
+        "element": "GABI:CCC:TabNet"
+      },
+      {
+        "element": "GABI:CCC:DeepGS"
+      },
+      {
+        "element": "GABI:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:Ridge:model_rank",
+    "value": 6,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:CCC:Ridge"
+      },
+      {
+        "element": "GABI:CCC:GBLUP"
+      },
+      {
+        "element": "GABI:CCC:BayesB"
+      },
+      {
+        "element": "GABI:CCC:ElasticNet"
+      },
+      {
+        "element": "GABI:CCC:RF"
+      },
+      {
+        "element": "GABI:CCC:LightGBM"
+      },
+      {
+        "element": "GABI:CCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:CCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:CCC:WheatGP"
+      },
+      {
+        "element": "GABI:CCC:Cropformer"
+      },
+      {
+        "element": "GABI:CCC:VMGP"
+      },
+      {
+        "element": "GABI:CCC:TabNet"
+      },
+      {
+        "element": "GABI:CCC:DeepGS"
+      },
+      {
+        "element": "GABI:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:ElasticNet:model_rank",
+    "value": 5,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:CCC:ElasticNet"
+      },
+      {
+        "element": "GABI:CCC:GBLUP"
+      },
+      {
+        "element": "GABI:CCC:BayesB"
+      },
+      {
+        "element": "GABI:CCC:Ridge"
+      },
+      {
+        "element": "GABI:CCC:RF"
+      },
+      {
+        "element": "GABI:CCC:LightGBM"
+      },
+      {
+        "element": "GABI:CCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:CCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:CCC:WheatGP"
+      },
+      {
+        "element": "GABI:CCC:Cropformer"
+      },
+      {
+        "element": "GABI:CCC:VMGP"
+      },
+      {
+        "element": "GABI:CCC:TabNet"
+      },
+      {
+        "element": "GABI:CCC:DeepGS"
+      },
+      {
+        "element": "GABI:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:RF:model_rank",
+    "value": 11,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:CCC:RF"
+      },
+      {
+        "element": "GABI:CCC:GBLUP"
+      },
+      {
+        "element": "GABI:CCC:BayesB"
+      },
+      {
+        "element": "GABI:CCC:Ridge"
+      },
+      {
+        "element": "GABI:CCC:ElasticNet"
+      },
+      {
+        "element": "GABI:CCC:LightGBM"
+      },
+      {
+        "element": "GABI:CCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:CCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:CCC:WheatGP"
+      },
+      {
+        "element": "GABI:CCC:Cropformer"
+      },
+      {
+        "element": "GABI:CCC:VMGP"
+      },
+      {
+        "element": "GABI:CCC:TabNet"
+      },
+      {
+        "element": "GABI:CCC:DeepGS"
+      },
+      {
+        "element": "GABI:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:LightGBM:model_rank",
+    "value": 3,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:CCC:LightGBM"
+      },
+      {
+        "element": "GABI:CCC:GBLUP"
+      },
+      {
+        "element": "GABI:CCC:BayesB"
+      },
+      {
+        "element": "GABI:CCC:Ridge"
+      },
+      {
+        "element": "GABI:CCC:ElasticNet"
+      },
+      {
+        "element": "GABI:CCC:RF"
+      },
+      {
+        "element": "GABI:CCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:CCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:CCC:WheatGP"
+      },
+      {
+        "element": "GABI:CCC:Cropformer"
+      },
+      {
+        "element": "GABI:CCC:VMGP"
+      },
+      {
+        "element": "GABI:CCC:TabNet"
+      },
+      {
+        "element": "GABI:CCC:DeepGS"
+      },
+      {
+        "element": "GABI:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:SVR-RBF:model_rank",
+    "value": 8,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:CCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:CCC:GBLUP"
+      },
+      {
+        "element": "GABI:CCC:BayesB"
+      },
+      {
+        "element": "GABI:CCC:Ridge"
+      },
+      {
+        "element": "GABI:CCC:ElasticNet"
+      },
+      {
+        "element": "GABI:CCC:RF"
+      },
+      {
+        "element": "GABI:CCC:LightGBM"
+      },
+      {
+        "element": "GABI:CCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:CCC:WheatGP"
+      },
+      {
+        "element": "GABI:CCC:Cropformer"
+      },
+      {
+        "element": "GABI:CCC:VMGP"
+      },
+      {
+        "element": "GABI:CCC:TabNet"
+      },
+      {
+        "element": "GABI:CCC:DeepGS"
+      },
+      {
+        "element": "GABI:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:MLP-Dual:model_rank",
+    "value": 10,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:CCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:CCC:GBLUP"
+      },
+      {
+        "element": "GABI:CCC:BayesB"
+      },
+      {
+        "element": "GABI:CCC:Ridge"
+      },
+      {
+        "element": "GABI:CCC:ElasticNet"
+      },
+      {
+        "element": "GABI:CCC:RF"
+      },
+      {
+        "element": "GABI:CCC:LightGBM"
+      },
+      {
+        "element": "GABI:CCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:CCC:WheatGP"
+      },
+      {
+        "element": "GABI:CCC:Cropformer"
+      },
+      {
+        "element": "GABI:CCC:VMGP"
+      },
+      {
+        "element": "GABI:CCC:TabNet"
+      },
+      {
+        "element": "GABI:CCC:DeepGS"
+      },
+      {
+        "element": "GABI:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:WheatGP:model_rank",
+    "value": 9,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:CCC:WheatGP"
+      },
+      {
+        "element": "GABI:CCC:GBLUP"
+      },
+      {
+        "element": "GABI:CCC:BayesB"
+      },
+      {
+        "element": "GABI:CCC:Ridge"
+      },
+      {
+        "element": "GABI:CCC:ElasticNet"
+      },
+      {
+        "element": "GABI:CCC:RF"
+      },
+      {
+        "element": "GABI:CCC:LightGBM"
+      },
+      {
+        "element": "GABI:CCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:CCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:CCC:Cropformer"
+      },
+      {
+        "element": "GABI:CCC:VMGP"
+      },
+      {
+        "element": "GABI:CCC:TabNet"
+      },
+      {
+        "element": "GABI:CCC:DeepGS"
+      },
+      {
+        "element": "GABI:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:Cropformer:model_rank",
+    "value": 1,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:CCC:Cropformer"
+      },
+      {
+        "element": "GABI:CCC:GBLUP"
+      },
+      {
+        "element": "GABI:CCC:BayesB"
+      },
+      {
+        "element": "GABI:CCC:Ridge"
+      },
+      {
+        "element": "GABI:CCC:ElasticNet"
+      },
+      {
+        "element": "GABI:CCC:RF"
+      },
+      {
+        "element": "GABI:CCC:LightGBM"
+      },
+      {
+        "element": "GABI:CCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:CCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:CCC:WheatGP"
+      },
+      {
+        "element": "GABI:CCC:VMGP"
+      },
+      {
+        "element": "GABI:CCC:TabNet"
+      },
+      {
+        "element": "GABI:CCC:DeepGS"
+      },
+      {
+        "element": "GABI:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:VMGP:model_rank",
+    "value": 13,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:CCC:VMGP"
+      },
+      {
+        "element": "GABI:CCC:GBLUP"
+      },
+      {
+        "element": "GABI:CCC:BayesB"
+      },
+      {
+        "element": "GABI:CCC:Ridge"
+      },
+      {
+        "element": "GABI:CCC:ElasticNet"
+      },
+      {
+        "element": "GABI:CCC:RF"
+      },
+      {
+        "element": "GABI:CCC:LightGBM"
+      },
+      {
+        "element": "GABI:CCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:CCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:CCC:WheatGP"
+      },
+      {
+        "element": "GABI:CCC:Cropformer"
+      },
+      {
+        "element": "GABI:CCC:TabNet"
+      },
+      {
+        "element": "GABI:CCC:DeepGS"
+      },
+      {
+        "element": "GABI:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:TabNet:model_rank",
+    "value": 14,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:CCC:TabNet"
+      },
+      {
+        "element": "GABI:CCC:GBLUP"
+      },
+      {
+        "element": "GABI:CCC:BayesB"
+      },
+      {
+        "element": "GABI:CCC:Ridge"
+      },
+      {
+        "element": "GABI:CCC:ElasticNet"
+      },
+      {
+        "element": "GABI:CCC:RF"
+      },
+      {
+        "element": "GABI:CCC:LightGBM"
+      },
+      {
+        "element": "GABI:CCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:CCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:CCC:WheatGP"
+      },
+      {
+        "element": "GABI:CCC:Cropformer"
+      },
+      {
+        "element": "GABI:CCC:VMGP"
+      },
+      {
+        "element": "GABI:CCC:DeepGS"
+      },
+      {
+        "element": "GABI:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:DeepGS:model_rank",
+    "value": 12,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:CCC:DeepGS"
+      },
+      {
+        "element": "GABI:CCC:GBLUP"
+      },
+      {
+        "element": "GABI:CCC:BayesB"
+      },
+      {
+        "element": "GABI:CCC:Ridge"
+      },
+      {
+        "element": "GABI:CCC:ElasticNet"
+      },
+      {
+        "element": "GABI:CCC:RF"
+      },
+      {
+        "element": "GABI:CCC:LightGBM"
+      },
+      {
+        "element": "GABI:CCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:CCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:CCC:WheatGP"
+      },
+      {
+        "element": "GABI:CCC:Cropformer"
+      },
+      {
+        "element": "GABI:CCC:VMGP"
+      },
+      {
+        "element": "GABI:CCC:TabNet"
+      },
+      {
+        "element": "GABI:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:CCC:AF:model_rank",
+    "value": 2,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "GABI:CCC:AF"
+      },
+      {
+        "element": "GABI:CCC:GBLUP"
+      },
+      {
+        "element": "GABI:CCC:BayesB"
+      },
+      {
+        "element": "GABI:CCC:Ridge"
+      },
+      {
+        "element": "GABI:CCC:ElasticNet"
+      },
+      {
+        "element": "GABI:CCC:RF"
+      },
+      {
+        "element": "GABI:CCC:LightGBM"
+      },
+      {
+        "element": "GABI:CCC:SVR-RBF"
+      },
+      {
+        "element": "GABI:CCC:MLP-Dual"
+      },
+      {
+        "element": "GABI:CCC:WheatGP"
+      },
+      {
+        "element": "GABI:CCC:Cropformer"
+      },
+      {
+        "element": "GABI:CCC:VMGP"
+      },
+      {
+        "element": "GABI:CCC:TabNet"
+      },
+      {
+        "element": "GABI:CCC:DeepGS"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:GBLUP",
+    "value": 0.3970563449287299,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 94,
+        "column": "control_pcc",
+        "value": 0.3970563449287299
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:GBLUP:configuration",
+    "value": "HF1_N_tuned::GBLUP",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 94,
+        "column": "control",
+        "value": "HF1_N_tuned::GBLUP"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:BayesB",
+    "value": 0.4150787437360027,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 99,
+        "column": "control_pcc",
+        "value": 0.4150787437360027
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:BayesB:configuration",
+    "value": "HF1_E6::BayesB_short_s42",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 99,
+        "column": "control",
+        "value": "HF1_E6::BayesB_short_s42"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:Ridge",
+    "value": 0.3929977275428529,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 91,
+        "column": "control_pcc",
+        "value": 0.3929977275428529
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:Ridge:configuration",
+    "value": "HF1_N_tuned::Ridge",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 91,
+        "column": "control",
+        "value": "HF1_N_tuned::Ridge"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:ElasticNet",
+    "value": 0.3566381465332454,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 106,
+        "column": "control_pcc",
+        "value": 0.3566381465332454
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:ElasticNet:configuration",
+    "value": "HF2_v8_tuned::ElasticNet",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 106,
+        "column": "control",
+        "value": "HF2_v8_tuned::ElasticNet"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:RF",
+    "value": 0.4085524099985493,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 93,
+        "column": "control_pcc",
+        "value": 0.4085524099985493
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:RF:configuration",
+    "value": "HF1_N_tuned::RF",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 93,
+        "column": "control",
+        "value": "HF1_N_tuned::RF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:LightGBM",
+    "value": 0.2782831197257298,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 107,
+        "column": "control_pcc",
+        "value": 0.2782831197257298
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:LightGBM:configuration",
+    "value": "HF2_v8_tuned::LightGBM",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 107,
+        "column": "control",
+        "value": "HF2_v8_tuned::LightGBM"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:SVR-RBF",
+    "value": 0.4384228941453866,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 92,
+        "column": "control_pcc",
+        "value": 0.4384228941453866
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:SVR-RBF:configuration",
+    "value": "HF1_N_tuned::SVR-RBF",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 92,
+        "column": "control",
+        "value": "HF1_N_tuned::SVR-RBF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:MLP-Dual",
+    "value": 0.3789926389360303,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 95,
+        "column": "control_pcc",
+        "value": 0.3789926389360303
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:MLP-Dual:configuration",
+    "value": "HF1_N_tuned::MLP-Dual",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 95,
+        "column": "control",
+        "value": "HF1_N_tuned::MLP-Dual"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:WheatGP",
+    "value": 0.3988611960134234,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 108,
+        "column": "control_pcc",
+        "value": 0.3988611960134234
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:WheatGP:configuration",
+    "value": "HF2_deep::WheatGP",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 108,
+        "column": "control",
+        "value": "HF2_deep::WheatGP"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:Cropformer",
+    "value": 0.394492436019718,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 109,
+        "column": "control_pcc",
+        "value": 0.394492436019718
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:Cropformer:configuration",
+    "value": "HF2_deep::Cropformer",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 109,
+        "column": "control",
+        "value": "HF2_deep::Cropformer"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:VMGP",
+    "value": 0.3970366790655782,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 96,
+        "column": "control_pcc",
+        "value": 0.3970366790655782
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:VMGP:configuration",
+    "value": "HF1_N_tuned::VMGP",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 96,
+        "column": "control",
+        "value": "HF1_N_tuned::VMGP"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:TabNet",
+    "value": -0.0817704086719561,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 70,
+        "column": "control_pcc",
+        "value": -0.0817704086719561
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:TabNet:configuration",
+    "value": "TabNet::raw_seed_mean",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 70,
+        "column": "control",
+        "value": "TabNet::raw_seed_mean"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:DeepGS",
+    "value": 0.3323847674777462,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 110,
+        "column": "control_pcc",
+        "value": 0.3323847674777462
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:DeepGS:configuration",
+    "value": "HF2_deep::DeepGS",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 110,
+        "column": "control",
+        "value": "HF2_deep::DeepGS"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:AF",
+    "value": 0.390014308571425,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R2_AF_SEED_SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "mean_prediction_pcc",
+        "value": 0.390014308571425
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:GBLUP:model_rank",
+    "value": 5,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:PCC:GBLUP"
+      },
+      {
+        "element": "Ward:PCC:BayesB"
+      },
+      {
+        "element": "Ward:PCC:Ridge"
+      },
+      {
+        "element": "Ward:PCC:ElasticNet"
+      },
+      {
+        "element": "Ward:PCC:RF"
+      },
+      {
+        "element": "Ward:PCC:LightGBM"
+      },
+      {
+        "element": "Ward:PCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:PCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:PCC:WheatGP"
+      },
+      {
+        "element": "Ward:PCC:Cropformer"
+      },
+      {
+        "element": "Ward:PCC:VMGP"
+      },
+      {
+        "element": "Ward:PCC:TabNet"
+      },
+      {
+        "element": "Ward:PCC:DeepGS"
+      },
+      {
+        "element": "Ward:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:BayesB:model_rank",
+    "value": 2,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:PCC:BayesB"
+      },
+      {
+        "element": "Ward:PCC:GBLUP"
+      },
+      {
+        "element": "Ward:PCC:Ridge"
+      },
+      {
+        "element": "Ward:PCC:ElasticNet"
+      },
+      {
+        "element": "Ward:PCC:RF"
+      },
+      {
+        "element": "Ward:PCC:LightGBM"
+      },
+      {
+        "element": "Ward:PCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:PCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:PCC:WheatGP"
+      },
+      {
+        "element": "Ward:PCC:Cropformer"
+      },
+      {
+        "element": "Ward:PCC:VMGP"
+      },
+      {
+        "element": "Ward:PCC:TabNet"
+      },
+      {
+        "element": "Ward:PCC:DeepGS"
+      },
+      {
+        "element": "Ward:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:Ridge:model_rank",
+    "value": 8,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:PCC:Ridge"
+      },
+      {
+        "element": "Ward:PCC:GBLUP"
+      },
+      {
+        "element": "Ward:PCC:BayesB"
+      },
+      {
+        "element": "Ward:PCC:ElasticNet"
+      },
+      {
+        "element": "Ward:PCC:RF"
+      },
+      {
+        "element": "Ward:PCC:LightGBM"
+      },
+      {
+        "element": "Ward:PCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:PCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:PCC:WheatGP"
+      },
+      {
+        "element": "Ward:PCC:Cropformer"
+      },
+      {
+        "element": "Ward:PCC:VMGP"
+      },
+      {
+        "element": "Ward:PCC:TabNet"
+      },
+      {
+        "element": "Ward:PCC:DeepGS"
+      },
+      {
+        "element": "Ward:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:ElasticNet:model_rank",
+    "value": 11,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:PCC:ElasticNet"
+      },
+      {
+        "element": "Ward:PCC:GBLUP"
+      },
+      {
+        "element": "Ward:PCC:BayesB"
+      },
+      {
+        "element": "Ward:PCC:Ridge"
+      },
+      {
+        "element": "Ward:PCC:RF"
+      },
+      {
+        "element": "Ward:PCC:LightGBM"
+      },
+      {
+        "element": "Ward:PCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:PCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:PCC:WheatGP"
+      },
+      {
+        "element": "Ward:PCC:Cropformer"
+      },
+      {
+        "element": "Ward:PCC:VMGP"
+      },
+      {
+        "element": "Ward:PCC:TabNet"
+      },
+      {
+        "element": "Ward:PCC:DeepGS"
+      },
+      {
+        "element": "Ward:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:RF:model_rank",
+    "value": 3,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:PCC:RF"
+      },
+      {
+        "element": "Ward:PCC:GBLUP"
+      },
+      {
+        "element": "Ward:PCC:BayesB"
+      },
+      {
+        "element": "Ward:PCC:Ridge"
+      },
+      {
+        "element": "Ward:PCC:ElasticNet"
+      },
+      {
+        "element": "Ward:PCC:LightGBM"
+      },
+      {
+        "element": "Ward:PCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:PCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:PCC:WheatGP"
+      },
+      {
+        "element": "Ward:PCC:Cropformer"
+      },
+      {
+        "element": "Ward:PCC:VMGP"
+      },
+      {
+        "element": "Ward:PCC:TabNet"
+      },
+      {
+        "element": "Ward:PCC:DeepGS"
+      },
+      {
+        "element": "Ward:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:LightGBM:model_rank",
+    "value": 13,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:PCC:LightGBM"
+      },
+      {
+        "element": "Ward:PCC:GBLUP"
+      },
+      {
+        "element": "Ward:PCC:BayesB"
+      },
+      {
+        "element": "Ward:PCC:Ridge"
+      },
+      {
+        "element": "Ward:PCC:ElasticNet"
+      },
+      {
+        "element": "Ward:PCC:RF"
+      },
+      {
+        "element": "Ward:PCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:PCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:PCC:WheatGP"
+      },
+      {
+        "element": "Ward:PCC:Cropformer"
+      },
+      {
+        "element": "Ward:PCC:VMGP"
+      },
+      {
+        "element": "Ward:PCC:TabNet"
+      },
+      {
+        "element": "Ward:PCC:DeepGS"
+      },
+      {
+        "element": "Ward:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:SVR-RBF:model_rank",
+    "value": 1,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:PCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:PCC:GBLUP"
+      },
+      {
+        "element": "Ward:PCC:BayesB"
+      },
+      {
+        "element": "Ward:PCC:Ridge"
+      },
+      {
+        "element": "Ward:PCC:ElasticNet"
+      },
+      {
+        "element": "Ward:PCC:RF"
+      },
+      {
+        "element": "Ward:PCC:LightGBM"
+      },
+      {
+        "element": "Ward:PCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:PCC:WheatGP"
+      },
+      {
+        "element": "Ward:PCC:Cropformer"
+      },
+      {
+        "element": "Ward:PCC:VMGP"
+      },
+      {
+        "element": "Ward:PCC:TabNet"
+      },
+      {
+        "element": "Ward:PCC:DeepGS"
+      },
+      {
+        "element": "Ward:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:MLP-Dual:model_rank",
+    "value": 10,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:PCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:PCC:GBLUP"
+      },
+      {
+        "element": "Ward:PCC:BayesB"
+      },
+      {
+        "element": "Ward:PCC:Ridge"
+      },
+      {
+        "element": "Ward:PCC:ElasticNet"
+      },
+      {
+        "element": "Ward:PCC:RF"
+      },
+      {
+        "element": "Ward:PCC:LightGBM"
+      },
+      {
+        "element": "Ward:PCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:PCC:WheatGP"
+      },
+      {
+        "element": "Ward:PCC:Cropformer"
+      },
+      {
+        "element": "Ward:PCC:VMGP"
+      },
+      {
+        "element": "Ward:PCC:TabNet"
+      },
+      {
+        "element": "Ward:PCC:DeepGS"
+      },
+      {
+        "element": "Ward:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:WheatGP:model_rank",
+    "value": 4,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:PCC:WheatGP"
+      },
+      {
+        "element": "Ward:PCC:GBLUP"
+      },
+      {
+        "element": "Ward:PCC:BayesB"
+      },
+      {
+        "element": "Ward:PCC:Ridge"
+      },
+      {
+        "element": "Ward:PCC:ElasticNet"
+      },
+      {
+        "element": "Ward:PCC:RF"
+      },
+      {
+        "element": "Ward:PCC:LightGBM"
+      },
+      {
+        "element": "Ward:PCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:PCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:PCC:Cropformer"
+      },
+      {
+        "element": "Ward:PCC:VMGP"
+      },
+      {
+        "element": "Ward:PCC:TabNet"
+      },
+      {
+        "element": "Ward:PCC:DeepGS"
+      },
+      {
+        "element": "Ward:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:Cropformer:model_rank",
+    "value": 7,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:PCC:Cropformer"
+      },
+      {
+        "element": "Ward:PCC:GBLUP"
+      },
+      {
+        "element": "Ward:PCC:BayesB"
+      },
+      {
+        "element": "Ward:PCC:Ridge"
+      },
+      {
+        "element": "Ward:PCC:ElasticNet"
+      },
+      {
+        "element": "Ward:PCC:RF"
+      },
+      {
+        "element": "Ward:PCC:LightGBM"
+      },
+      {
+        "element": "Ward:PCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:PCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:PCC:WheatGP"
+      },
+      {
+        "element": "Ward:PCC:VMGP"
+      },
+      {
+        "element": "Ward:PCC:TabNet"
+      },
+      {
+        "element": "Ward:PCC:DeepGS"
+      },
+      {
+        "element": "Ward:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:VMGP:model_rank",
+    "value": 6,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:PCC:VMGP"
+      },
+      {
+        "element": "Ward:PCC:GBLUP"
+      },
+      {
+        "element": "Ward:PCC:BayesB"
+      },
+      {
+        "element": "Ward:PCC:Ridge"
+      },
+      {
+        "element": "Ward:PCC:ElasticNet"
+      },
+      {
+        "element": "Ward:PCC:RF"
+      },
+      {
+        "element": "Ward:PCC:LightGBM"
+      },
+      {
+        "element": "Ward:PCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:PCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:PCC:WheatGP"
+      },
+      {
+        "element": "Ward:PCC:Cropformer"
+      },
+      {
+        "element": "Ward:PCC:TabNet"
+      },
+      {
+        "element": "Ward:PCC:DeepGS"
+      },
+      {
+        "element": "Ward:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:TabNet:model_rank",
+    "value": 14,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:PCC:TabNet"
+      },
+      {
+        "element": "Ward:PCC:GBLUP"
+      },
+      {
+        "element": "Ward:PCC:BayesB"
+      },
+      {
+        "element": "Ward:PCC:Ridge"
+      },
+      {
+        "element": "Ward:PCC:ElasticNet"
+      },
+      {
+        "element": "Ward:PCC:RF"
+      },
+      {
+        "element": "Ward:PCC:LightGBM"
+      },
+      {
+        "element": "Ward:PCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:PCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:PCC:WheatGP"
+      },
+      {
+        "element": "Ward:PCC:Cropformer"
+      },
+      {
+        "element": "Ward:PCC:VMGP"
+      },
+      {
+        "element": "Ward:PCC:DeepGS"
+      },
+      {
+        "element": "Ward:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:DeepGS:model_rank",
+    "value": 12,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:PCC:DeepGS"
+      },
+      {
+        "element": "Ward:PCC:GBLUP"
+      },
+      {
+        "element": "Ward:PCC:BayesB"
+      },
+      {
+        "element": "Ward:PCC:Ridge"
+      },
+      {
+        "element": "Ward:PCC:ElasticNet"
+      },
+      {
+        "element": "Ward:PCC:RF"
+      },
+      {
+        "element": "Ward:PCC:LightGBM"
+      },
+      {
+        "element": "Ward:PCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:PCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:PCC:WheatGP"
+      },
+      {
+        "element": "Ward:PCC:Cropformer"
+      },
+      {
+        "element": "Ward:PCC:VMGP"
+      },
+      {
+        "element": "Ward:PCC:TabNet"
+      },
+      {
+        "element": "Ward:PCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:PCC:AF:model_rank",
+    "value": 9,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:PCC:AF"
+      },
+      {
+        "element": "Ward:PCC:GBLUP"
+      },
+      {
+        "element": "Ward:PCC:BayesB"
+      },
+      {
+        "element": "Ward:PCC:Ridge"
+      },
+      {
+        "element": "Ward:PCC:ElasticNet"
+      },
+      {
+        "element": "Ward:PCC:RF"
+      },
+      {
+        "element": "Ward:PCC:LightGBM"
+      },
+      {
+        "element": "Ward:PCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:PCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:PCC:WheatGP"
+      },
+      {
+        "element": "Ward:PCC:Cropformer"
+      },
+      {
+        "element": "Ward:PCC:VMGP"
+      },
+      {
+        "element": "Ward:PCC:TabNet"
+      },
+      {
+        "element": "Ward:PCC:DeepGS"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:GBLUP",
+    "value": 0.239913441015598,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 65,
+        "column": "control_ccc",
+        "value": 0.239913441015598
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:GBLUP:configuration",
+    "value": "E6H::GBLUP_rrBLUP_mean",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 65,
+        "column": "control",
+        "value": "E6H::GBLUP_rrBLUP_mean"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:BayesB",
+    "value": 0.2818356449997946,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 99,
+        "column": "control_ccc",
+        "value": 0.2818356449997946
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:BayesB:configuration",
+    "value": "HF1_E6::BayesB_short_s42",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 99,
+        "column": "control",
+        "value": "HF1_E6::BayesB_short_s42"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:Ridge",
+    "value": 0.2704866137095404,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 91,
+        "column": "control_ccc",
+        "value": 0.2704866137095404
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:Ridge:configuration",
+    "value": "HF1_N_tuned::Ridge",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 91,
+        "column": "control",
+        "value": "HF1_N_tuned::Ridge"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:ElasticNet",
+    "value": 0.2322988713062919,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 106,
+        "column": "control_ccc",
+        "value": 0.2322988713062919
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:ElasticNet:configuration",
+    "value": "HF2_v8_tuned::ElasticNet",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 106,
+        "column": "control",
+        "value": "HF2_v8_tuned::ElasticNet"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:RF",
+    "value": 0.1732047607209005,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 93,
+        "column": "control_ccc",
+        "value": 0.1732047607209005
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:RF:configuration",
+    "value": "HF1_N_tuned::RF",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 93,
+        "column": "control",
+        "value": "HF1_N_tuned::RF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:LightGBM",
+    "value": 0.1841849487778598,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 107,
+        "column": "control_ccc",
+        "value": 0.1841849487778598
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:LightGBM:configuration",
+    "value": "HF2_v8_tuned::LightGBM",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 107,
+        "column": "control",
+        "value": "HF2_v8_tuned::LightGBM"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:SVR-RBF",
+    "value": 0.2691457001886488,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 92,
+        "column": "control_ccc",
+        "value": 0.2691457001886488
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:SVR-RBF:configuration",
+    "value": "HF1_N_tuned::SVR-RBF",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 92,
+        "column": "control",
+        "value": "HF1_N_tuned::SVR-RBF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:MLP-Dual",
+    "value": 0.2921341896275597,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 95,
+        "column": "control_ccc",
+        "value": 0.2921341896275597
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:MLP-Dual:configuration",
+    "value": "HF1_N_tuned::MLP-Dual",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 95,
+        "column": "control",
+        "value": "HF1_N_tuned::MLP-Dual"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:WheatGP",
+    "value": 0.2610547112513623,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 108,
+        "column": "control_ccc",
+        "value": 0.2610547112513623
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:WheatGP:configuration",
+    "value": "HF2_deep::WheatGP",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 108,
+        "column": "control",
+        "value": "HF2_deep::WheatGP"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:Cropformer",
+    "value": 0.3550649127508327,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 109,
+        "column": "control_ccc",
+        "value": 0.3550649127508327
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:Cropformer:configuration",
+    "value": "HF2_deep::Cropformer",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 109,
+        "column": "control",
+        "value": "HF2_deep::Cropformer"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:VMGP",
+    "value": 0.1545442297723559,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 96,
+        "column": "control_ccc",
+        "value": 0.1545442297723559
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:VMGP:configuration",
+    "value": "HF1_N_tuned::VMGP",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 96,
+        "column": "control",
+        "value": "HF1_N_tuned::VMGP"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:TabNet",
+    "value": -0.023026096683461,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 70,
+        "column": "control_ccc",
+        "value": -0.023026096683461
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:TabNet:configuration",
+    "value": "TabNet::raw_seed_mean",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 70,
+        "column": "control",
+        "value": "TabNet::raw_seed_mean"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:DeepGS",
+    "value": 0.1501034635734465,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 110,
+        "column": "control_ccc",
+        "value": 0.1501034635734465
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:DeepGS:configuration",
+    "value": "HF2_deep::DeepGS",
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/holdout_fill_20261027/HOLDOUT_FULL_PANEL.csv",
+        "kind": "csv",
+        "data_row": 110,
+        "column": "control",
+        "value": "HF2_deep::DeepGS"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:AF",
+    "value": 0.3757674271951368,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R2_AF_SEED_SUMMARY.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "mean_prediction_ccc",
+        "value": 0.3757674271951368
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:GBLUP:model_rank",
+    "value": 8,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:CCC:GBLUP"
+      },
+      {
+        "element": "Ward:CCC:BayesB"
+      },
+      {
+        "element": "Ward:CCC:Ridge"
+      },
+      {
+        "element": "Ward:CCC:ElasticNet"
+      },
+      {
+        "element": "Ward:CCC:RF"
+      },
+      {
+        "element": "Ward:CCC:LightGBM"
+      },
+      {
+        "element": "Ward:CCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:CCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:CCC:WheatGP"
+      },
+      {
+        "element": "Ward:CCC:Cropformer"
+      },
+      {
+        "element": "Ward:CCC:VMGP"
+      },
+      {
+        "element": "Ward:CCC:TabNet"
+      },
+      {
+        "element": "Ward:CCC:DeepGS"
+      },
+      {
+        "element": "Ward:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:BayesB:model_rank",
+    "value": 4,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:CCC:BayesB"
+      },
+      {
+        "element": "Ward:CCC:GBLUP"
+      },
+      {
+        "element": "Ward:CCC:Ridge"
+      },
+      {
+        "element": "Ward:CCC:ElasticNet"
+      },
+      {
+        "element": "Ward:CCC:RF"
+      },
+      {
+        "element": "Ward:CCC:LightGBM"
+      },
+      {
+        "element": "Ward:CCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:CCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:CCC:WheatGP"
+      },
+      {
+        "element": "Ward:CCC:Cropformer"
+      },
+      {
+        "element": "Ward:CCC:VMGP"
+      },
+      {
+        "element": "Ward:CCC:TabNet"
+      },
+      {
+        "element": "Ward:CCC:DeepGS"
+      },
+      {
+        "element": "Ward:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:Ridge:model_rank",
+    "value": 5,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:CCC:Ridge"
+      },
+      {
+        "element": "Ward:CCC:GBLUP"
+      },
+      {
+        "element": "Ward:CCC:BayesB"
+      },
+      {
+        "element": "Ward:CCC:ElasticNet"
+      },
+      {
+        "element": "Ward:CCC:RF"
+      },
+      {
+        "element": "Ward:CCC:LightGBM"
+      },
+      {
+        "element": "Ward:CCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:CCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:CCC:WheatGP"
+      },
+      {
+        "element": "Ward:CCC:Cropformer"
+      },
+      {
+        "element": "Ward:CCC:VMGP"
+      },
+      {
+        "element": "Ward:CCC:TabNet"
+      },
+      {
+        "element": "Ward:CCC:DeepGS"
+      },
+      {
+        "element": "Ward:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:ElasticNet:model_rank",
+    "value": 9,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:CCC:ElasticNet"
+      },
+      {
+        "element": "Ward:CCC:GBLUP"
+      },
+      {
+        "element": "Ward:CCC:BayesB"
+      },
+      {
+        "element": "Ward:CCC:Ridge"
+      },
+      {
+        "element": "Ward:CCC:RF"
+      },
+      {
+        "element": "Ward:CCC:LightGBM"
+      },
+      {
+        "element": "Ward:CCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:CCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:CCC:WheatGP"
+      },
+      {
+        "element": "Ward:CCC:Cropformer"
+      },
+      {
+        "element": "Ward:CCC:VMGP"
+      },
+      {
+        "element": "Ward:CCC:TabNet"
+      },
+      {
+        "element": "Ward:CCC:DeepGS"
+      },
+      {
+        "element": "Ward:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:RF:model_rank",
+    "value": 11,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:CCC:RF"
+      },
+      {
+        "element": "Ward:CCC:GBLUP"
+      },
+      {
+        "element": "Ward:CCC:BayesB"
+      },
+      {
+        "element": "Ward:CCC:Ridge"
+      },
+      {
+        "element": "Ward:CCC:ElasticNet"
+      },
+      {
+        "element": "Ward:CCC:LightGBM"
+      },
+      {
+        "element": "Ward:CCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:CCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:CCC:WheatGP"
+      },
+      {
+        "element": "Ward:CCC:Cropformer"
+      },
+      {
+        "element": "Ward:CCC:VMGP"
+      },
+      {
+        "element": "Ward:CCC:TabNet"
+      },
+      {
+        "element": "Ward:CCC:DeepGS"
+      },
+      {
+        "element": "Ward:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:LightGBM:model_rank",
+    "value": 10,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:CCC:LightGBM"
+      },
+      {
+        "element": "Ward:CCC:GBLUP"
+      },
+      {
+        "element": "Ward:CCC:BayesB"
+      },
+      {
+        "element": "Ward:CCC:Ridge"
+      },
+      {
+        "element": "Ward:CCC:ElasticNet"
+      },
+      {
+        "element": "Ward:CCC:RF"
+      },
+      {
+        "element": "Ward:CCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:CCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:CCC:WheatGP"
+      },
+      {
+        "element": "Ward:CCC:Cropformer"
+      },
+      {
+        "element": "Ward:CCC:VMGP"
+      },
+      {
+        "element": "Ward:CCC:TabNet"
+      },
+      {
+        "element": "Ward:CCC:DeepGS"
+      },
+      {
+        "element": "Ward:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:SVR-RBF:model_rank",
+    "value": 6,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:CCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:CCC:GBLUP"
+      },
+      {
+        "element": "Ward:CCC:BayesB"
+      },
+      {
+        "element": "Ward:CCC:Ridge"
+      },
+      {
+        "element": "Ward:CCC:ElasticNet"
+      },
+      {
+        "element": "Ward:CCC:RF"
+      },
+      {
+        "element": "Ward:CCC:LightGBM"
+      },
+      {
+        "element": "Ward:CCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:CCC:WheatGP"
+      },
+      {
+        "element": "Ward:CCC:Cropformer"
+      },
+      {
+        "element": "Ward:CCC:VMGP"
+      },
+      {
+        "element": "Ward:CCC:TabNet"
+      },
+      {
+        "element": "Ward:CCC:DeepGS"
+      },
+      {
+        "element": "Ward:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:MLP-Dual:model_rank",
+    "value": 3,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:CCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:CCC:GBLUP"
+      },
+      {
+        "element": "Ward:CCC:BayesB"
+      },
+      {
+        "element": "Ward:CCC:Ridge"
+      },
+      {
+        "element": "Ward:CCC:ElasticNet"
+      },
+      {
+        "element": "Ward:CCC:RF"
+      },
+      {
+        "element": "Ward:CCC:LightGBM"
+      },
+      {
+        "element": "Ward:CCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:CCC:WheatGP"
+      },
+      {
+        "element": "Ward:CCC:Cropformer"
+      },
+      {
+        "element": "Ward:CCC:VMGP"
+      },
+      {
+        "element": "Ward:CCC:TabNet"
+      },
+      {
+        "element": "Ward:CCC:DeepGS"
+      },
+      {
+        "element": "Ward:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:WheatGP:model_rank",
+    "value": 7,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:CCC:WheatGP"
+      },
+      {
+        "element": "Ward:CCC:GBLUP"
+      },
+      {
+        "element": "Ward:CCC:BayesB"
+      },
+      {
+        "element": "Ward:CCC:Ridge"
+      },
+      {
+        "element": "Ward:CCC:ElasticNet"
+      },
+      {
+        "element": "Ward:CCC:RF"
+      },
+      {
+        "element": "Ward:CCC:LightGBM"
+      },
+      {
+        "element": "Ward:CCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:CCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:CCC:Cropformer"
+      },
+      {
+        "element": "Ward:CCC:VMGP"
+      },
+      {
+        "element": "Ward:CCC:TabNet"
+      },
+      {
+        "element": "Ward:CCC:DeepGS"
+      },
+      {
+        "element": "Ward:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:Cropformer:model_rank",
+    "value": 2,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:CCC:Cropformer"
+      },
+      {
+        "element": "Ward:CCC:GBLUP"
+      },
+      {
+        "element": "Ward:CCC:BayesB"
+      },
+      {
+        "element": "Ward:CCC:Ridge"
+      },
+      {
+        "element": "Ward:CCC:ElasticNet"
+      },
+      {
+        "element": "Ward:CCC:RF"
+      },
+      {
+        "element": "Ward:CCC:LightGBM"
+      },
+      {
+        "element": "Ward:CCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:CCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:CCC:WheatGP"
+      },
+      {
+        "element": "Ward:CCC:VMGP"
+      },
+      {
+        "element": "Ward:CCC:TabNet"
+      },
+      {
+        "element": "Ward:CCC:DeepGS"
+      },
+      {
+        "element": "Ward:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:VMGP:model_rank",
+    "value": 12,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:CCC:VMGP"
+      },
+      {
+        "element": "Ward:CCC:GBLUP"
+      },
+      {
+        "element": "Ward:CCC:BayesB"
+      },
+      {
+        "element": "Ward:CCC:Ridge"
+      },
+      {
+        "element": "Ward:CCC:ElasticNet"
+      },
+      {
+        "element": "Ward:CCC:RF"
+      },
+      {
+        "element": "Ward:CCC:LightGBM"
+      },
+      {
+        "element": "Ward:CCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:CCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:CCC:WheatGP"
+      },
+      {
+        "element": "Ward:CCC:Cropformer"
+      },
+      {
+        "element": "Ward:CCC:TabNet"
+      },
+      {
+        "element": "Ward:CCC:DeepGS"
+      },
+      {
+        "element": "Ward:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:TabNet:model_rank",
+    "value": 14,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:CCC:TabNet"
+      },
+      {
+        "element": "Ward:CCC:GBLUP"
+      },
+      {
+        "element": "Ward:CCC:BayesB"
+      },
+      {
+        "element": "Ward:CCC:Ridge"
+      },
+      {
+        "element": "Ward:CCC:ElasticNet"
+      },
+      {
+        "element": "Ward:CCC:RF"
+      },
+      {
+        "element": "Ward:CCC:LightGBM"
+      },
+      {
+        "element": "Ward:CCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:CCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:CCC:WheatGP"
+      },
+      {
+        "element": "Ward:CCC:Cropformer"
+      },
+      {
+        "element": "Ward:CCC:VMGP"
+      },
+      {
+        "element": "Ward:CCC:DeepGS"
+      },
+      {
+        "element": "Ward:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:DeepGS:model_rank",
+    "value": 13,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:CCC:DeepGS"
+      },
+      {
+        "element": "Ward:CCC:GBLUP"
+      },
+      {
+        "element": "Ward:CCC:BayesB"
+      },
+      {
+        "element": "Ward:CCC:Ridge"
+      },
+      {
+        "element": "Ward:CCC:ElasticNet"
+      },
+      {
+        "element": "Ward:CCC:RF"
+      },
+      {
+        "element": "Ward:CCC:LightGBM"
+      },
+      {
+        "element": "Ward:CCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:CCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:CCC:WheatGP"
+      },
+      {
+        "element": "Ward:CCC:Cropformer"
+      },
+      {
+        "element": "Ward:CCC:VMGP"
+      },
+      {
+        "element": "Ward:CCC:TabNet"
+      },
+      {
+        "element": "Ward:CCC:AF"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:CCC:AF:model_rank",
+    "value": 1,
+    "operation": "rank",
+    "args": {},
+    "inputs": [
+      {
+        "element": "Ward:CCC:AF"
+      },
+      {
+        "element": "Ward:CCC:GBLUP"
+      },
+      {
+        "element": "Ward:CCC:BayesB"
+      },
+      {
+        "element": "Ward:CCC:Ridge"
+      },
+      {
+        "element": "Ward:CCC:ElasticNet"
+      },
+      {
+        "element": "Ward:CCC:RF"
+      },
+      {
+        "element": "Ward:CCC:LightGBM"
+      },
+      {
+        "element": "Ward:CCC:SVR-RBF"
+      },
+      {
+        "element": "Ward:CCC:MLP-Dual"
+      },
+      {
+        "element": "Ward:CCC:WheatGP"
+      },
+      {
+        "element": "Ward:CCC:Cropformer"
+      },
+      {
+        "element": "Ward:CCC:VMGP"
+      },
+      {
+        "element": "Ward:CCC:TabNet"
+      },
+      {
+        "element": "Ward:CCC:DeepGS"
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:per_seed:pcc:mean",
+    "value": 0.810370870976233,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "pcc",
+        "value": 0.8128332957364942
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "pcc",
+        "value": 0.8120444352033146
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "pcc",
+        "value": 0.8094136784510286
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "pcc",
+        "value": 0.8052372494523081
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "pcc",
+        "value": 0.8156622198821263
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "pcc",
+        "value": 0.7951078397090618
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "pcc",
+        "value": 0.8089054929395881
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 8,
+        "column": "pcc",
+        "value": 0.8143367669355536
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 9,
+        "column": "pcc",
+        "value": 0.8122485951430926
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 10,
+        "column": "pcc",
+        "value": 0.8017435463141555
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 11,
+        "column": "pcc",
+        "value": 0.8055727297483192
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 12,
+        "column": "pcc",
+        "value": 0.8192804635328323
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 13,
+        "column": "pcc",
+        "value": 0.817658592195948
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 14,
+        "column": "pcc",
+        "value": 0.8129900354879707
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 15,
+        "column": "pcc",
+        "value": 0.8045625377230177
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 16,
+        "column": "pcc",
+        "value": 0.807392121746263
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 17,
+        "column": "pcc",
+        "value": 0.8045780271578603
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 18,
+        "column": "pcc",
+        "value": 0.8136487779330944
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 19,
+        "column": "pcc",
+        "value": 0.8138534937271237
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 20,
+        "column": "pcc",
+        "value": 0.8203475205055065
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:per_seed:pcc:sd",
+    "value": 0.006299009422323069,
+    "operation": "std_sample",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "pcc",
+        "value": 0.8128332957364942
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "pcc",
+        "value": 0.8120444352033146
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "pcc",
+        "value": 0.8094136784510286
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "pcc",
+        "value": 0.8052372494523081
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "pcc",
+        "value": 0.8156622198821263
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "pcc",
+        "value": 0.7951078397090618
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "pcc",
+        "value": 0.8089054929395881
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 8,
+        "column": "pcc",
+        "value": 0.8143367669355536
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 9,
+        "column": "pcc",
+        "value": 0.8122485951430926
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 10,
+        "column": "pcc",
+        "value": 0.8017435463141555
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 11,
+        "column": "pcc",
+        "value": 0.8055727297483192
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 12,
+        "column": "pcc",
+        "value": 0.8192804635328323
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 13,
+        "column": "pcc",
+        "value": 0.817658592195948
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 14,
+        "column": "pcc",
+        "value": 0.8129900354879707
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 15,
+        "column": "pcc",
+        "value": 0.8045625377230177
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 16,
+        "column": "pcc",
+        "value": 0.807392121746263
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 17,
+        "column": "pcc",
+        "value": 0.8045780271578603
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 18,
+        "column": "pcc",
+        "value": 0.8136487779330944
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 19,
+        "column": "pcc",
+        "value": 0.8138534937271237
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 20,
+        "column": "pcc",
+        "value": 0.8203475205055065
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:per_seed:ccc:mean",
+    "value": 0.7581709707132303,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "ccc",
+        "value": 0.7907513672111869
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "ccc",
+        "value": 0.7180805293991254
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "ccc",
+        "value": 0.7565850327704978
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "ccc",
+        "value": 0.7493009811586051
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "ccc",
+        "value": 0.7987682293786434
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "ccc",
+        "value": 0.6674794540059781
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "ccc",
+        "value": 0.7994167599122692
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 8,
+        "column": "ccc",
+        "value": 0.6530626166794528
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 9,
+        "column": "ccc",
+        "value": 0.7025004766163876
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 10,
+        "column": "ccc",
+        "value": 0.7973523630116857
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 11,
+        "column": "ccc",
+        "value": 0.7923451341983623
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 12,
+        "column": "ccc",
+        "value": 0.7623863722575938
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 13,
+        "column": "ccc",
+        "value": 0.8135225681932178
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 14,
+        "column": "ccc",
+        "value": 0.6512771497296439
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 15,
+        "column": "ccc",
+        "value": 0.7721110012580479
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 16,
+        "column": "ccc",
+        "value": 0.7751747682675447
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 17,
+        "column": "ccc",
+        "value": 0.7773288794950992
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 18,
+        "column": "ccc",
+        "value": 0.7834436280045299
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 19,
+        "column": "ccc",
+        "value": 0.8055875151593019
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 20,
+        "column": "ccc",
+        "value": 0.7969445875574288
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:per_seed:ccc:sd",
+    "value": 0.05177024778313297,
+    "operation": "std_sample",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "ccc",
+        "value": 0.7907513672111869
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "ccc",
+        "value": 0.7180805293991254
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "ccc",
+        "value": 0.7565850327704978
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "ccc",
+        "value": 0.7493009811586051
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "ccc",
+        "value": 0.7987682293786434
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "ccc",
+        "value": 0.6674794540059781
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "ccc",
+        "value": 0.7994167599122692
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 8,
+        "column": "ccc",
+        "value": 0.6530626166794528
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 9,
+        "column": "ccc",
+        "value": 0.7025004766163876
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 10,
+        "column": "ccc",
+        "value": 0.7973523630116857
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 11,
+        "column": "ccc",
+        "value": 0.7923451341983623
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 12,
+        "column": "ccc",
+        "value": 0.7623863722575938
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 13,
+        "column": "ccc",
+        "value": 0.8135225681932178
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 14,
+        "column": "ccc",
+        "value": 0.6512771497296439
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 15,
+        "column": "ccc",
+        "value": 0.7721110012580479
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 16,
+        "column": "ccc",
+        "value": 0.7751747682675447
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 17,
+        "column": "ccc",
+        "value": 0.7773288794950992
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 18,
+        "column": "ccc",
+        "value": 0.7834436280045299
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 19,
+        "column": "ccc",
+        "value": 0.8055875151593019
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 20,
+        "column": "ccc",
+        "value": 0.7969445875574288
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "AUS2015:per_seed:n",
+    "value": 20,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "seed",
+        "value": 30
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "seed",
+        "value": 31
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "seed",
+        "value": 32
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "seed",
+        "value": 33
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "seed",
+        "value": 34
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "seed",
+        "value": 35
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "seed",
+        "value": 36
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 8,
+        "column": "seed",
+        "value": 37
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 9,
+        "column": "seed",
+        "value": 38
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 10,
+        "column": "seed",
+        "value": 39
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 11,
+        "column": "seed",
+        "value": 40
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 12,
+        "column": "seed",
+        "value": 41
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 13,
+        "column": "seed",
+        "value": 42
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 14,
+        "column": "seed",
+        "value": 43
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 15,
+        "column": "seed",
+        "value": 44
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 16,
+        "column": "seed",
+        "value": 45
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 17,
+        "column": "seed",
+        "value": 46
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 18,
+        "column": "seed",
+        "value": 47
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 19,
+        "column": "seed",
+        "value": 48
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 20,
+        "column": "seed",
+        "value": 49
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:per_seed:pcc:mean",
+    "value": 0.6094074624684124,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 61,
+        "column": "pcc",
+        "value": 0.6244431446966189
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 62,
+        "column": "pcc",
+        "value": 0.6007435823511382
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 63,
+        "column": "pcc",
+        "value": 0.617382055295417
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 64,
+        "column": "pcc",
+        "value": 0.6098661607032513
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 65,
+        "column": "pcc",
+        "value": 0.594602369295637
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:per_seed:pcc:sd",
+    "value": 0.012084389490535096,
+    "operation": "std_sample",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 61,
+        "column": "pcc",
+        "value": 0.6244431446966189
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 62,
+        "column": "pcc",
+        "value": 0.6007435823511382
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 63,
+        "column": "pcc",
+        "value": 0.617382055295417
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 64,
+        "column": "pcc",
+        "value": 0.6098661607032513
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 65,
+        "column": "pcc",
+        "value": 0.594602369295637
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:per_seed:ccc:mean",
+    "value": 0.5777850171162917,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 61,
+        "column": "ccc",
+        "value": 0.6007865560079347
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 62,
+        "column": "ccc",
+        "value": 0.570930377443053
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 63,
+        "column": "ccc",
+        "value": 0.5907902147558809
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 64,
+        "column": "ccc",
+        "value": 0.5715150604682252
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 65,
+        "column": "ccc",
+        "value": 0.554902876906365
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:per_seed:ccc:sd",
+    "value": 0.01808381001776078,
+    "operation": "std_sample",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 61,
+        "column": "ccc",
+        "value": 0.6007865560079347
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 62,
+        "column": "ccc",
+        "value": 0.570930377443053
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 63,
+        "column": "ccc",
+        "value": 0.5907902147558809
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 64,
+        "column": "ccc",
+        "value": 0.5715150604682252
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 65,
+        "column": "ccc",
+        "value": 0.554902876906365
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "GABI:per_seed:n",
+    "value": 5,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 61,
+        "column": "seed",
+        "value": 42
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 62,
+        "column": "seed",
+        "value": 43
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 63,
+        "column": "seed",
+        "value": 44
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 64,
+        "column": "seed",
+        "value": 45
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 65,
+        "column": "seed",
+        "value": 46
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:per_seed:pcc:mean",
+    "value": 0.3881191358815059,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 76,
+        "column": "pcc",
+        "value": 0.4115092960536813
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 77,
+        "column": "pcc",
+        "value": 0.4129189287611734
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 78,
+        "column": "pcc",
+        "value": 0.3667711357974501
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 79,
+        "column": "pcc",
+        "value": 0.360305939894769
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 80,
+        "column": "pcc",
+        "value": 0.3890903789004557
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:per_seed:pcc:sd",
+    "value": 0.024455999321954584,
+    "operation": "std_sample",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 76,
+        "column": "pcc",
+        "value": 0.4115092960536813
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 77,
+        "column": "pcc",
+        "value": 0.4129189287611734
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 78,
+        "column": "pcc",
+        "value": 0.3667711357974501
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 79,
+        "column": "pcc",
+        "value": 0.360305939894769
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 80,
+        "column": "pcc",
+        "value": 0.3890903789004557
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:per_seed:ccc:mean",
+    "value": 0.3725959674922588,
+    "operation": "mean",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 76,
+        "column": "ccc",
+        "value": 0.3967456027148878
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 77,
+        "column": "ccc",
+        "value": 0.40018826639284
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 78,
+        "column": "ccc",
+        "value": 0.3539976022514937
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 79,
+        "column": "ccc",
+        "value": 0.3401291680958325
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 80,
+        "column": "ccc",
+        "value": 0.3719191980062401
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:per_seed:ccc:sd",
+    "value": 0.026196326601352675,
+    "operation": "std_sample",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 76,
+        "column": "ccc",
+        "value": 0.3967456027148878
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 77,
+        "column": "ccc",
+        "value": 0.40018826639284
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 78,
+        "column": "ccc",
+        "value": 0.3539976022514937
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 79,
+        "column": "ccc",
+        "value": 0.3401291680958325
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 80,
+        "column": "ccc",
+        "value": 0.3719191980062401
+      }
+    ]
+  },
+  {
+    "artifact": "Table III",
+    "element": "Ward:per_seed:n",
+    "value": 5,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 76,
+        "column": "seed",
+        "value": 42
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 77,
+        "column": "seed",
+        "value": 43
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 78,
+        "column": "seed",
+        "value": 44
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 79,
+        "column": "seed",
+        "value": 45
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E1/E1a_S_seed_metrics.csv",
+        "kind": "csv",
+        "data_row": 80,
+        "column": "seed",
+        "value": 46
+      }
+    ]
+  }
+]

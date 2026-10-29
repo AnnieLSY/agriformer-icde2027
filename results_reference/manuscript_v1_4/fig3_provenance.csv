@@ -1,0 +1,43 @@
+artifact,element,value,source,locator,transform
+Fig. 3,AUS2015:mean_delta_ln_pcc,0.0052121414953643,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 1, column mean_delta_ln_pcc",identity
+Fig. 3,AUS2015:mean_delta_ln_cb,0.1089866860603288,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 1, column mean_delta_ln_cb",identity
+Fig. 3,AUS2015:mean_delta_ccc,0.0686853370076369,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 1, column mean_delta_ccc",identity
+Fig. 3,AUS2015:n_units,15,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 1, column n_units",identity
+Fig. 3,AUS2015:protocol,v13k K,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 1, column protocol",identity
+Fig. 3,AUS2015:delta_ln_ccc,0.11419882755569309,derived:AUS2015:mean_delta_ln_pcc | derived:AUS2015:mean_delta_ln_cb,,sum
+Fig. 3,GABI:mean_delta_ln_pcc,-0.0086106089474388,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 2, column mean_delta_ln_pcc",identity
+Fig. 3,GABI:mean_delta_ln_cb,0.618246167048275,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 2, column mean_delta_ln_cb",identity
+Fig. 3,GABI:mean_delta_ccc,0.2649093571949064,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 2, column mean_delta_ccc",identity
+Fig. 3,GABI:n_units,15,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 2, column n_units",identity
+Fig. 3,GABI:protocol,v13k K,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 2, column protocol",identity
+Fig. 3,GABI:delta_ln_ccc,0.6096355581008361,derived:GABI:mean_delta_ln_pcc | derived:GABI:mean_delta_ln_cb,,sum
+Fig. 3,Ward:mean_delta_ln_pcc,-0.104151226286046,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 3, column mean_delta_ln_pcc",identity
+Fig. 3,Ward:mean_delta_ln_cb,0.3483561799772098,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 3, column mean_delta_ln_cb",identity
+Fig. 3,Ward:mean_delta_ccc,0.0706018595827842,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 3, column mean_delta_ccc",identity
+Fig. 3,Ward:n_units,15,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 3, column n_units",identity
+Fig. 3,Ward:protocol,v13k K,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 3, column protocol",identity
+Fig. 3,Ward:delta_ln_ccc,0.2442049536911638,derived:Ward:mean_delta_ln_pcc | derived:Ward:mean_delta_ln_cb,,sum
+Fig. 3,lentil:mean_delta_ln_pcc,-0.0034599819982524,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 5, column mean_delta_ln_pcc",identity
+Fig. 3,lentil:mean_delta_ln_cb,0.1315808058901391,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 5, column mean_delta_ln_cb",identity
+Fig. 3,lentil:mean_delta_ccc,0.0876886670261574,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 5, column mean_delta_ccc",identity
+Fig. 3,lentil:n_units,10,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 5, column n_units",identity
+Fig. 3,lentil:protocol,v13o O,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 5, column protocol",identity
+Fig. 3,lentil:delta_ln_ccc,0.1281208238918867,derived:lentil:mean_delta_ln_pcc | derived:lentil:mean_delta_ln_cb,,sum
+Fig. 3,pine:mean_delta_ln_pcc,0.0155442303877511,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 6, column mean_delta_ln_pcc",identity
+Fig. 3,pine:mean_delta_ln_cb,0.1994901815931389,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 6, column mean_delta_ln_cb",identity
+Fig. 3,pine:mean_delta_ccc,0.1410877942940506,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 6, column mean_delta_ccc",identity
+Fig. 3,pine:n_units,10,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 6, column n_units",identity
+Fig. 3,pine:protocol,v13o O,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 6, column protocol",identity
+Fig. 3,pine:delta_ln_ccc,0.21503441198089,derived:pine:mean_delta_ln_pcc | derived:pine:mean_delta_ln_cb,,sum
+Fig. 3,rice:mean_delta_ln_pcc,0.0231601061324773,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 7, column mean_delta_ln_pcc",identity
+Fig. 3,rice:mean_delta_ln_cb,0.0867822766222095,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 7, column mean_delta_ln_cb",identity
+Fig. 3,rice:mean_delta_ccc,0.0701793393838756,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 7, column mean_delta_ccc",identity
+Fig. 3,rice:n_units,10,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 7, column n_units",identity
+Fig. 3,rice:protocol,v13o O,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 7, column protocol",identity
+Fig. 3,rice:delta_ln_ccc,0.10994238275468679,derived:rice:mean_delta_ln_pcc | derived:rice:mean_delta_ln_cb,,sum
+Fig. 3,wheatG:mean_delta_ln_pcc,0.0227784378678625,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 8, column mean_delta_ln_pcc",identity
+Fig. 3,wheatG:mean_delta_ln_cb,0.372716263337402,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 8, column mean_delta_ln_cb",identity
+Fig. 3,wheatG:mean_delta_ccc,0.1645940835047338,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 8, column mean_delta_ccc",identity
+Fig. 3,wheatG:n_units,10,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 8, column n_units",identity
+Fig. 3,wheatG:protocol,v13o O,${WORKSPACE}/pilot_20261013/packaging_followups_20261025/E2/E2a_dataset_summary.csv,"data row 8, column protocol",identity
+Fig. 3,wheatG:delta_ln_ccc,0.3954947012052645,derived:wheatG:mean_delta_ln_pcc | derived:wheatG:mean_delta_ln_cb,,sum

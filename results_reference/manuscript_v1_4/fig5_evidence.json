@@ -1,0 +1,1590 @@
+[
+  {
+    "artifact": "Fig. 5",
+    "element": "seven_dataset_decisions:passed",
+    "value": 28,
+    "operation": "count_equal",
+    "args": {
+      "target": true
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 8,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 9,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 10,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 11,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 12,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 17,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 18,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 19,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 20,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 21,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 22,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 23,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 24,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 25,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 26,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 27,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 28,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 29,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 30,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 31,
+        "column": "passes_original_D_rule",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 32,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "seven_dataset_decisions:total",
+    "value": 28,
+    "operation": "count",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "metric",
+        "value": "pcc"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "metric",
+        "value": "ccc_population"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "metric",
+        "value": "pcc"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "metric",
+        "value": "ccc_population"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "metric",
+        "value": "pcc"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "metric",
+        "value": "ccc_population"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "metric",
+        "value": "pcc"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 8,
+        "column": "metric",
+        "value": "ccc_population"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 9,
+        "column": "metric",
+        "value": "pcc"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 10,
+        "column": "metric",
+        "value": "ccc_population"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 11,
+        "column": "metric",
+        "value": "pcc"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 12,
+        "column": "metric",
+        "value": "ccc_population"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 17,
+        "column": "metric",
+        "value": "pcc"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 18,
+        "column": "metric",
+        "value": "ccc_population"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 19,
+        "column": "metric",
+        "value": "pcc"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 20,
+        "column": "metric",
+        "value": "ccc_population"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 21,
+        "column": "metric",
+        "value": "pcc"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 22,
+        "column": "metric",
+        "value": "ccc_population"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 23,
+        "column": "metric",
+        "value": "pcc"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 24,
+        "column": "metric",
+        "value": "ccc_population"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 25,
+        "column": "metric",
+        "value": "pcc"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 26,
+        "column": "metric",
+        "value": "ccc_population"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 27,
+        "column": "metric",
+        "value": "pcc"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 28,
+        "column": "metric",
+        "value": "ccc_population"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 29,
+        "column": "metric",
+        "value": "pcc"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 30,
+        "column": "metric",
+        "value": "ccc_population"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 31,
+        "column": "metric",
+        "value": "pcc"
+      },
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 32,
+        "column": "metric",
+        "value": "ccc_population"
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:AUS2015:AF-MT:pcc",
+    "value": 0.0953526918668735,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "mean",
+        "value": 0.0953526918668735
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:AUS2015:AF-MT:pcc:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:GABI:AF-MT:pcc",
+    "value": 0.2624855790407826,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "mean",
+        "value": 0.2624855790407826
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:GABI:AF-MT:pcc:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:Ward:AF-MT:pcc",
+    "value": 0.549657084744928,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 9,
+        "column": "mean",
+        "value": 0.549657084744928
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:Ward:AF-MT:pcc:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 9,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:lentil:AF-MT:pcc",
+    "value": 0.1409767105130817,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 17,
+        "column": "mean",
+        "value": 0.1409767105130817
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:lentil:AF-MT:pcc:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 17,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:pine:AF-MT:pcc",
+    "value": 0.0980165549409106,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 21,
+        "column": "mean",
+        "value": 0.0980165549409106
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:pine:AF-MT:pcc:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 21,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:rice:AF-MT:pcc",
+    "value": 0.2090403923257409,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 25,
+        "column": "mean",
+        "value": 0.2090403923257409
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:rice:AF-MT:pcc:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 25,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:wheatG:AF-MT:pcc",
+    "value": 0.333749842803539,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 29,
+        "column": "mean",
+        "value": 0.333749842803539
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:wheatG:AF-MT:pcc:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 29,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:AUS2015:AF-MT:ccc_population",
+    "value": 0.0777251032835816,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "mean",
+        "value": 0.0777251032835816
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:AUS2015:AF-MT:ccc_population:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:GABI:AF-MT:ccc_population",
+    "value": 0.2707276543547462,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "mean",
+        "value": 0.2707276543547462
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:GABI:AF-MT:ccc_population:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:Ward:AF-MT:ccc_population",
+    "value": 0.5447514406788913,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 10,
+        "column": "mean",
+        "value": 0.5447514406788913
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:Ward:AF-MT:ccc_population:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 10,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:lentil:AF-MT:ccc_population",
+    "value": 0.1661553097932032,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 18,
+        "column": "mean",
+        "value": 0.1661553097932032
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:lentil:AF-MT:ccc_population:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 18,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:pine:AF-MT:ccc_population",
+    "value": 0.0962701791825649,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 22,
+        "column": "mean",
+        "value": 0.0962701791825649
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:pine:AF-MT:ccc_population:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 22,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:rice:AF-MT:ccc_population",
+    "value": 0.2081853438311691,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 26,
+        "column": "mean",
+        "value": 0.2081853438311691
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:rice:AF-MT:ccc_population:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 26,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:wheatG:AF-MT:ccc_population",
+    "value": 0.3687981687704996,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 30,
+        "column": "mean",
+        "value": 0.3687981687704996
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:wheatG:AF-MT:ccc_population:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 30,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:AUS2015:MLP-Dual:pcc",
+    "value": 0.1299546432506373,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "mean",
+        "value": 0.1299546432506373
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:AUS2015:MLP-Dual:pcc:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:GABI:MLP-Dual:pcc",
+    "value": 0.2722633200846618,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "mean",
+        "value": 0.2722633200846618
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:GABI:MLP-Dual:pcc:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:Ward:MLP-Dual:pcc",
+    "value": 0.5632916859129165,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 11,
+        "column": "mean",
+        "value": 0.5632916859129165
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:Ward:MLP-Dual:pcc:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 11,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:lentil:MLP-Dual:pcc",
+    "value": 0.1267434444625242,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 19,
+        "column": "mean",
+        "value": 0.1267434444625242
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:lentil:MLP-Dual:pcc:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 19,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:pine:MLP-Dual:pcc",
+    "value": 0.1257124414802048,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 23,
+        "column": "mean",
+        "value": 0.1257124414802048
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:pine:MLP-Dual:pcc:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 23,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:rice:MLP-Dual:pcc",
+    "value": 0.1981275840375506,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 27,
+        "column": "mean",
+        "value": 0.1981275840375506
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:rice:MLP-Dual:pcc:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 27,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:wheatG:MLP-Dual:pcc",
+    "value": 0.2778146359180533,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 31,
+        "column": "mean",
+        "value": 0.2778146359180533
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:wheatG:MLP-Dual:pcc:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 31,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:AUS2015:MLP-Dual:ccc_population",
+    "value": 0.0914696525581298,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "mean",
+        "value": 0.0914696525581298
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:AUS2015:MLP-Dual:ccc_population:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:GABI:MLP-Dual:ccc_population",
+    "value": 0.3106212663406681,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 8,
+        "column": "mean",
+        "value": 0.3106212663406681
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:GABI:MLP-Dual:ccc_population:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 8,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:Ward:MLP-Dual:ccc_population",
+    "value": 0.613756853524116,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 12,
+        "column": "mean",
+        "value": 0.613756853524116
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:Ward:MLP-Dual:ccc_population:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 12,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:lentil:MLP-Dual:ccc_population",
+    "value": 0.1143265586810861,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 20,
+        "column": "mean",
+        "value": 0.1143265586810861
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:lentil:MLP-Dual:ccc_population:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 20,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:pine:MLP-Dual:ccc_population",
+    "value": 0.1326335391147043,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 24,
+        "column": "mean",
+        "value": 0.1326335391147043
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:pine:MLP-Dual:ccc_population:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 24,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:rice:MLP-Dual:ccc_population",
+    "value": 0.202820289970338,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 28,
+        "column": "mean",
+        "value": 0.202820289970338
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:rice:MLP-Dual:ccc_population:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 28,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:wheatG:MLP-Dual:ccc_population",
+    "value": 0.3038981349305432,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 32,
+        "column": "mean",
+        "value": 0.3038981349305432
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "inflation:wheatG:MLP-Dual:ccc_population:positive",
+    "value": true,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/final_gaps_20261026/FG2/FG2_D_DECISIONS.csv",
+        "kind": "csv",
+        "data_row": 32,
+        "column": "passes_original_D_rule",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "AUS2015:rank_scoped",
+    "value": 1.0,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/READONLY_RANK_REVERSAL_RANKS_20261025.csv",
+        "kind": "csv",
+        "data_row": 9,
+        "column": "normative_rank",
+        "value": 1.0
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "AUS2015:rank_naive",
+    "value": 3.0,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/READONLY_RANK_REVERSAL_RANKS_20261025.csv",
+        "kind": "csv",
+        "data_row": 9,
+        "column": "naive_rank",
+        "value": 3.0
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "GABI:rank_scoped",
+    "value": 2.0,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/READONLY_RANK_REVERSAL_RANKS_20261025.csv",
+        "kind": "csv",
+        "data_row": 10,
+        "column": "normative_rank",
+        "value": 2.0
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "GABI:rank_naive",
+    "value": 2.0,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/READONLY_RANK_REVERSAL_RANKS_20261025.csv",
+        "kind": "csv",
+        "data_row": 10,
+        "column": "naive_rank",
+        "value": 2.0
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "Ward:rank_scoped",
+    "value": 3.0,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/READONLY_RANK_REVERSAL_RANKS_20261025.csv",
+        "kind": "csv",
+        "data_row": 11,
+        "column": "normative_rank",
+        "value": 3.0
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "Ward:rank_naive",
+    "value": 1.0,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/READONLY_RANK_REVERSAL_RANKS_20261025.csv",
+        "kind": "csv",
+        "data_row": 11,
+        "column": "naive_rank",
+        "value": 1.0
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "false_lead:CCC:numerator",
+    "value": 6,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R3_WITH_WITHOUT_BEAN_COUNTS.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "without_bean_numerator",
+        "value": 6
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "false_lead:CCC:denominator",
+    "value": 7,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R3_WITH_WITHOUT_BEAN_COUNTS.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "without_bean_denominator",
+        "value": 7
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "false_lead:CCC:classic_check",
+    "value": 6,
+    "operation": "count_equal",
+    "args": {
+      "target": true
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/READONLY_RANK_REVERSAL_CLASSIC_DATASETS_20261025.csv",
+        "kind": "csv",
+        "data_row": 1,
+        "column": "false_winner_dataset",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/READONLY_RANK_REVERSAL_CLASSIC_DATASETS_20261025.csv",
+        "kind": "csv",
+        "data_row": 3,
+        "column": "false_winner_dataset",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/READONLY_RANK_REVERSAL_CLASSIC_DATASETS_20261025.csv",
+        "kind": "csv",
+        "data_row": 5,
+        "column": "false_winner_dataset",
+        "value": false
+      },
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/READONLY_RANK_REVERSAL_CLASSIC_DATASETS_20261025.csv",
+        "kind": "csv",
+        "data_row": 7,
+        "column": "false_winner_dataset",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/READONLY_RANK_REVERSAL_CLASSIC_DATASETS_20261025.csv",
+        "kind": "csv",
+        "data_row": 9,
+        "column": "false_winner_dataset",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/READONLY_RANK_REVERSAL_CLASSIC_DATASETS_20261025.csv",
+        "kind": "csv",
+        "data_row": 13,
+        "column": "false_winner_dataset",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/READONLY_RANK_REVERSAL_CLASSIC_DATASETS_20261025.csv",
+        "kind": "csv",
+        "data_row": 15,
+        "column": "false_winner_dataset",
+        "value": true
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "false_lead:PCC:numerator",
+    "value": 7,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R3_WITH_WITHOUT_BEAN_COUNTS.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "without_bean_numerator",
+        "value": 7
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "false_lead:PCC:denominator",
+    "value": 7,
+    "operation": "identity",
+    "args": {},
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/pilot_20261013/icde_readonly_pack_20261026/R3_WITH_WITHOUT_BEAN_COUNTS.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "without_bean_denominator",
+        "value": 7
+      }
+    ]
+  },
+  {
+    "artifact": "Fig. 5",
+    "element": "false_lead:PCC:classic_check",
+    "value": 7,
+    "operation": "count_equal",
+    "args": {
+      "target": true
+    },
+    "inputs": [
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/READONLY_RANK_REVERSAL_CLASSIC_DATASETS_20261025.csv",
+        "kind": "csv",
+        "data_row": 2,
+        "column": "false_winner_dataset",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/READONLY_RANK_REVERSAL_CLASSIC_DATASETS_20261025.csv",
+        "kind": "csv",
+        "data_row": 4,
+        "column": "false_winner_dataset",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/READONLY_RANK_REVERSAL_CLASSIC_DATASETS_20261025.csv",
+        "kind": "csv",
+        "data_row": 6,
+        "column": "false_winner_dataset",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/READONLY_RANK_REVERSAL_CLASSIC_DATASETS_20261025.csv",
+        "kind": "csv",
+        "data_row": 8,
+        "column": "false_winner_dataset",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/READONLY_RANK_REVERSAL_CLASSIC_DATASETS_20261025.csv",
+        "kind": "csv",
+        "data_row": 10,
+        "column": "false_winner_dataset",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/READONLY_RANK_REVERSAL_CLASSIC_DATASETS_20261025.csv",
+        "kind": "csv",
+        "data_row": 14,
+        "column": "false_winner_dataset",
+        "value": true
+      },
+      {
+        "source": "${WORKSPACE}/CLEANUP_AUDIT_20261022/READONLY_RANK_REVERSAL_CLASSIC_DATASETS_20261025.csv",
+        "kind": "csv",
+        "data_row": 16,
+        "column": "false_winner_dataset",
+        "value": true
+      }
+    ]
+  }
+]
